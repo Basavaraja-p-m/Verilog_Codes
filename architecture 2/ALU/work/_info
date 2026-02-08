@@ -1,0 +1,85 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/architecture 2/ALU
+T_opt
+!s110 1756800207
+V<`[Rim7NJoV5L5H?3L2G<0
+04 3 4 work TOP fast 0
+=1-84144d0ea3d5-68b6a4cf-ce-1ae0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vALU
+Z2 !s110 1756800206
+!i10b 1
+!s100 d9Bz]]KQTNFzXE5PX9T@c2
+I^bnEhnFTiZimF;EoQ4DAz2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756800009
+Z5 8ALU.v
+Z6 FALU.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756800206.000000
+Z9 !s107 ALU.v|
+Z10 !s90 -reportprogress|300|ALU.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@a@l@u
+vALU_tb
+R2
+!i10b 1
+!s100 O123iDY;<E[k_j_;@Kd:X1
+Icc=HX8m1N99JC6D7LZCK41
+R3
+R0
+R4
+R5
+R6
+L0 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@a@l@u_tb
+vTOP
+R2
+!i10b 1
+!s100 ]36D^IhICMD:e3II=nfHi1
+ImdRPlI`>?Jo@miH[mAcAD0
+R3
+R0
+R4
+R5
+R6
+L0 32
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@t@o@p

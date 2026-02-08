@@ -1,0 +1,324 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:06:12 on Sep 01,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module top
+# ** Error: top.v(3): (vlog-2730) Undefined variable: 'PM'.
+# End time: 16:06:12 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:07:55 on Sep 01,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module top
+# ** Error: top.v(3): (vlog-2730) Undefined variable: 'IN'.
+# End time: 16:07:55 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:11:24 on Sep 01,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module top
+# ** Error: (vlog-13069) top.v(3): near "wire": syntax error, unexpected wire, expecting ';' or ','.
+# End time: 16:11:24 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:11:43 on Sep 01,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:11:43 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 16:11:43 on Sep 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: top.v(7): Module 'COMP' is not defined.
+# ** Error: top.v(8): Module 'COMP_tb' is not defined.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:12:29 on Sep 01,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module COMP
+# -- Compiling module COMP_tb
+# ** Error: (vlog-13069) ** while parsing file included at top.v(1)
+# ** at COMP.v(18): near "initial": syntax error, unexpected initial, expecting ';'.
+# ** Error: ** while parsing file included at top.v(1)
+# ** at COMP.v(20): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 16:12:29 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:13:16 on Sep 01,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module COMP
+# -- Compiling module COMP_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:13:17 on Sep 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 16:11:43 on Sep 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.COMP(fast)
+# Loading work.COMP_tb(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'a'. The port definition is at: COMP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/C1 File: top.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'b'. The port definition is at: COMP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/C1 File: top.v Line: 8
+# a=0011010100100100 b=0101111010000001 g=z l=z e=z                   0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:14:18 on Sep 01,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module COMP
+# -- Compiling module COMP_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:14:18 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:14:20 on Sep 01,2025, Elapsed time: 0:02:37
+# Errors: 2, Warnings: 2
+# vsim top 
+# Start time: 16:14:20 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.COMP(fast)
+# Loading work.COMP_tb(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'a'. The port definition is at: COMP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/C1 File: top.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'b'. The port definition is at: COMP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/C1 File: top.v Line: 8
+# a=0011010100100100 b=0101111010000001 g=z l=z e=z                   0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:14:51 on Sep 01,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module COMP
+# -- Compiling module COMP_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:14:51 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:14:52 on Sep 01,2025, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:14:52 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.COMP(fast)
+# Loading work.COMP_tb(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'a'. The port definition is at: COMP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/C1 File: top.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'b'. The port definition is at: COMP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/C1 File: top.v Line: 8
+# a=0011010100100100 b=0101111010000001 g=z l=z e=z                   0
+# a=1101011000001001 b=0101011001100011 g=z l=z e=z                  10
+# a=0111101100001101 b=1001100110001101 g=z l=z e=z                  20
+# a=1000010001100101 b=0101001000010010 g=z l=z e=z                  30
+# a=1110001100000001 b=1100110100001101 g=z l=z e=z                  40
+# a=1111000101110110 b=1100110100111101 g=z l=z e=z                  50
+# a=0101011111101101 b=1111011110001100 g=z l=z e=z                  60
+# a=1110100111111001 b=0010010011000110 g=z l=z e=z                  70
+# a=1000010011000101 b=1101001010101010 g=z l=z e=z                  80
+# a=1111011111100101 b=0111001001110111 g=z l=z e=z                  90
+# a=1101011000010010 b=1101101110001111 g=z l=z e=z                 100
+# a=0110100111110010 b=1001011011001110 g=z l=z e=z                 110
+# a=0111101011101000 b=0100111011000101 g=z l=z e=z                 120
+# a=0100100101011100 b=0010100010111101 g=z l=z e=z                 130
+# a=0101100000101101 b=0010011001100101 g=z l=z e=z                 140
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:15:45 on Sep 01,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module COMP
+# -- Compiling module COMP_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:15:46 on Sep 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:15:46 on Sep 01,2025, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:15:46 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.COMP(fast)
+# Loading work.COMP_tb(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'a'. The port definition is at: COMP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/C1 File: top.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'b'. The port definition is at: COMP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/C1 File: top.v Line: 8
+# a=0011010100100100 b=0101111010000001 g=z l=z e=z Time=0
+# a=1101011000001001 b=0101011001100011 g=z l=z e=z Time=10
+# a=0111101100001101 b=1001100110001101 g=z l=z e=z Time=20
+# a=1000010001100101 b=0101001000010010 g=z l=z e=z Time=30
+# a=1110001100000001 b=1100110100001101 g=z l=z e=z Time=40
+# a=1111000101110110 b=1100110100111101 g=z l=z e=z Time=50
+# a=0101011111101101 b=1111011110001100 g=z l=z e=z Time=60
+# a=1110100111111001 b=0010010011000110 g=z l=z e=z Time=70
+# a=1000010011000101 b=1101001010101010 g=z l=z e=z Time=80
+# a=1111011111100101 b=0111001001110111 g=z l=z e=z Time=90
+# a=1101011000010010 b=1101101110001111 g=z l=z e=z Time=100
+# a=0110100111110010 b=1001011011001110 g=z l=z e=z Time=110
+# a=0111101011101000 b=0100111011000101 g=z l=z e=z Time=120
+# a=0100100101011100 b=0010100010111101 g=z l=z e=z Time=130
+# a=0101100000101101 b=0010011001100101 g=z l=z e=z Time=140
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:17:19 on Sep 01,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module COMP
+# -- Compiling module COMP_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:17:20 on Sep 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:17:20 on Sep 01,2025, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 16:17:20 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.COMP(fast)
+# Loading work.COMP_tb(fast)
+# a=0011010100100100 b=0101111010000001 g=0 l=1 e=0 Time=0
+# a=1101011000001001 b=0101011001100011 g=1 l=0 e=0 Time=10
+# a=0111101100001101 b=1001100110001101 g=0 l=1 e=0 Time=20
+# a=1000010001100101 b=0101001000010010 g=1 l=0 e=0 Time=30
+# a=1110001100000001 b=1100110100001101 g=1 l=0 e=0 Time=40
+# a=1111000101110110 b=1100110100111101 g=1 l=0 e=0 Time=50
+# a=0101011111101101 b=1111011110001100 g=0 l=1 e=0 Time=60
+# a=1110100111111001 b=0010010011000110 g=1 l=0 e=0 Time=70
+# a=1000010011000101 b=1101001010101010 g=0 l=1 e=0 Time=80
+# a=1111011111100101 b=0111001001110111 g=1 l=0 e=0 Time=90
+# a=1101011000010010 b=1101101110001111 g=0 l=1 e=0 Time=100
+# a=0110100111110010 b=1001011011001110 g=0 l=1 e=0 Time=110
+# a=0111101011101000 b=0100111011000101 g=1 l=0 e=0 Time=120
+# a=0100100101011100 b=0010100010111101 g=1 l=0 e=0 Time=130
+# a=0101100000101101 b=0010011001100101 g=1 l=0 e=0 Time=140
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:19:59 on Sep 01,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module COMP
+# -- Compiling module COMP_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:19:59 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:20:00 on Sep 01,2025, Elapsed time: 0:02:40
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 16:20:00 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.COMP(fast)
+# Loading work.COMP_tb(fast)
+# a=0100 b=0001 g=1 l=0 e=0 Time=0
+# a=1001 b=0011 g=1 l=0 e=0 Time=10
+# a=1101 b=1101 g=0 l=0 e=1 Time=20
+# a=0101 b=0010 g=1 l=0 e=0 Time=30
+# a=0001 b=1101 g=0 l=1 e=0 Time=40
+# a=0110 b=1101 g=0 l=1 e=0 Time=50
+# a=1101 b=1100 g=1 l=0 e=0 Time=60
+# a=1001 b=0110 g=1 l=0 e=0 Time=70
+# a=0101 b=1010 g=0 l=1 e=0 Time=80
+# a=0101 b=0111 g=0 l=1 e=0 Time=90
+# a=0010 b=1111 g=0 l=1 e=0 Time=100
+# a=0010 b=1110 g=0 l=1 e=0 Time=110
+# a=1000 b=0101 g=1 l=0 e=0 Time=120
+# a=1100 b=1101 g=0 l=1 e=0 Time=130
+# a=1101 b=0101 g=1 l=0 e=0 Time=140
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:24:23 on Sep 01,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module COMP
+# -- Compiling module COMP_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:24:23 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:24:24 on Sep 01,2025, Elapsed time: 0:04:24
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 16:24:24 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.COMP(fast)
+# Loading work.COMP_tb(fast)
+# a=0100 b=0001 g=1 l=0 e=0 Time=0
+# a=1001 b=0011 g=1 l=0 e=0 Time=10
+# a=1101 b=1101 g=0 l=0 e=1 Time=20
+# a=0101 b=0010 g=1 l=0 e=0 Time=30
+# a=0001 b=1101 g=0 l=1 e=0 Time=40
+# a=0110 b=1101 g=0 l=1 e=0 Time=50
+# a=1101 b=1100 g=1 l=0 e=0 Time=60
+# a=1001 b=0110 g=1 l=0 e=0 Time=70
+# a=0101 b=1010 g=0 l=1 e=0 Time=80
+# a=0101 b=0111 g=0 l=1 e=0 Time=90
+# a=0010 b=1111 g=0 l=1 e=0 Time=100
+# a=0010 b=1110 g=0 l=1 e=0 Time=110
+# a=1000 b=0101 g=1 l=0 e=0 Time=120
+# a=1100 b=1101 g=0 l=1 e=0 Time=130
+# a=1101 b=0101 g=1 l=0 e=0 Time=140
+quit -sim
+# End time: 16:28:03 on Sep 01,2025, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 0

@@ -1,0 +1,372 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:27:15 on Sep 01,2025
+# vlog -reportprogress 300 TOP2.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# ** Error: ** while parsing file included at TOP2.v(2)
+# ** at MUX_tb.v(4): In, out, or inout does not appear in port list: tb_s.
+# ** Error: ** while parsing file included at TOP2.v(2)
+# ** at MUX_tb.v(5): In, out, or inout does not appear in port list: tb_i.
+# ** Error: ** while parsing file included at TOP2.v(2)
+# ** at MUX_tb.v(3): In, out, or inout does not appear in port list: tb_y.
+# -- Compiling module TOP2
+# End time: 13:27:15 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog TOP2.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:30:20 on Sep 01,2025
+# vlog -reportprogress 300 TOP2.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# -- Compiling module TOP2
+# 
+# Top level modules:
+# 	TOP2
+# End time: 13:30:20 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TOP2 
+# Start time: 13:30:20 on Sep 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): MUX_tb.v(17): (vopt-7063) Failed to find 'i' in hierarchical name 'i'.
+#         Region: TOP2.M2
+# ** Error (suppressible): MUX_tb.v(17): (vopt-7063) Failed to find 's' in hierarchical name 's'.
+#         Region: TOP2.M2
+# ** Error (suppressible): MUX_tb.v(17): (vopt-7063) Failed to find 'y' in hierarchical name 'y'.
+#         Region: TOP2.M2
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:31:13 on Sep 01,2025
+# vlog -reportprogress 300 TOP2.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# -- Compiling module TOP2
+# 
+# Top level modules:
+# 	TOP2
+# End time: 13:31:13 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TOP2 
+# Start time: 13:30:20 on Sep 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.TOP2(fast)
+# Loading work.MUX(fast)
+# Loading work.MUX_tb(fast)
+# i=00100100 s=                   7 y=0 Time=                   0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:31:44 on Sep 01,2025
+# vlog -reportprogress 300 TOP2.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# -- Compiling module TOP2
+# 
+# Top level modules:
+# 	TOP2
+# End time: 13:31:44 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:31:47 on Sep 01,2025, Elapsed time: 0:01:27
+# Errors: 3, Warnings: 0
+# vsim TOP2 
+# Start time: 13:31:47 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TOP2(fast)
+# Loading work.MUX(fast)
+# Loading work.MUX_tb(fast)
+# i=00100100 s=                   0 y=x Time=                   0
+# i=00100100 s=                   7 y=0 Time=                  10
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:32:23 on Sep 01,2025
+# vlog -reportprogress 300 TOP2.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# -- Compiling module TOP2
+# 
+# Top level modules:
+# 	TOP2
+# End time: 13:32:23 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:32:24 on Sep 01,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
+# vsim TOP2 
+# Start time: 13:32:24 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TOP2(fast)
+# Loading work.MUX(fast)
+# Loading work.MUX_tb(fast)
+# i=00100100 s=                   0 y=x Time=                   0
+# i=00100100 s=                   0 y=0 Time=                  10
+# i=00100100 s=                   1 y=0 Time=                  20
+# i=00100100 s=                   2 y=1 Time=                  30
+# i=00100100 s=                   3 y=0 Time=                  40
+# i=00100100 s=                   4 y=0 Time=                  50
+# i=00100100 s=                   5 y=1 Time=                  60
+# i=00100100 s=                   6 y=0 Time=                  70
+# i=00100100 s=                   7 y=0 Time=                  80
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:33:36 on Sep 01,2025
+# vlog -reportprogress 300 TOP2.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# -- Compiling module TOP2
+# 
+# Top level modules:
+# 	TOP2
+# End time: 13:33:36 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:33:37 on Sep 01,2025, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 0
+# vsim TOP2 
+# Start time: 13:33:37 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TOP2(fast)
+# Loading work.MUX(fast)
+# Loading work.MUX_tb(fast)
+# i=00100100 s=xxx y=x Time=                   0
+# i=00100100 s=000 y=0 Time=                  10
+# i=00100100 s=001 y=0 Time=                  20
+# i=00100100 s=010 y=1 Time=                  30
+# i=00100100 s=011 y=0 Time=                  40
+# i=00100100 s=100 y=0 Time=                  50
+# i=00100100 s=101 y=1 Time=                  60
+# i=00100100 s=110 y=0 Time=                  70
+# i=00100100 s=111 y=0 Time=                  80
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:36:41 on Sep 01,2025
+# vlog -reportprogress 300 TOP2.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# -- Compiling module TOP2
+# 
+# Top level modules:
+# 	TOP2
+# End time: 13:36:41 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:36:42 on Sep 01,2025, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 0
+# vsim TOP2 
+# Start time: 13:36:42 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TOP2(fast)
+# Loading work.MUX(fast)
+# Loading work.MUX_tb(fast)
+# i=0011010100100100 s=xxxx y=x Time=                   0
+# i=0011010100100100 s=0000 y=0 Time=                  10
+# i=0011010100100100 s=0001 y=0 Time=                  20
+# i=0011010100100100 s=0010 y=1 Time=                  30
+# i=0011010100100100 s=0011 y=0 Time=                  40
+# i=0011010100100100 s=0100 y=0 Time=                  50
+# i=0011010100100100 s=0101 y=1 Time=                  60
+# i=0011010100100100 s=0110 y=0 Time=                  70
+# i=0011010100100100 s=0111 y=0 Time=                  80
+# i=0011010100100100 s=1000 y=1 Time=                  90
+# i=0011010100100100 s=1001 y=0 Time=                 100
+# i=0011010100100100 s=1010 y=1 Time=                 110
+# i=0011010100100100 s=1011 y=0 Time=                 120
+# i=0011010100100100 s=1100 y=1 Time=                 130
+# i=0011010100100100 s=1101 y=1 Time=                 140
+# i=0011010100100100 s=1110 y=0 Time=                 150
+# i=0011010100100100 s=1111 y=0 Time=                 160
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:39:51 on Sep 01,2025
+# vlog -reportprogress 300 TOP2.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# -- Compiling module TOP2
+# 
+# Top level modules:
+# 	TOP2
+# End time: 13:39:51 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:39:52 on Sep 01,2025, Elapsed time: 0:03:10
+# Errors: 0, Warnings: 0
+# vsim TOP2 
+# Start time: 13:39:52 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TOP2(fast)
+# Loading work.MUX(fast)
+# Loading work.MUX_tb(fast)
+# i=0100 s=xx y=x Time=                   0
+# i=0100 s=00 y=0 Time=                  10
+# i=0100 s=01 y=0 Time=                  20
+# i=0100 s=10 y=1 Time=                  30
+# i=0100 s=11 y=0 Time=                  40
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:40:28 on Sep 01,2025
+# vlog -reportprogress 300 TOP2.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# -- Compiling module TOP2
+# 
+# Top level modules:
+# 	TOP2
+# End time: 13:40:28 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:40:29 on Sep 01,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
+# vsim TOP2 
+# Start time: 13:40:29 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TOP2(fast)
+# Loading work.MUX(fast)
+# Loading work.MUX_tb(fast)
+# i=0100 s=00 y=0 Time=                   0
+# i=0100 s=01 y=0 Time=                  10
+# i=0100 s=10 y=1 Time=                  20
+# i=0100 s=11 y=0 Time=                  30
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:40:54 on Sep 01,2025
+# vlog -reportprogress 300 TOP2.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# -- Compiling module TOP2
+# 
+# Top level modules:
+# 	TOP2
+# End time: 13:40:54 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:40:55 on Sep 01,2025, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+# vsim TOP2 
+# Start time: 13:40:55 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TOP2(fast)
+# Loading work.MUX(fast)
+# Loading work.MUX_tb(fast)
+# i=00010010000101010011010100100100 s=00000 y=0 Time=                   0
+# i=00010010000101010011010100100100 s=00001 y=0 Time=                  10
+# i=00010010000101010011010100100100 s=00010 y=1 Time=                  20
+# i=00010010000101010011010100100100 s=00011 y=0 Time=                  30
+# i=00010010000101010011010100100100 s=00100 y=0 Time=                  40
+# i=00010010000101010011010100100100 s=00101 y=1 Time=                  50
+# i=00010010000101010011010100100100 s=00110 y=0 Time=                  60
+# i=00010010000101010011010100100100 s=00111 y=0 Time=                  70
+# i=00010010000101010011010100100100 s=01000 y=1 Time=                  80
+# i=00010010000101010011010100100100 s=01001 y=0 Time=                  90
+# i=00010010000101010011010100100100 s=01010 y=1 Time=                 100
+# i=00010010000101010011010100100100 s=01011 y=0 Time=                 110
+# i=00010010000101010011010100100100 s=01100 y=1 Time=                 120
+# i=00010010000101010011010100100100 s=01101 y=1 Time=                 130
+# i=00010010000101010011010100100100 s=01110 y=0 Time=                 140
+# i=00010010000101010011010100100100 s=01111 y=0 Time=                 150
+# i=00010010000101010011010100100100 s=10000 y=1 Time=                 160
+# i=00010010000101010011010100100100 s=10001 y=0 Time=                 170
+# i=00010010000101010011010100100100 s=10010 y=1 Time=                 180
+# i=00010010000101010011010100100100 s=10011 y=0 Time=                 190
+# i=00010010000101010011010100100100 s=10100 y=1 Time=                 200
+# i=00010010000101010011010100100100 s=10101 y=0 Time=                 210
+# i=00010010000101010011010100100100 s=10110 y=0 Time=                 220
+# i=00010010000101010011010100100100 s=10111 y=0 Time=                 230
+# i=00010010000101010011010100100100 s=11000 y=0 Time=                 240
+# i=00010010000101010011010100100100 s=11001 y=1 Time=                 250
+# i=00010010000101010011010100100100 s=11010 y=0 Time=                 260
+# i=00010010000101010011010100100100 s=11011 y=0 Time=                 270
+# i=00010010000101010011010100100100 s=11100 y=1 Time=                 280
+# i=00010010000101010011010100100100 s=11101 y=0 Time=                 290
+# i=00010010000101010011010100100100 s=11110 y=0 Time=                 300
+# i=00010010000101010011010100100100 s=11111 y=0 Time=                 310
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:42:51 on Sep 01,2025
+# vlog -reportprogress 300 TOP2.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# -- Compiling module TOP2
+# 
+# Top level modules:
+# 	TOP2
+# End time: 13:42:51 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:42:52 on Sep 01,2025, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 0
+# vsim TOP2 
+# Start time: 13:42:52 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TOP2(fast)
+# Loading work.MUX(fast)
+# Loading work.MUX_tb(fast)
+# i=0011010100100100 s=0000 y=0 Time=                   0
+# i=0011010100100100 s=0001 y=0 Time=                  10
+# i=0011010100100100 s=0010 y=1 Time=                  20
+# i=0011010100100100 s=0011 y=0 Time=                  30
+# i=0011010100100100 s=0100 y=0 Time=                  40
+# i=0011010100100100 s=0101 y=1 Time=                  50
+# i=0011010100100100 s=0110 y=0 Time=                  60
+# i=0011010100100100 s=0111 y=0 Time=                  70
+# i=0011010100100100 s=1000 y=1 Time=                  80
+# i=0011010100100100 s=1001 y=0 Time=                  90
+# i=0011010100100100 s=1010 y=1 Time=                 100
+# i=0011010100100100 s=1011 y=0 Time=                 110
+# i=0011010100100100 s=1100 y=1 Time=                 120
+# i=0011010100100100 s=1101 y=1 Time=                 130
+# i=0011010100100100 s=1110 y=0 Time=                 140
+# i=0011010100100100 s=1111 y=0 Time=                 150
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:44:41 on Sep 01,2025
+# vlog -reportprogress 300 TOP2.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# -- Compiling module TOP2
+# 
+# Top level modules:
+# 	TOP2
+# End time: 13:44:41 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:44:41 on Sep 01,2025, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 0
+# vsim TOP2 
+# Start time: 13:44:42 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TOP2(fast)
+# Loading work.MUX(fast)
+# Loading work.MUX_tb(fast)
+# i=0011010100100100 s=0000 y=0 Time=                   0
+# i=0011010100100100 s=0001 y=0 Time=                  10
+# i=0011010100100100 s=0010 y=1 Time=                  20
+# i=0011010100100100 s=0011 y=0 Time=                  30
+# i=0011010100100100 s=0100 y=0 Time=                  40
+# i=0011010100100100 s=0101 y=1 Time=                  50
+# i=0011010100100100 s=0110 y=0 Time=                  60
+# i=0011010100100100 s=0111 y=0 Time=                  70
+# i=0011010100100100 s=1000 y=1 Time=                  80
+# i=0011010100100100 s=1001 y=0 Time=                  90
+# i=0011010100100100 s=1010 y=1 Time=                 100
+# i=0011010100100100 s=1011 y=0 Time=                 110
+# i=0011010100100100 s=1100 y=1 Time=                 120
+# i=0011010100100100 s=1101 y=1 Time=                 130
+# i=0011010100100100 s=1110 y=0 Time=                 140
+# i=0011010100100100 s=1111 y=0 Time=                 150
+quit -sim
+# End time: 13:45:35 on Sep 01,2025, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 0
