@@ -1,0 +1,170 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:42:01 on Sep 18,2025
+# vlog -reportprogress 300 RCA.v "+acc" 
+# -- Compiling module FA
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# 
+# Top level modules:
+# 	RCA_tb
+# End time: 12:42:01 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim RCA_tb 
+# Start time: 12:42:01 on Sep 18,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.RCA_tb(fast)
+# Loading work.RCA(fast)
+# Loading work.FA(fast)
+# a=87 b=20 cin=0 sum=107 carry=0 time=0
+vsim -debugDB RCA_tb
+# End time: 12:42:45 on Sep 18,2025, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+# vsim -debugDB RCA_tb 
+# Start time: 12:42:45 on Sep 18,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.RCA_tb(fast)
+# Loading work.RCA(fast)
+# Loading work.FA(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:47:36 on Sep 18,2025
+# vlog -reportprogress 300 RCA.v "+acc" 
+# -- Compiling module FA
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# ** Error: (vlog-13032) RCA.v(41): near "#": Syntax error.
+# End time: 12:47:36 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog RCA.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:48:48 on Sep 18,2025
+# vlog -reportprogress 300 RCA.v "+acc" 
+# -- Compiling module FA
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# ** Error: (vlog-13032) RCA.v(41): near "#": Syntax error.
+# End time: 12:48:48 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog RCA.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:49:06 on Sep 18,2025
+# vlog -reportprogress 300 RCA.v "+acc" 
+# -- Compiling module FA
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# ** Error: (vlog-13032) RCA.v(41): near "#": Syntax error.
+# End time: 12:49:06 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog RCA.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:50:07 on Sep 18,2025
+# vlog -reportprogress 300 RCA.v "+acc" 
+# -- Compiling module FA
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# 
+# Top level modules:
+# 	RCA_tb
+# End time: 12:50:07 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:50:08 on Sep 18,2025, Elapsed time: 0:07:23
+# Errors: 12, Warnings: 2
+# vsim RCA_tb 
+# Start time: 12:50:08 on Sep 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RCA_tb(fast)
+# Loading work.RCA(fast)
+# Loading work.FA(fast)
+# a=87 b=20 cin=0 sum=107 carry=0 time=0
+vsim -debugDB RCA_tb
+# End time: 12:50:21 on Sep 18,2025, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+# vsim -debugDB RCA_tb 
+# Start time: 12:50:21 on Sep 18,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Error: (vopt-31) Unable to unlink file "C:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/COMBINATIONOL/GENERATE BLOCK/work\_dbcontainer\#64_opt1\__mti.dbg".
+# Permission denied. (errno = EACCES)
+# RCA.v(1): Vopt Compiler exiting
+# Error loading design
+# End time: 12:50:22 on Sep 18,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:52:04 on Sep 18,2025
+# vlog -reportprogress 300 RCA.v "+acc" 
+# -- Compiling module FA
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# 
+# Top level modules:
+# 	RCA_tb
+# End time: 12:52:04 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim RCA_tb 
+# Start time: 12:52:04 on Sep 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RCA_tb(fast)
+# Loading work.RCA(fast)
+# Loading work.FA(fast)
+# a=87 b=20 cin=0 sum=107 carry=0 time=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:53:00 on Sep 18,2025
+# vlog -reportprogress 300 RCA.v "+acc" 
+# -- Compiling module FA
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# 
+# Top level modules:
+# 	RCA_tb
+# End time: 12:53:00 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:53:02 on Sep 18,2025, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 0
+# vsim RCA_tb 
+# Start time: 12:53:02 on Sep 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RCA_tb(fast)
+# Loading work.RCA(fast)
+# Loading work.FA(fast)
+# a=87 b=20 cin=0 sum=107 carry=0 time=0
+quit -sim
+# End time: 12:54:12 on Sep 18,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0

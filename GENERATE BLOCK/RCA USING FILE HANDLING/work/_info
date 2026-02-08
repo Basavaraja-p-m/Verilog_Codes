@@ -1,0 +1,95 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/GENERATE BLOCK/RCA USING FILE HANDLING
+T_opt
+!s110 1758183886
+V22WAR[LFmeB8CVfZHaP6e2
+Z1 04 9 4 work RCA_FH_tb fast 0
+=1-84144d0ea3d5-68cbc1ce-299-1398
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1758183892
+VBm9z0;TOcM:i5g0LzCoTE3
+R1
+=1-84144d0ea3d5-68cbc1d3-337-78c
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+vFA_FH
+Z4 !s110 1758183885
+!i10b 1
+!s100 3E53zMKzXRd]Q9[EChJl01
+I2DWLfRDlBF7f:jlBOFoU`2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z6 w1758183881
+Z7 8RCA_FH.v
+Z8 FRCA_FH.v
+L0 1
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1758183885.000000
+Z11 !s107 RCA_FH.v|
+Z12 !s90 -reportprogress|300|RCA_FH.v|+acc|
+!i113 0
+Z13 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@f@a_@f@h
+vRCA_FH
+R4
+!i10b 1
+!s100 S70_jKfnhnMHj6UW^GH`T1
+IJ_?LUmkj4[XlcAa0`:<]A2
+R5
+R0
+R6
+R7
+R8
+L0 11
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+n@r@c@a_@f@h
+vRCA_FH_tb
+R4
+!i10b 1
+!s100 0GTYhDMVVhdzmnePe8=iQ2
+IW^5W7c[JeL@Di]AN2l^EW1
+R5
+R0
+R6
+R7
+R8
+L0 30
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+n@r@c@a_@f@h_tb

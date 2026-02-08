@@ -1,0 +1,10 @@
+a=         2 b=        88 cin=0 sum=        90 carry=0 Time=                   1
+a=         2 b=        67 cin=1 sum=        70 carry=0 Time=                  12
+a=        45 b=        82 cin=1 sum=       128 carry=0 Time=                  23
+a=        17 b=        27 cin=1 sum=        45 carry=0 Time=                  34
+a=        68 b=        30 cin=1 sum=        99 carry=0 Time=                  45
+a=        44 b=         6 cin=1 sum=        51 carry=0 Time=                  56
+a=        74 b=        20 cin=1 sum=        95 carry=0 Time=                  67
+a=        91 b=         1 cin=0 sum=        92 carry=0 Time=                  78
+a=        47 b=        97 cin=1 sum=       145 carry=0 Time=                  89
+a=        23 b=       100 cin=1 sum=       124 carry=0 Time=                 100
