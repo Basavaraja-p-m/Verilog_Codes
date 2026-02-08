@@ -1,0 +1,64 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/SEQUENTIAL/FLIPFLOPS/SRFF1
+T_opt
+!s110 1757594896
+Vl^>RGYELc@XNE7Yida<K[0
+04 8 4 work SRFF1_tb fast 0
+=1-84144d0ea3d5-68c2c510-1a1-4c40
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vSRFF1
+Z2 !s110 1757594925
+!i10b 1
+!s100 5;QTeKC=E3>:5e;H5881h1
+IP:5>UhkR4Wz@SL?RQ_66L2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1757594889
+Z5 8SRFF1.v
+Z6 FSRFF1.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1757594925.000000
+!s107 SRFF1.v|
+Z9 !s90 -reportprogress|300|SRFF1.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@s@r@f@f1
+vSRFF1_tb
+R2
+!i10b 1
+!s100 DfGSj`]2Ml6@K;z1oAeGB2
+I`1::Z=TYXdDc2BYznHfU62
+R3
+R0
+R4
+R5
+R6
+L0 37
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 SRFF1.v|
+R9
+!i113 0
+R10
+R1
+n@s@r@f@f1_tb

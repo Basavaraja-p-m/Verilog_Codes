@@ -1,0 +1,211 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# TFF1.v  transcript              
+vlog TFF1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:43:09 on Sep 11,2025
+# vlog -reportprogress 300 TFF1.v "+acc" 
+# -- Compiling module TFF1
+# ** Error: TFF1.v(11): (vlog-2110) Illegal reference to net "q".
+# ** Error: TFF1.v(15): (vlog-2110) Illegal reference to net "q".
+# ** Error: TFF1.v(16): (vlog-2110) Illegal reference to net "q".
+# -- Compiling module TFF1_tb
+# End time: 19:43:09 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog TFF1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:43:29 on Sep 11,2025
+# vlog -reportprogress 300 TFF1.v "+acc" 
+# -- Compiling module TFF1
+# -- Compiling module TFF1_tb
+# 
+# Top level modules:
+# 	TFF1
+# 	TFF1_tb
+# End time: 19:43:29 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim TFF1_tb
+# vsim TFF1_tb 
+# Start time: 19:43:55 on Sep 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: TFF1.v(30): Module 'TFF' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 19:43:56 on Sep 11,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim TFF1_tb
+# vsim TFF1_tb 
+# Start time: 19:44:17 on Sep 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: TFF1.v(30): Module 'TFF' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 19:44:17 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim TFF1_tb
+# vsim TFF1_tb 
+# Start time: 19:44:59 on Sep 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: TFF1.v(30): Module 'TFF' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 19:44:59 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog TFF1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:45:03 on Sep 11,2025
+# vlog -reportprogress 300 TFF1.v "+acc" 
+# -- Compiling module TFF1
+# -- Compiling module TFF1_tb
+# 
+# Top level modules:
+# 	TFF1_tb
+# End time: 19:45:03 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim TFF1_tb
+# vsim TFF1_tb 
+# Start time: 19:45:04 on Sep 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.TFF1_tb(fast)
+# Loading work.TFF1(fast)
+add wave *
+run -all
+# t=x clk=$b rst=0 q=0 qbar=x Time=                   0                   0
+# t=0 clk=$b rst=0 q=1 qbar=x Time=                   0                   8
+# t=0 clk=$b rst=1 q=1 qbar=x Time=                   0                  10
+# t=1 clk=$b rst=1 q=1 qbar=x Time=                   0                  18
+# t=1 clk=$b rst=0 q=1 qbar=x Time=                   0                  20
+# t=1 clk=$b rst=1 q=1 qbar=x Time=                   0                  30
+# t=1 clk=$b rst=0 q=1 qbar=x Time=                   0                  40
+# t=1 clk=$b rst=1 q=1 qbar=x Time=                   0                  50
+# t=1 clk=$b rst=0 q=1 qbar=x Time=                   0                  60
+# t=1 clk=$b rst=1 q=1 qbar=x Time=                   0                  70
+# t=0 clk=$b rst=1 q=1 qbar=x Time=                   0                  78
+# t=0 clk=$b rst=0 q=1 qbar=x Time=                   0                  80
+# t=1 clk=$b rst=0 q=1 qbar=x Time=                   0                  88
+# t=1 clk=$b rst=1 q=1 qbar=x Time=                   0                  90
+# ** Note: $stop    : TFF1.v(46)
+#    Time: 100 ns  Iteration: 0  Instance: /TFF1_tb
+# Break in Module TFF1_tb at TFF1.v line 46
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:48:18 on Sep 11,2025
+# vlog -reportprogress 300 TFF1.v "+acc" 
+# -- Compiling module TFF1
+# -- Compiling module TFF1_tb
+# 
+# Top level modules:
+# 	TFF1_tb
+# End time: 19:48:18 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:48:24 on Sep 11,2025, Elapsed time: 0:03:20
+# Errors: 0, Warnings: 0
+# vsim TFF1_tb 
+# Start time: 19:48:24 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TFF1_tb(fast)
+# Loading work.TFF1(fast)
+# t=x clk=$b rst=0 q=0 qbar=x Time=                   0                   0
+# t=x clk=$b rst=1 q=0 qbar=0 Time=                   1                  10
+# t=0 clk=$b rst=1 q=1 qbar=0 Time=                   1                  15
+# t=0 clk=$b rst=0 q=1 qbar=0 Time=                   1                  20
+# t=1 clk=$b rst=0 q=1 qbar=0 Time=                   1                  25
+# t=1 clk=$b rst=1 q=1 qbar=1 Time=                   0                  30
+# t=1 clk=$b rst=0 q=1 qbar=1 Time=                   0                  40
+# t=1 clk=$b rst=1 q=1 qbar=0 Time=                   1                  50
+# t=1 clk=$b rst=0 q=1 qbar=0 Time=                   1                  60
+# t=1 clk=$b rst=1 q=1 qbar=1 Time=                   0                  70
+# t=1 clk=$b rst=0 q=1 qbar=1 Time=                   0                  80
+# t=0 clk=$b rst=0 q=1 qbar=1 Time=                   0                  85
+# t=0 clk=$b rst=1 q=1 qbar=1 Time=                   0                  90
+# t=1 clk=$b rst=1 q=1 qbar=1 Time=                   0                  95
+# ** Note: $stop    : TFF1.v(46)
+#    Time: 100 ns  Iteration: 0  Instance: /TFF1_tb
+# Break in Module TFF1_tb at TFF1.v line 46
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:52:38 on Sep 11,2025
+# vlog -reportprogress 300 TFF1.v "+acc" 
+# -- Compiling module TFF1
+# -- Compiling module TFF1_tb
+# 
+# Top level modules:
+# 	TFF1_tb
+# End time: 19:52:38 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:52:40 on Sep 11,2025, Elapsed time: 0:04:16
+# Errors: 0, Warnings: 0
+# vsim TFF1_tb 
+# Start time: 19:52:40 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TFF1_tb(fast)
+# Loading work.TFF1(fast)
+# t=x clk=$b rst=1 q=0 qbar=0 Time=                   1                   0
+# t=0 clk=$b rst=1 q=1 qbar=0 Time=                   1                   8
+# t=0 clk=$b rst=0 q=1 qbar=0 Time=                   1                  10
+# t=1 clk=$b rst=0 q=1 qbar=0 Time=                   1                  18
+# t=1 clk=$b rst=1 q=1 qbar=1 Time=                   0                  20
+# t=1 clk=$b rst=0 q=1 qbar=1 Time=                   0                  30
+# t=1 clk=$b rst=1 q=1 qbar=0 Time=                   1                  40
+# t=1 clk=$b rst=0 q=1 qbar=0 Time=                   1                  50
+# t=1 clk=$b rst=1 q=1 qbar=1 Time=                   0                  60
+# t=1 clk=$b rst=0 q=1 qbar=1 Time=                   0                  70
+# t=0 clk=$b rst=0 q=1 qbar=1 Time=                   0                  78
+# t=0 clk=$b rst=1 q=1 qbar=1 Time=                   0                  80
+# t=1 clk=$b rst=1 q=1 qbar=1 Time=                   0                  88
+# t=1 clk=$b rst=0 q=1 qbar=1 Time=                   0                  90
+# ** Note: $stop    : TFF1.v(46)
+#    Time: 100 ns  Iteration: 0  Instance: /TFF1_tb
+# Break in Module TFF1_tb at TFF1.v line 46
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:56:10 on Sep 11,2025
+# vlog -reportprogress 300 TFF1.v "+acc" 
+# -- Compiling module TFF1
+# -- Compiling module TFF1_tb
+# 
+# Top level modules:
+# 	TFF1_tb
+# End time: 19:56:10 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:56:11 on Sep 11,2025, Elapsed time: 0:03:31
+# Errors: 0, Warnings: 0
+# vsim TFF1_tb 
+# Start time: 19:56:11 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TFF1_tb(fast)
+# Loading work.TFF1(fast)
+# t=x clk=$b rst=0 q=0 qbar=x Time=                   0                   0
+# t=x clk=$b rst=1 q=0 qbar=0 Time=                   1                  10
+# t=0 clk=$b rst=1 q=1 qbar=0 Time=                   1                  15
+# t=0 clk=$b rst=0 q=1 qbar=0 Time=                   1                  20
+# t=1 clk=$b rst=0 q=1 qbar=0 Time=                   1                  25
+# t=1 clk=$b rst=1 q=1 qbar=1 Time=                   0                  30
+# t=1 clk=$b rst=0 q=1 qbar=1 Time=                   0                  40
+# t=1 clk=$b rst=1 q=1 qbar=0 Time=                   1                  50
+# t=1 clk=$b rst=0 q=1 qbar=0 Time=                   1                  60
+# t=1 clk=$b rst=1 q=1 qbar=1 Time=                   0                  70
+# t=1 clk=$b rst=0 q=1 qbar=1 Time=                   0                  80
+# t=0 clk=$b rst=0 q=1 qbar=1 Time=                   0                  85
+# t=0 clk=$b rst=1 q=1 qbar=1 Time=                   0                  90
+# t=1 clk=$b rst=1 q=1 qbar=1 Time=                   0                  95
+# ** Note: $stop    : TFF1.v(46)
+#    Time: 100 ns  Iteration: 0  Instance: /TFF1_tb
+# Break in Module TFF1_tb at TFF1.v line 46
+quit -sim
+# End time: 19:58:15 on Sep 11,2025, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 0

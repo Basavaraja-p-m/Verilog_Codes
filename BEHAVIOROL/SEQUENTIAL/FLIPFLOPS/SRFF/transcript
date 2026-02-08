@@ -1,0 +1,192 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:23:39 on Sep 10,2025
+# vlog -reportprogress 300 SRFF.v "+acc" 
+# -- Compiling module SRL
+# -- Compiling module SRL_tb
+# -- Compiling module SRFF
+# -- Compiling module SRFF_tb
+# 
+# Top level modules:
+# 	SRL_tb
+# 	SRFF_tb
+# End time: 18:23:39 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim SRFF_tb 
+# Start time: 18:23:39 on Sep 10,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.SRFF_tb(fast)
+# Loading work.SRFF(fast)
+# Loading work.SRL(fast)
+# Clk=0 S=x R=x Q=0 Qbar=1 Rst=0 Time=                   0
+# Clk=1 S=x R=x Q=0 Qbar=1 Rst=1 Time=                  10
+# Clk=1 S=0 R=1 Q=0 Qbar=1 Rst=1 Time=                  17
+# Clk=0 S=0 R=1 Q=0 Qbar=1 Rst=1 Time=                  20
+# Clk=1 S=0 R=1 Q=0 Qbar=1 Rst=1 Time=                  30
+# Clk=1 S=1 R=1 Q=0 Qbar=1 Rst=1 Time=                  34
+# Clk=0 S=1 R=1 Q=0 Qbar=1 Rst=1 Time=                  40
+# Clk=1 S=1 R=1 Q=x Qbar=x Rst=1 Time=                  50
+# Clk=0 S=1 R=1 Q=x Qbar=x Rst=1 Time=                  60
+# Clk=0 S=1 R=0 Q=x Qbar=x Rst=1 Time=                  68
+# Clk=1 S=1 R=0 Q=1 Qbar=0 Rst=1 Time=                  70
+# Clk=0 S=1 R=0 Q=1 Qbar=0 Rst=1 Time=                  80
+# Clk=0 S=1 R=1 Q=1 Qbar=0 Rst=1 Time=                  85
+# Clk=1 S=1 R=1 Q=x Qbar=x Rst=1 Time=                  90
+# ** Note: $stop    : SRFF.v(48)
+#    Time: 100 ns  Iteration: 0  Instance: /SRFF_tb
+# Break in Module SRFF_tb at SRFF.v line 48
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:24:51 on Sep 10,2025
+# vlog -reportprogress 300 SRFF.v "+acc" 
+# -- Compiling module SRL
+# -- Compiling module SRL_tb
+# -- Compiling module SRFF
+# -- Compiling module SRFF_tb
+# 
+# Top level modules:
+# 	SRL_tb
+# 	SRFF_tb
+# End time: 18:24:51 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:24:52 on Sep 10,2025, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 0
+# vsim SRFF_tb 
+# Start time: 18:24:52 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.SRFF_tb(fast)
+# Loading work.SRFF(fast)
+# Loading work.SRL(fast)
+# Clk=0 S=x R=x Q=0 Qbar=1 Rst=0 Time=                   0
+# Clk=0 S=x R=x Q=0 Qbar=1 Rst=1 Time=                   7
+# Clk=1 S=0 R=1 Q=x Qbar=x Rst=1 Time=                  10
+# Clk=0 S=0 R=1 Q=x Qbar=x Rst=1 Time=                  20
+# Clk=0 S=1 R=1 Q=x Qbar=x Rst=1 Time=                  23
+# Clk=1 S=1 R=1 Q=x Qbar=x Rst=1 Time=                  30
+# Clk=0 S=1 R=1 Q=x Qbar=x Rst=1 Time=                  40
+# Clk=0 S=1 R=0 Q=x Qbar=x Rst=1 Time=                  49
+# Clk=1 S=1 R=0 Q=1 Qbar=0 Rst=1 Time=                  50
+# Clk=0 S=1 R=0 Q=1 Qbar=0 Rst=1 Time=                  60
+# Clk=0 S=1 R=1 Q=1 Qbar=0 Rst=1 Time=                  62
+# Clk=1 S=1 R=1 Q=x Qbar=x Rst=1 Time=                  70
+# Clk=1 S=0 R=1 Q=x Qbar=x Rst=1 Time=                  75
+# Clk=0 S=0 R=1 Q=x Qbar=x Rst=1 Time=                  80
+# Clk=0 S=1 R=0 Q=x Qbar=x Rst=1 Time=                  88
+# Clk=1 S=1 R=0 Q=1 Qbar=0 Rst=1 Time=                  90
+# ** Note: $stop    : SRFF.v(48)
+#    Time: 100 ns  Iteration: 0  Instance: /SRFF_tb
+# Break in Module SRFF_tb at SRFF.v line 48
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:27:18 on Sep 10,2025
+# vlog -reportprogress 300 SRFF.v "+acc" 
+# -- Compiling module SRL
+# -- Compiling module SRL_tb
+# -- Compiling module SRFF
+# -- Compiling module SRFF_tb
+# 
+# Top level modules:
+# 	SRL_tb
+# 	SRFF_tb
+# End time: 18:27:18 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:27:21 on Sep 10,2025, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 0
+# vsim SRFF_tb 
+# Start time: 18:27:21 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.SRFF_tb(fast)
+# Loading work.SRFF(fast)
+# Loading work.SRL(fast)
+# Clk=0 S=x R=x Q=0 Qbar=1 Rst=0 Time=                   0
+# Clk=0 S=x R=x Q=0 Qbar=1 Rst=1 Time=                   6
+# Clk=0 S=0 R=1 Q=0 Qbar=1 Rst=1 Time=                   7
+# Clk=1 S=0 R=1 Q=0 Qbar=1 Rst=1 Time=                  10
+# Clk=1 S=1 R=1 Q=0 Qbar=1 Rst=1 Time=                  18
+# Clk=0 S=1 R=1 Q=0 Qbar=1 Rst=1 Time=                  20
+# Clk=1 S=1 R=1 Q=x Qbar=x Rst=1 Time=                  30
+# Clk=0 S=1 R=0 Q=x Qbar=x Rst=1 Time=                  40
+# Clk=1 S=1 R=0 Q=1 Qbar=0 Rst=1 Time=                  50
+# Clk=1 S=1 R=1 Q=1 Qbar=0 Rst=1 Time=                  51
+# Clk=0 S=1 R=1 Q=1 Qbar=0 Rst=1 Time=                  60
+# Clk=0 S=0 R=1 Q=1 Qbar=0 Rst=1 Time=                  62
+# Clk=1 S=0 R=1 Q=0 Qbar=1 Rst=1 Time=                  70
+# Clk=1 S=1 R=0 Q=0 Qbar=1 Rst=1 Time=                  73
+# Clk=0 S=1 R=0 Q=0 Qbar=1 Rst=1 Time=                  80
+# Clk=1 S=1 R=0 Q=1 Qbar=0 Rst=1 Time=                  90
+# ** Note: $stop    : SRFF.v(48)
+#    Time: 100 ns  Iteration: 0  Instance: /SRFF_tb
+# Break in Module SRFF_tb at SRFF.v line 48
+quit -sim
+# End time: 18:29:52 on Sep 10,2025, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 0
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:02:23 on Sep 12,2025
+# vlog -reportprogress 300 SRFF.v "+acc" 
+# -- Compiling module SRL
+# -- Compiling module SRL_tb
+# -- Compiling module SRFF
+# -- Compiling module SRFF_tb
+# 
+# Top level modules:
+# 	SRL_tb
+# 	SRFF_tb
+# End time: 15:02:23 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim SRFF_tb 
+# Start time: 15:02:23 on Sep 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.SRFF_tb(fast)
+# Loading work.SRFF(fast)
+# Loading work.SRL(fast)
+# Clk=0 S=x R=x Q=0 Qbar=1 Rst=0 Time=                   0
+# Clk=0 S=x R=x Q=0 Qbar=1 Rst=1 Time=                   6
+# Clk=0 S=0 R=1 Q=0 Qbar=1 Rst=1 Time=                   7
+# Clk=1 S=0 R=1 Q=0 Qbar=1 Rst=1 Time=                  10
+# Clk=1 S=1 R=1 Q=0 Qbar=1 Rst=1 Time=                  18
+# Clk=0 S=1 R=1 Q=0 Qbar=1 Rst=1 Time=                  20
+# Clk=1 S=1 R=1 Q=x Qbar=x Rst=1 Time=                  30
+# Clk=0 S=1 R=0 Q=x Qbar=x Rst=1 Time=                  40
+# Clk=1 S=1 R=0 Q=1 Qbar=0 Rst=1 Time=                  50
+# Clk=1 S=1 R=1 Q=1 Qbar=0 Rst=1 Time=                  51
+# Clk=0 S=1 R=1 Q=1 Qbar=0 Rst=1 Time=                  60
+# Clk=0 S=0 R=1 Q=1 Qbar=0 Rst=1 Time=                  62
+# Clk=1 S=0 R=1 Q=0 Qbar=1 Rst=1 Time=                  70
+# Clk=1 S=1 R=0 Q=0 Qbar=1 Rst=1 Time=                  73
+# Clk=0 S=1 R=0 Q=0 Qbar=1 Rst=1 Time=                  80
+# Clk=1 S=1 R=0 Q=1 Qbar=0 Rst=1 Time=                  90
+# ** Note: $stop    : SRFF.v(48)
+#    Time: 100 ns  Iteration: 0  Instance: /SRFF_tb
+# Break in Module SRFF_tb at SRFF.v line 48
+quit -sim
+# End time: 15:03:45 on Sep 12,2025, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 0

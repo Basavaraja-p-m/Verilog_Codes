@@ -1,0 +1,128 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/TX_RX
+T_opt
+!s110 1763030943
+V9B^YM4MO4=i8g[InLLnYC0
+04 2 4 work tb fast 0
+=1-84144d0ea3d5-6915b79f-1de-4334
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vFIFO
+Z2 !s110 1763030941
+!i10b 1
+!s100 g0@B_XX7S3<jmD0`aA9z63
+IXIPdZoC6^YcVSO3HQEX<d3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1763030937
+Z5 8TX_RX.v
+Z6 FTX_RX.v
+L0 2
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1763030941.000000
+Z9 !s107 TX_RX.v|
+Z10 !s90 -reportprogress|300|TX_RX.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@f@i@f@o
+vPISO
+R2
+!i10b 1
+!s100 eEI4iMRAgo`>M^ckiOR=R3
+IL:[oc05<cTYg3I1`O:GEM1
+R3
+R0
+R4
+R5
+R6
+L0 24
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@p@i@s@o
+vSIPO
+R2
+!i10b 1
+!s100 >=D3:RGe:CEK0C?z@]cg`1
+I=bG9Z<mDSPkR`zN4j[LV=2
+R3
+R0
+R4
+R5
+R6
+L0 58
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@s@i@p@o
+vtb
+R2
+!i10b 1
+!s100 6c0H80A2O2LQIXP68TCN53
+IUdh]8MaJAJ>3hWGF]>O;J2
+R3
+R0
+R4
+R5
+R6
+L0 107
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vTX_RX
+R2
+!i10b 1
+!s100 PiI?6MY[M:2e=mb0F]CBc2
+ICcTa9^kkW1MY?aBYU5a4>0
+R3
+R0
+R4
+R5
+R6
+L0 90
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@t@x_@r@x

@@ -1,0 +1,50 @@
+Start time: 20:31:23 on Sep 09,2025
+qverilog SRFF.v 
+-- Compiling module SRL
+-- Compiling module SRL_tb
+-- Compiling module SRP
+-- Compiling module SRP_tb
+-- Compiling module SRFF
+-- Compiling module SRFF_tb
+
+Top level modules:
+	SRL_tb
+	SRP_tb
+	SRFF_tb
+# vsim -lib work work.SRL_tb work.SRP_tb work.SRFF_tb -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.SRL_tb(fast)
+# Loading work.SRP_tb(fast)
+# Loading work.SRFF_tb(fast)
+# run -all
+# Clk=0 S=x R=x Q=0 Qbar=1 Rst=0 Time=                   0
+# Clk=1 S=1 R=1 Q=0 Qbar=1 Rst=1 Time=                  10
+# Clk=0 S=0 R=1 Q=0 Qbar=1 Rst=1 Time=                  20
+# Clk=1 S=1 R=0 Q=0 Qbar=1 Rst=1 Time=                  30
+# Clk=0 S=0 R=0 Q=0 Qbar=1 Rst=1 Time=                  40
+# Clk=1 S=1 R=1 Q=0 Qbar=1 Rst=1 Time=                  50
+# Clk=0 S=0 R=1 Q=0 Qbar=1 Rst=1 Time=                  60
+# Clk=1 S=1 R=1 Q=0 Qbar=1 Rst=1 Time=                  70
+# Clk=0 S=1 R=0 Q=0 Qbar=1 Rst=1 Time=                  80
+# Clk=1 S=1 R=0 Q=0 Qbar=1 Rst=1 Time=                  90
+# ** Note: $stop    : SRL.v(51)
+#    Time: 100 ns  Iteration: 0  Instance: /SRL_tb
+# Break at SRL.v line 51
+# Stopped at SRL.v line 51
+#  quit -f
+# End time: 20:31:25 on Sep 09,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

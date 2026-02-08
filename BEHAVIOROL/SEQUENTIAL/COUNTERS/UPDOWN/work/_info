@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/SEQUENTIAL/COUNTERS/UPDOWN
+T_opt
+!s110 1758007132
+V=oBCTdGSiQ0>b@f]0V]YR2
+04 9 4 work UPDOWN_tb fast 0
+=1-84144d0ea3d5-68c90f5b-357-46d0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vUPDOWN
+Z2 !s110 1758007128
+!i10b 1
+!s100 43TFLW39i?>Yh1GfUN4K43
+I8?a6P=<i]lV65_TAOeo0=3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758007121
+Z5 8UPDOWN.v
+Z6 FUPDOWN.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758007127.000000
+Z9 !s107 UPDOWN.v|
+Z10 !s90 -reportprogress|300|UPDOWN.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@u@p@d@o@w@n
+vUPDOWN_tb
+R2
+!i10b 1
+!s100 RO@FQ>G5KajzVjAZUOS@O1
+IcjjfACP?dHDVdmQ77iKH_1
+R3
+R0
+R4
+R5
+R6
+L0 21
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@u@p@d@o@w@n_tb

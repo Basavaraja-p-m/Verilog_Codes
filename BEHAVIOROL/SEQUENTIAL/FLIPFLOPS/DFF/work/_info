@@ -1,0 +1,107 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/SEQUENTIAL/FLIPFLOPS/DFF
+T_opt
+!s110 1757512562
+V6:XA_Q<=O]5THA7V96c411
+04 6 4 work DFF_tb fast 0
+=1-84144d0ea3d5-68c18372-353-46d8
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vDFF
+Z2 !s110 1757512554
+!i10b 1
+!s100 N4]TUYb]kHZIW0UkTJiKl0
+I@ODg3Ccc>R9cf6`IOCG?=0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1757512548
+Z5 8DFF.v
+Z6 FDFF.v
+L0 2
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1757512553.000000
+Z9 !s107 DL.v|DFF.v|
+Z10 !s90 -reportprogress|300|DFF.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@d@f@f
+vDFF_tb
+R2
+!i10b 1
+!s100 DL0_?0OOeK<a6[A3EzJJ:0
+I@AA@daPYlZYORKQ[4d6bL3
+R3
+R0
+R4
+R5
+R6
+L0 15
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@d@f@f_tb
+vDL
+!s110 1757512553
+!i10b 1
+!s100 UP1GA^AA72T1oA<FDJlE<1
+IFVKlMdgVmRmQc:JZFDN8n1
+R3
+R0
+Z12 w1757509382
+Z13 8DL.v
+Z14 FDL.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@d@l
+vDL_tb
+R2
+!i10b 1
+!s100 b16^V[kMn`GkVa]cN2LnL0
+ILm1fjKKD_QgMR;G0:V0FN0
+R3
+R0
+R12
+R13
+R14
+L0 26
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@d@l_tb

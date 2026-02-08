@@ -1,0 +1,565 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+d0 run.do
+# invalid command name "d0"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:18:05 on Oct 09,2025
+# vlog -reportprogress 300 MOORE_1010.v "+acc" 
+# -- Compiling module MOORE_1010
+# -- Compiling module MOORE_1010_tb
+# 
+# Top level modules:
+# 	MOORE_1010_tb
+# End time: 12:18:05 on Oct 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim MOORE_1010_tb 
+# Start time: 12:18:05 on Oct 09,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "MOORE_1010(fast)".
+# Loading work.MOORE_1010_tb(fast)
+# Loading work.MOORE_1010(fast)
+# clk=0,rst=0,x=0,y=0,time=                   0
+# clk=1,rst=0,x=0,y=0,time=                   5
+# clk=0,rst=0,x=0,y=0,time=                  10
+# clk=1,rst=0,x=0,y=0,time=                  15
+# clk=0,rst=1,x=0,y=0,time=                  20
+# clk=1,rst=1,x=0,y=0,time=                  25
+# clk=0,rst=1,x=0,y=0,time=                  30
+# clk=1,rst=1,x=0,y=0,time=                  35
+# clk=0,rst=1,x=0,y=0,time=                  40
+# clk=1,rst=1,x=0,y=0,time=                  45
+# clk=0,rst=1,x=0,y=0,time=                  50
+# clk=1,rst=1,x=0,y=0,time=                  55
+# clk=0,rst=1,x=0,y=0,time=                  60
+# clk=1,rst=1,x=0,y=0,time=                  65
+# clk=0,rst=1,x=0,y=0,time=                  70
+# clk=1,rst=1,x=0,y=0,time=                  75
+# clk=0,rst=1,x=0,y=0,time=                  80
+# clk=1,rst=1,x=0,y=0,time=                  85
+# clk=0,rst=1,x=0,y=0,time=                  90
+# clk=1,rst=1,x=0,y=0,time=                  95
+# clk=0,rst=1,x=0,y=0,time=                 100
+# clk=1,rst=1,x=0,y=0,time=                 105
+# clk=0,rst=1,x=0,y=0,time=                 110
+# clk=1,rst=1,x=0,y=0,time=                 115
+# clk=0,rst=1,x=0,y=0,time=                 120
+# clk=1,rst=1,x=0,y=0,time=                 125
+# clk=0,rst=1,x=0,y=0,time=                 130
+# clk=1,rst=1,x=0,y=0,time=                 135
+# clk=0,rst=1,x=0,y=0,time=                 140
+# clk=1,rst=1,x=0,y=0,time=                 145
+# clk=0,rst=1,x=0,y=0,time=                 150
+# clk=1,rst=1,x=0,y=0,time=                 155
+# clk=0,rst=1,x=0,y=0,time=                 160
+# clk=1,rst=1,x=0,y=0,time=                 165
+# clk=0,rst=1,x=0,y=0,time=                 170
+# clk=1,rst=1,x=0,y=0,time=                 175
+# clk=0,rst=1,x=0,y=0,time=                 180
+# clk=1,rst=1,x=0,y=0,time=                 185
+# clk=0,rst=1,x=0,y=0,time=                 190
+# clk=1,rst=1,x=0,y=0,time=                 195
+# clk=0,rst=1,x=0,y=0,time=                 200
+# clk=1,rst=1,x=0,y=0,time=                 205
+# clk=0,rst=1,x=0,y=0,time=                 210
+# clk=1,rst=1,x=0,y=0,time=                 215
+# clk=0,rst=1,x=0,y=0,time=                 220
+# clk=1,rst=1,x=0,y=0,time=                 225
+# clk=0,rst=1,x=0,y=0,time=                 230
+# clk=1,rst=1,x=0,y=0,time=                 235
+# clk=0,rst=1,x=0,y=0,time=                 240
+# clk=1,rst=1,x=0,y=0,time=                 245
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:20:02 on Oct 09,2025
+# vlog -reportprogress 300 MOORE_1010.v "+acc" 
+# -- Compiling module MOORE_1010
+# -- Compiling module MOORE_1010_tb
+# 
+# Top level modules:
+# 	MOORE_1010_tb
+# End time: 12:20:02 on Oct 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:20:03 on Oct 09,2025, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 0
+# vsim MOORE_1010_tb 
+# Start time: 12:20:03 on Oct 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.MOORE_1010_tb(fast)
+# Loading work.MOORE_1010(fast)
+# clk=0,rst=0,x=0,y=0,time=                   0
+# clk=1,rst=0,x=0,y=0,time=                   5
+# clk=0,rst=0,x=0,y=0,time=                  10
+# clk=1,rst=0,x=0,y=0,time=                  15
+# clk=0,rst=1,x=0,y=0,time=                  20
+# clk=1,rst=1,x=0,y=0,time=                  25
+# clk=0,rst=1,x=0,y=0,time=                  30
+# clk=1,rst=1,x=0,y=0,time=                  35
+# clk=0,rst=1,x=1,y=0,time=                  40
+# clk=1,rst=1,x=1,y=0,time=                  45
+# clk=0,rst=1,x=1,y=0,time=                  50
+# clk=1,rst=1,x=1,y=0,time=                  55
+# clk=0,rst=1,x=1,y=0,time=                  60
+# clk=1,rst=1,x=1,y=0,time=                  65
+# clk=0,rst=1,x=1,y=0,time=                  70
+# clk=1,rst=1,x=1,y=0,time=                  75
+# clk=0,rst=1,x=1,y=0,time=                  80
+# clk=1,rst=1,x=1,y=0,time=                  85
+# clk=0,rst=1,x=1,y=0,time=                  90
+# clk=1,rst=1,x=1,y=0,time=                  95
+# clk=0,rst=1,x=0,y=0,time=                 100
+# clk=1,rst=1,x=0,y=0,time=                 105
+# clk=0,rst=1,x=1,y=0,time=                 110
+# clk=1,rst=1,x=1,y=0,time=                 115
+# clk=0,rst=1,x=1,y=0,time=                 120
+# clk=1,rst=1,x=1,y=0,time=                 125
+# clk=0,rst=1,x=0,y=0,time=                 130
+# clk=1,rst=1,x=0,y=0,time=                 135
+# clk=0,rst=1,x=1,y=0,time=                 140
+# clk=1,rst=1,x=1,y=0,time=                 145
+# clk=0,rst=1,x=1,y=0,time=                 150
+# clk=1,rst=1,x=1,y=0,time=                 155
+# clk=0,rst=1,x=0,y=0,time=                 160
+# clk=1,rst=1,x=0,y=0,time=                 165
+# clk=0,rst=1,x=1,y=0,time=                 170
+# clk=1,rst=1,x=1,y=0,time=                 175
+# clk=0,rst=1,x=0,y=0,time=                 180
+# clk=1,rst=1,x=0,y=0,time=                 185
+# clk=0,rst=1,x=1,y=0,time=                 190
+# clk=1,rst=1,x=1,y=0,time=                 195
+# clk=0,rst=1,x=0,y=0,time=                 200
+# clk=1,rst=1,x=0,y=0,time=                 205
+# clk=0,rst=1,x=1,y=0,time=                 210
+# clk=1,rst=1,x=1,y=0,time=                 215
+# clk=0,rst=1,x=1,y=0,time=                 220
+# clk=1,rst=1,x=1,y=0,time=                 225
+# clk=0,rst=1,x=1,y=0,time=                 230
+# clk=1,rst=1,x=1,y=0,time=                 235
+# clk=0,rst=1,x=1,y=0,time=                 240
+# clk=1,rst=1,x=1,y=0,time=                 245
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:26:48 on Oct 09,2025
+# vlog -reportprogress 300 MOORE_1010.v "+acc" 
+# -- Compiling module MOORE_1010
+# -- Compiling module MOORE_1010_tb
+# 
+# Top level modules:
+# 	MOORE_1010_tb
+# End time: 12:26:48 on Oct 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:26:51 on Oct 09,2025, Elapsed time: 0:06:48
+# Errors: 0, Warnings: 0
+# vsim MOORE_1010_tb 
+# Start time: 12:26:51 on Oct 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "MOORE_1010(fast)".
+# Loading work.MOORE_1010_tb(fast)
+# Loading work.MOORE_1010(fast)
+# clk=0,rst=0,x=0,y=0,time=                   0
+# clk=1,rst=0,x=0,y=0,time=                   5
+# clk=0,rst=0,x=0,y=0,time=                  10
+# clk=1,rst=0,x=0,y=0,time=                  15
+# clk=0,rst=1,x=0,y=0,time=                  20
+# clk=1,rst=1,x=0,y=0,time=                  25
+# clk=0,rst=1,x=0,y=0,time=                  30
+# clk=1,rst=1,x=0,y=0,time=                  35
+# clk=0,rst=1,x=1,y=0,time=                  40
+# clk=1,rst=1,x=1,y=0,time=                  45
+# clk=0,rst=1,x=1,y=0,time=                  50
+# clk=1,rst=1,x=1,y=0,time=                  55
+# clk=0,rst=1,x=1,y=0,time=                  60
+# clk=1,rst=1,x=1,y=0,time=                  65
+# clk=0,rst=1,x=1,y=0,time=                  70
+# clk=1,rst=1,x=1,y=0,time=                  75
+# clk=0,rst=1,x=1,y=0,time=                  80
+# clk=1,rst=1,x=1,y=0,time=                  85
+# clk=0,rst=1,x=1,y=0,time=                  90
+# clk=1,rst=1,x=1,y=0,time=                  95
+# clk=0,rst=1,x=0,y=0,time=                 100
+# clk=1,rst=1,x=0,y=0,time=                 105
+# clk=0,rst=1,x=1,y=0,time=                 110
+# clk=1,rst=1,x=1,y=0,time=                 115
+# clk=0,rst=1,x=1,y=0,time=                 120
+# clk=1,rst=1,x=1,y=0,time=                 125
+# clk=0,rst=1,x=0,y=0,time=                 130
+# clk=1,rst=1,x=0,y=0,time=                 135
+# clk=0,rst=1,x=1,y=0,time=                 140
+# clk=1,rst=1,x=1,y=0,time=                 145
+# clk=0,rst=1,x=1,y=0,time=                 150
+# clk=1,rst=1,x=1,y=0,time=                 155
+# clk=0,rst=1,x=0,y=0,time=                 160
+# clk=1,rst=1,x=0,y=0,time=                 165
+# clk=0,rst=1,x=1,y=0,time=                 170
+# clk=1,rst=1,x=1,y=0,time=                 175
+# clk=0,rst=1,x=0,y=0,time=                 180
+# clk=1,rst=1,x=0,y=0,time=                 185
+# clk=0,rst=1,x=1,y=0,time=                 190
+# clk=1,rst=1,x=1,y=0,time=                 195
+# clk=0,rst=1,x=0,y=0,time=                 200
+# clk=1,rst=1,x=0,y=0,time=                 205
+# clk=0,rst=1,x=1,y=0,time=                 210
+# clk=1,rst=1,x=1,y=0,time=                 215
+# clk=0,rst=1,x=1,y=0,time=                 220
+# clk=1,rst=1,x=1,y=0,time=                 225
+# clk=0,rst=1,x=1,y=0,time=                 230
+# clk=1,rst=1,x=1,y=0,time=                 235
+# clk=0,rst=1,x=1,y=0,time=                 240
+# clk=1,rst=1,x=1,y=0,time=                 245
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:27:06 on Oct 09,2025
+# vlog -reportprogress 300 MOORE_1010.v "+acc" 
+# -- Compiling module MOORE_1010
+# -- Compiling module MOORE_1010_tb
+# 
+# Top level modules:
+# 	MOORE_1010_tb
+# End time: 12:27:06 on Oct 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:27:07 on Oct 09,2025, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0
+# vsim MOORE_1010_tb 
+# Start time: 12:27:07 on Oct 09,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.MOORE_1010_tb(fast)
+# Loading work.MOORE_1010(fast)
+# clk=0,rst=0,x=0,y=0,time=                   0
+# clk=1,rst=0,x=0,y=0,time=                   5
+# clk=0,rst=0,x=0,y=0,time=                  10
+# clk=1,rst=0,x=0,y=0,time=                  15
+# clk=0,rst=1,x=0,y=0,time=                  20
+# clk=1,rst=1,x=0,y=0,time=                  25
+# clk=0,rst=1,x=0,y=0,time=                  30
+# clk=1,rst=1,x=0,y=0,time=                  35
+# clk=0,rst=1,x=1,y=0,time=                  40
+# clk=1,rst=1,x=1,y=0,time=                  45
+# clk=0,rst=1,x=1,y=0,time=                  50
+# clk=1,rst=1,x=1,y=0,time=                  55
+# clk=0,rst=1,x=1,y=0,time=                  60
+# clk=1,rst=1,x=1,y=0,time=                  65
+# clk=0,rst=1,x=1,y=0,time=                  70
+# clk=1,rst=1,x=1,y=0,time=                  75
+# clk=0,rst=1,x=1,y=0,time=                  80
+# clk=1,rst=1,x=1,y=0,time=                  85
+# clk=0,rst=1,x=1,y=0,time=                  90
+# clk=1,rst=1,x=1,y=0,time=                  95
+# clk=0,rst=1,x=0,y=0,time=                 100
+# clk=1,rst=1,x=0,y=0,time=                 105
+# clk=0,rst=1,x=1,y=0,time=                 110
+# clk=1,rst=1,x=1,y=0,time=                 115
+# clk=0,rst=1,x=1,y=0,time=                 120
+# clk=1,rst=1,x=1,y=0,time=                 125
+# clk=0,rst=1,x=0,y=0,time=                 130
+# clk=1,rst=1,x=0,y=0,time=                 135
+# clk=0,rst=1,x=1,y=0,time=                 140
+# clk=1,rst=1,x=1,y=0,time=                 145
+# clk=0,rst=1,x=1,y=0,time=                 150
+# clk=1,rst=1,x=1,y=0,time=                 155
+# clk=0,rst=1,x=0,y=0,time=                 160
+# clk=1,rst=1,x=0,y=0,time=                 165
+# clk=0,rst=1,x=1,y=0,time=                 170
+# clk=1,rst=1,x=1,y=0,time=                 175
+# clk=0,rst=1,x=0,y=0,time=                 180
+# clk=1,rst=1,x=0,y=0,time=                 185
+# clk=0,rst=1,x=1,y=0,time=                 190
+# clk=1,rst=1,x=1,y=0,time=                 195
+# clk=0,rst=1,x=0,y=0,time=                 200
+# clk=1,rst=1,x=0,y=0,time=                 205
+# clk=0,rst=1,x=1,y=0,time=                 210
+# clk=1,rst=1,x=1,y=0,time=                 215
+# clk=0,rst=1,x=1,y=0,time=                 220
+# clk=1,rst=1,x=1,y=0,time=                 225
+# clk=0,rst=1,x=1,y=0,time=                 230
+# clk=1,rst=1,x=1,y=0,time=                 235
+# clk=0,rst=1,x=1,y=0,time=                 240
+# clk=1,rst=1,x=1,y=0,time=                 245
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:27:54 on Oct 09,2025
+# vlog -reportprogress 300 MOORE_1010.v "+acc" 
+# -- Compiling module MOORE_1010
+# -- Compiling module MOORE_1010_tb
+# 
+# Top level modules:
+# 	MOORE_1010_tb
+# End time: 12:27:55 on Oct 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:27:58 on Oct 09,2025, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 0
+# vsim MOORE_1010_tb 
+# Start time: 12:27:58 on Oct 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "MOORE_1010(fast)".
+# Loading work.MOORE_1010_tb(fast)
+# Loading work.MOORE_1010(fast)
+# clk=0,rst=0,x=0,y=0,time=                   0
+# clk=1,rst=0,x=0,y=0,time=                   5
+# clk=0,rst=0,x=0,y=0,time=                  10
+# clk=1,rst=0,x=0,y=0,time=                  15
+# clk=0,rst=1,x=0,y=0,time=                  20
+# clk=1,rst=1,x=0,y=0,time=                  25
+# clk=0,rst=1,x=0,y=0,time=                  30
+# clk=1,rst=1,x=0,y=0,time=                  35
+# clk=0,rst=1,x=1,y=0,time=                  40
+# clk=1,rst=1,x=1,y=0,time=                  45
+# clk=0,rst=1,x=1,y=0,time=                  50
+# clk=1,rst=1,x=1,y=0,time=                  55
+# clk=0,rst=1,x=1,y=0,time=                  60
+# clk=1,rst=1,x=1,y=0,time=                  65
+# clk=0,rst=1,x=1,y=0,time=                  70
+# clk=1,rst=1,x=1,y=0,time=                  75
+# clk=0,rst=1,x=1,y=0,time=                  80
+# clk=1,rst=1,x=1,y=0,time=                  85
+# clk=0,rst=1,x=1,y=0,time=                  90
+# clk=1,rst=1,x=1,y=0,time=                  95
+# clk=0,rst=1,x=0,y=0,time=                 100
+# clk=1,rst=1,x=0,y=0,time=                 105
+# clk=0,rst=1,x=1,y=0,time=                 110
+# clk=1,rst=1,x=1,y=0,time=                 115
+# clk=0,rst=1,x=1,y=0,time=                 120
+# clk=1,rst=1,x=1,y=0,time=                 125
+# clk=0,rst=1,x=0,y=0,time=                 130
+# clk=1,rst=1,x=0,y=0,time=                 135
+# clk=0,rst=1,x=1,y=0,time=                 140
+# clk=1,rst=1,x=1,y=0,time=                 145
+# clk=0,rst=1,x=1,y=0,time=                 150
+# clk=1,rst=1,x=1,y=0,time=                 155
+# clk=0,rst=1,x=0,y=0,time=                 160
+# clk=1,rst=1,x=0,y=0,time=                 165
+# clk=0,rst=1,x=1,y=0,time=                 170
+# clk=1,rst=1,x=1,y=0,time=                 175
+# clk=0,rst=1,x=0,y=0,time=                 180
+# clk=1,rst=1,x=0,y=0,time=                 185
+# clk=0,rst=1,x=1,y=0,time=                 190
+# clk=1,rst=1,x=1,y=0,time=                 195
+# clk=0,rst=1,x=0,y=0,time=                 200
+# clk=1,rst=1,x=0,y=0,time=                 205
+# clk=0,rst=1,x=1,y=0,time=                 210
+# clk=1,rst=1,x=1,y=0,time=                 215
+# clk=0,rst=1,x=1,y=0,time=                 220
+# clk=1,rst=1,x=1,y=0,time=                 225
+# clk=0,rst=1,x=1,y=0,time=                 230
+# clk=1,rst=1,x=1,y=0,time=                 235
+# clk=0,rst=1,x=1,y=0,time=                 240
+# clk=1,rst=1,x=1,y=0,time=                 245
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:34:00 on Oct 09,2025
+# vlog -reportprogress 300 MOORE_1010.v "+acc" 
+# -- Compiling module MOORE_1010
+# -- Compiling module MOORE_1010_tb
+# 
+# Top level modules:
+# 	MOORE_1010_tb
+# End time: 12:34:01 on Oct 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:34:02 on Oct 09,2025, Elapsed time: 0:06:04
+# Errors: 0, Warnings: 0
+# vsim MOORE_1010_tb 
+# Start time: 12:34:02 on Oct 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "MOORE_1010(fast)".
+# Loading work.MOORE_1010_tb(fast)
+# Loading work.MOORE_1010(fast)
+# clk=0,rst=0,x=0,y=0,time=                   0
+# clk=1,rst=0,x=0,y=0,time=                   5
+# clk=0,rst=0,x=0,y=0,time=                  10
+# clk=1,rst=0,x=0,y=0,time=                  15
+# clk=0,rst=1,x=0,y=0,time=                  20
+# clk=1,rst=1,x=0,y=0,time=                  25
+# clk=0,rst=1,x=0,y=0,time=                  30
+# clk=1,rst=1,x=0,y=0,time=                  35
+# clk=0,rst=1,x=1,y=0,time=                  40
+# clk=1,rst=1,x=1,y=0,time=                  45
+# clk=0,rst=1,x=1,y=0,time=                  50
+# clk=1,rst=1,x=1,y=0,time=                  55
+# clk=0,rst=1,x=1,y=0,time=                  60
+# clk=1,rst=1,x=1,y=0,time=                  65
+# clk=0,rst=1,x=1,y=0,time=                  70
+# clk=1,rst=1,x=1,y=0,time=                  75
+# clk=0,rst=1,x=1,y=0,time=                  80
+# clk=1,rst=1,x=1,y=0,time=                  85
+# clk=0,rst=1,x=1,y=0,time=                  90
+# clk=1,rst=1,x=1,y=0,time=                  95
+# clk=0,rst=1,x=0,y=0,time=                 100
+# clk=1,rst=1,x=0,y=0,time=                 105
+# clk=0,rst=1,x=1,y=0,time=                 110
+# clk=1,rst=1,x=1,y=0,time=                 115
+# clk=0,rst=1,x=1,y=0,time=                 120
+# clk=1,rst=1,x=1,y=0,time=                 125
+# clk=0,rst=1,x=0,y=0,time=                 130
+# clk=1,rst=1,x=0,y=0,time=                 135
+# clk=0,rst=1,x=1,y=0,time=                 140
+# clk=1,rst=1,x=1,y=0,time=                 145
+# clk=0,rst=1,x=1,y=0,time=                 150
+# clk=1,rst=1,x=1,y=0,time=                 155
+# clk=0,rst=1,x=0,y=0,time=                 160
+# clk=1,rst=1,x=0,y=0,time=                 165
+# clk=0,rst=1,x=1,y=0,time=                 170
+# clk=1,rst=1,x=1,y=0,time=                 175
+# clk=0,rst=1,x=0,y=0,time=                 180
+# clk=1,rst=1,x=0,y=0,time=                 185
+# clk=0,rst=1,x=1,y=0,time=                 190
+# clk=1,rst=1,x=1,y=0,time=                 195
+# clk=0,rst=1,x=0,y=0,time=                 200
+# clk=1,rst=1,x=0,y=0,time=                 205
+# clk=0,rst=1,x=1,y=0,time=                 210
+# clk=1,rst=1,x=1,y=0,time=                 215
+# clk=0,rst=1,x=1,y=0,time=                 220
+# clk=1,rst=1,x=1,y=0,time=                 225
+# clk=0,rst=1,x=1,y=0,time=                 230
+# clk=1,rst=1,x=1,y=0,time=                 235
+# clk=0,rst=1,x=1,y=0,time=                 240
+# clk=1,rst=1,x=1,y=0,time=                 245
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:47:08 on Oct 09,2025
+# vlog -reportprogress 300 MOORE_1010.v "+acc" 
+# -- Compiling module MOORE_1010
+# -- Compiling module MOORE_1010_tb
+# 
+# Top level modules:
+# 	MOORE_1010_tb
+# End time: 12:47:08 on Oct 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:47:09 on Oct 09,2025, Elapsed time: 0:13:07
+# Errors: 0, Warnings: 0
+# vsim MOORE_1010_tb 
+# Start time: 12:47:09 on Oct 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.MOORE_1010_tb(fast)
+# Loading work.MOORE_1010(fast)
+# clk=0,rst=0,x=0,y=0,time=                   0
+# clk=1,rst=0,x=0,y=0,time=                   5
+# clk=0,rst=0,x=0,y=0,time=                  10
+# clk=1,rst=0,x=0,y=0,time=                  15
+# clk=0,rst=1,x=0,y=0,time=                  20
+# clk=1,rst=1,x=0,y=0,time=                  25
+# clk=0,rst=1,x=0,y=0,time=                  30
+# clk=1,rst=1,x=0,y=0,time=                  35
+# clk=0,rst=1,x=1,y=0,time=                  40
+# clk=1,rst=1,x=1,y=0,time=                  45
+# clk=0,rst=1,x=1,y=0,time=                  50
+# clk=1,rst=1,x=1,y=0,time=                  55
+# clk=0,rst=1,x=1,y=0,time=                  60
+# clk=1,rst=1,x=1,y=0,time=                  65
+# clk=0,rst=1,x=1,y=0,time=                  70
+# clk=1,rst=1,x=1,y=0,time=                  75
+# clk=0,rst=1,x=1,y=0,time=                  80
+# clk=1,rst=1,x=1,y=0,time=                  85
+# clk=0,rst=1,x=1,y=0,time=                  90
+# clk=1,rst=1,x=1,y=0,time=                  95
+# clk=0,rst=1,x=0,y=0,time=                 100
+# clk=1,rst=1,x=0,y=0,time=                 105
+# clk=0,rst=1,x=1,y=0,time=                 110
+# clk=1,rst=1,x=1,y=0,time=                 115
+# clk=0,rst=1,x=1,y=0,time=                 120
+# clk=1,rst=1,x=1,y=0,time=                 125
+# clk=0,rst=1,x=0,y=0,time=                 130
+# clk=1,rst=1,x=0,y=0,time=                 135
+# clk=0,rst=1,x=1,y=0,time=                 140
+# clk=1,rst=1,x=1,y=0,time=                 145
+# clk=0,rst=1,x=1,y=0,time=                 150
+# clk=1,rst=1,x=1,y=0,time=                 155
+# clk=0,rst=1,x=0,y=0,time=                 160
+# clk=1,rst=1,x=0,y=0,time=                 165
+# clk=0,rst=1,x=1,y=0,time=                 170
+# clk=1,rst=1,x=1,y=0,time=                 175
+# clk=0,rst=1,x=0,y=0,time=                 180
+# clk=1,rst=1,x=0,y=0,time=                 185
+# clk=0,rst=1,x=1,y=0,time=                 190
+# clk=1,rst=1,x=1,y=0,time=                 195
+# clk=0,rst=1,x=0,y=0,time=                 200
+# clk=1,rst=1,x=0,y=0,time=                 205
+# clk=0,rst=1,x=1,y=0,time=                 210
+# clk=1,rst=1,x=1,y=0,time=                 215
+# clk=0,rst=1,x=1,y=0,time=                 220
+# clk=1,rst=1,x=1,y=0,time=                 225
+# clk=0,rst=1,x=1,y=0,time=                 230
+# clk=1,rst=1,x=1,y=0,time=                 235
+# clk=0,rst=1,x=1,y=0,time=                 240
+# clk=1,rst=1,x=1,y=0,time=                 245
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:51:02 on Oct 09,2025
+# vlog -reportprogress 300 MOORE_1010.v "+acc" 
+# -- Compiling module MOORE_1010
+# -- Compiling module MOORE_1010_tb
+# 
+# Top level modules:
+# 	MOORE_1010_tb
+# End time: 12:51:02 on Oct 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:51:04 on Oct 09,2025, Elapsed time: 0:03:55
+# Errors: 0, Warnings: 0
+# vsim MOORE_1010_tb 
+# Start time: 12:51:04 on Oct 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.MOORE_1010_tb(fast)
+# Loading work.MOORE_1010(fast)
+# clk=0,rst=0,x=0,y=0,time=                   0
+# clk=1,rst=0,x=0,y=0,time=                   5
+# clk=0,rst=0,x=0,y=0,time=                  10
+# clk=1,rst=0,x=0,y=0,time=                  15
+# clk=0,rst=1,x=0,y=0,time=                  20
+# clk=1,rst=1,x=0,y=0,time=                  25
+# clk=0,rst=1,x=0,y=0,time=                  30
+# clk=1,rst=1,x=0,y=0,time=                  35
+# clk=0,rst=1,x=1,y=0,time=                  40
+# clk=1,rst=1,x=1,y=0,time=                  45
+# clk=0,rst=1,x=1,y=0,time=                  50
+# clk=1,rst=1,x=1,y=0,time=                  55
+# clk=0,rst=1,x=1,y=0,time=                  60
+# clk=1,rst=1,x=1,y=0,time=                  65
+# clk=0,rst=1,x=1,y=0,time=                  70
+# clk=1,rst=1,x=1,y=0,time=                  75
+# clk=0,rst=1,x=1,y=0,time=                  80
+# clk=1,rst=1,x=1,y=0,time=                  85
+# clk=0,rst=1,x=1,y=0,time=                  90
+# clk=1,rst=1,x=1,y=0,time=                  95
+# clk=0,rst=1,x=0,y=0,time=                 100
+# clk=1,rst=1,x=0,y=0,time=                 105
+# clk=0,rst=1,x=1,y=0,time=                 110
+# clk=1,rst=1,x=1,y=0,time=                 115
+# clk=0,rst=1,x=1,y=0,time=                 120
+# clk=1,rst=1,x=1,y=0,time=                 125
+# clk=0,rst=1,x=0,y=0,time=                 130
+# clk=1,rst=1,x=0,y=0,time=                 135
+# clk=0,rst=1,x=1,y=0,time=                 140
+# clk=1,rst=1,x=1,y=0,time=                 145
+# clk=0,rst=1,x=1,y=0,time=                 150
+# clk=1,rst=1,x=1,y=0,time=                 155
+# clk=0,rst=1,x=0,y=0,time=                 160
+# clk=1,rst=1,x=0,y=0,time=                 165
+# clk=0,rst=1,x=1,y=0,time=                 170
+# clk=1,rst=1,x=1,y=0,time=                 175
+# clk=0,rst=1,x=0,y=0,time=                 180
+# clk=1,rst=1,x=0,y=1,time=                 185
+# clk=0,rst=1,x=1,y=1,time=                 190
+# clk=1,rst=1,x=1,y=0,time=                 195
+# clk=0,rst=1,x=0,y=0,time=                 200
+# clk=1,rst=1,x=0,y=1,time=                 205
+# clk=0,rst=1,x=1,y=1,time=                 210
+# clk=1,rst=1,x=1,y=0,time=                 215
+# clk=0,rst=1,x=1,y=0,time=                 220
+# clk=1,rst=1,x=1,y=0,time=                 225
+# clk=0,rst=1,x=1,y=0,time=                 230
+# clk=1,rst=1,x=1,y=0,time=                 235
+# clk=0,rst=1,x=1,y=0,time=                 240
+# clk=1,rst=1,x=1,y=0,time=                 245
+quit -sim
+# End time: 12:51:33 on Oct 09,2025, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0

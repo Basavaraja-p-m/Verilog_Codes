@@ -1,0 +1,59 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:59:26 on Oct 12,2025
+# vlog -reportprogress 300 SISO.v "+acc" 
+# -- Compiling module SISO
+# -- Compiling module SISO_tb
+# 
+# Top level modules:
+# 	SISO_tb
+# End time: 12:59:26 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim SISO_tb 
+# Start time: 12:59:26 on Oct 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.SISO_tb(fast)
+# Loading work.SISO(fast)
+# clk=0 rst=0 sin=1 sout=0 Time=0
+# clk=1 rst=1 sin=1 sout=0 Time=10
+# clk=1 rst=1 sin=0 sout=0 Time=15
+# clk=0 rst=1 sin=0 sout=0 Time=20
+# clk=1 rst=1 sin=0 sout=0 Time=30
+# clk=1 rst=1 sin=1 sout=0 Time=35
+# clk=0 rst=1 sin=1 sout=0 Time=40
+# clk=1 rst=1 sin=1 sout=0 Time=50
+# clk=1 rst=1 sin=0 sout=0 Time=55
+# clk=0 rst=1 sin=0 sout=0 Time=60
+# clk=1 rst=1 sin=0 sout=0 Time=70
+# clk=0 rst=1 sin=0 sout=0 Time=80
+# clk=1 rst=1 sin=0 sout=1 Time=90
+# clk=0 rst=1 sin=0 sout=1 Time=100
+# clk=1 rst=1 sin=0 sout=0 Time=110
+# clk=0 rst=1 sin=0 sout=0 Time=120
+# clk=1 rst=1 sin=0 sout=1 Time=130
+# clk=0 rst=1 sin=0 sout=1 Time=140
+# clk=1 rst=1 sin=0 sout=0 Time=150
+# clk=0 rst=1 sin=0 sout=0 Time=160
+# clk=1 rst=1 sin=0 sout=0 Time=170
+# clk=0 rst=1 sin=0 sout=0 Time=180
+# clk=1 rst=1 sin=0 sout=0 Time=190
+# ** Note: $stop    : SISO.v(55)
+#    Time: 200 ns  Iteration: 0  Instance: /SISO_tb
+# Break in Module SISO_tb at SISO.v line 55
+quit -sim
+# End time: 13:08:33 on Oct 12,2025, Elapsed time: 0:09:07
+# Errors: 0, Warnings: 0

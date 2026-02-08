@@ -1,0 +1,129 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/FUNCTIONS/ASSIGNMENT4
+T_opt
+!s110 1757834081
+Vfc1OGGZ[96ze3R1U_]@h21
+04 7 4 work ASS4_tb fast 0
+=1-84144d0ea3d5-68c66b61-179-41b0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vASS4_tb
+Z2 !s110 1757834079
+!i10b 1
+!s100 :RCRVAAdkj3?_zBDR=PId1
+IWbhFk;f`:ITNNBKgamhAm2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1757834063
+8ASS4_tb.v
+FASS4_tb.v
+L0 3
+Z4 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z5 !s108 1757834079.000000
+Z6 !s107 RCA.v|RCAF.v|ASS4_tb.v|
+Z7 !s90 -reportprogress|300|ASS4_tb.v|+acc|
+!i113 0
+Z8 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@a@s@s4_tb
+vRCA
+R2
+!i10b 1
+!s100 VHjH7`7M5]:KQ9V>SW;Nj0
+IF4BSK=<F>>;dEC3RYmWPL0
+R3
+R0
+Z9 w1757830979
+Z10 8RCA.v
+Z11 FRCA.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@r@c@a
+vRCA_tb
+R2
+!i10b 1
+!s100 YN0j1D`U0n<J89=dVjHEK2
+IhCLekHSB`fFLGRFR]JY6o2
+R3
+R0
+R9
+R10
+R11
+L0 14
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@r@c@a_tb
+vRCAF
+R2
+!i10b 1
+!s100 kCZeIajNAUQ_:I5f>Qg3^0
+IQ=;zeVVh]6XIlO1jJnCO72
+R3
+R0
+Z12 w1757830109
+Z13 8RCAF.v
+Z14 FRCAF.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@r@c@a@f
+vRCAF_tb
+R2
+!i10b 1
+!s100 cJEj=]YQ3ea0lIeEmzeA31
+IQYzb]f3B<:BQ^zOdRm[Y[2
+R3
+R0
+R12
+R13
+R14
+L0 40
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@r@c@a@f_tb

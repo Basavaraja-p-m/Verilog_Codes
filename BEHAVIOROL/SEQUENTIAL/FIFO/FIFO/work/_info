@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/SEQUENTIAL/FIFO
+T_opt
+!s110 1758610127
+V7cahRPPi`YWjJda;`VNK<2
+04 7 4 work FIFO_tb fast 0
+=1-84144d0ea3d5-68d242cf-25d-41dc
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vFIFO
+Z2 !s110 1758610124
+!i10b 1
+!s100 02d?FFOfI>gL4[nXEEQd12
+I6U4fkmd`>^SI<J@F9Z9eY2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758610117
+Z5 8FIFO.v
+Z6 FFIFO.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758610124.000000
+Z9 !s107 FIFO.v|
+Z10 !s90 -reportprogress|300|FIFO.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@f@i@f@o
+vFIFO_tb
+R2
+!i10b 1
+!s100 3P5>ccNdC>1jkK?P[A33:2
+I6Q]zMPgS=jlN`j?fFV9km3
+R3
+R0
+R4
+R5
+R6
+L0 51
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@f@i@f@o_tb

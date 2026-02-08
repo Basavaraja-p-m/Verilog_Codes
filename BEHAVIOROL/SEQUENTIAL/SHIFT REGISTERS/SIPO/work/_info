@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/SEQUENTIAL/SHIFT REGISTERS/SIPO
+T_opt
+!s110 1758093922
+V9BoiAGkJL0_8oOl>Mn1`J1
+04 7 4 work SIPO_tb fast 0
+=1-84144d0ea3d5-68ca6262-b1-25a8
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vSIPO
+Z2 !s110 1758093920
+!i10b 1
+!s100 CC@ANi3;3Tb]?RZP4_HB81
+I?lMC<JId]N6dG5@Q1S@`G0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758093913
+Z5 8SIPO.v
+Z6 FSIPO.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758093920.000000
+Z9 !s107 SIPO.v|
+Z10 !s90 -reportprogress|300|SIPO.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@s@i@p@o
+vSIPO_tb
+R2
+!i10b 1
+!s100 `i_mlfLbf[n2;XZ?LM_BN3
+I>5SZX36KH]]j1SDnkLFjd3
+R3
+R0
+R4
+R5
+R6
+L0 27
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@s@i@p@o_tb

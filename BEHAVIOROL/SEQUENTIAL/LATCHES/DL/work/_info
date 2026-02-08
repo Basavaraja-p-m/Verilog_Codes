@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/SEQUENTIAL/LATCHES/DL
+T_opt
+!s110 1757491154
+VWQNh[SU]_z0cm1NRRVk9F2
+04 5 4 work DL_tb fast 0
+=1-84144d0ea3d5-68c12fd1-34f-85c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vDL
+Z2 !s110 1757491153
+!i10b 1
+!s100 UP1GA^AA72T1oA<FDJlE<1
+IFVKlMdgVmRmQc:JZFDN8n1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1757491093
+8DL.v
+FDL.v
+L0 1
+Z4 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z5 !s108 1757491153.000000
+Z6 !s107 DL.v|DL_tb.v|
+Z7 !s90 -reportprogress|300|DL_tb.v|+acc|
+!i113 0
+Z8 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@d@l
+vDL_tb
+R2
+!i10b 1
+!s100 6L4Tli<2=oI`68S5b3<db1
+IAjJaQA4SL=N;O_JCXl_kA1
+R3
+R0
+w1757415192
+8DL_tb.v
+FDL_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@d@l_tb

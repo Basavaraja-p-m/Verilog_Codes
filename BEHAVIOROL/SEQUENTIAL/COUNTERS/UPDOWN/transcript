@@ -1,0 +1,203 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:39:53 on Sep 16,2025
+# vlog -reportprogress 300 UPDOWN.v "+acc" 
+# -- Compiling module UPDOWN
+# ** Error: (vlog-13069) UPDOWN.v(14): near "(": syntax error, unexpected '('.
+# -- Compiling module UPDOWN_tb
+# ** Error: (vlog-13069) UPDOWN.v(30): near "forever": syntax error, unexpected forever.
+# ** Error: (vlog-13069) UPDOWN.v(45): near "end": syntax error, unexpected end.
+# End time: 12:39:53 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog UPDOWN.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:41:51 on Sep 16,2025
+# vlog -reportprogress 300 UPDOWN.v "+acc" 
+# -- Compiling module UPDOWN
+# ** Error: (vlog-13069) UPDOWN.v(14): near "(": syntax error, unexpected '('.
+# -- Compiling module UPDOWN_tb
+# ** Error: (vlog-13069) UPDOWN.v(30): near "forever": syntax error, unexpected forever.
+# End time: 12:41:52 on Sep 16,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog UPDOWN.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:43:35 on Sep 16,2025
+# vlog -reportprogress 300 UPDOWN.v "+acc" 
+# -- Compiling module UPDOWN
+# -- Compiling module UPDOWN_tb
+# ** Error: (vlog-13069) UPDOWN.v(30): near "forever": syntax error, unexpected forever.
+# End time: 12:43:35 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog UPDOWN.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:44:52 on Sep 16,2025
+# vlog -reportprogress 300 UPDOWN.v "+acc" 
+# -- Compiling module UPDOWN
+# -- Compiling module UPDOWN_tb
+# ** Error: (vlog-13069) UPDOWN.v(32): near "initial": syntax error, unexpected initial.
+# End time: 12:44:52 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog UPDOWN.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:45:23 on Sep 16,2025
+# vlog -reportprogress 300 UPDOWN.v "+acc" 
+# -- Compiling module UPDOWN
+# -- Compiling module UPDOWN_tb
+# 
+# Top level modules:
+# 	UPDOWN
+# 	UPDOWN_tb
+# End time: 12:45:23 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim UPDOWN_tb 
+# Start time: 12:45:23 on Sep 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: UPDOWN.v(26): Module 'UDOWN' is not defined.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:46:11 on Sep 16,2025
+# vlog -reportprogress 300 UPDOWN.v "+acc" 
+# -- Compiling module UPDOWN
+# -- Compiling module UPDOWN_tb
+# 
+# Top level modules:
+# 	UPDOWN_tb
+# End time: 12:46:11 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim UPDOWN_tb 
+# Start time: 12:45:23 on Sep 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.UPDOWN_tb(fast)
+# Loading work.UPDOWN(fast)
+#  0
+#  1
+#  0
+# 15
+# 14
+# 13
+# ** Note: $stop    : UPDOWN.v(44)
+#    Time: 100 ns  Iteration: 0  Instance: /UPDOWN_tb
+# Break in Module UPDOWN_tb at UPDOWN.v line 44
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:47:18 on Sep 16,2025
+# vlog -reportprogress 300 UPDOWN.v "+acc" 
+# -- Compiling module UPDOWN
+# -- Compiling module UPDOWN_tb
+# 
+# Top level modules:
+# 	UPDOWN_tb
+# End time: 12:47:18 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:47:22 on Sep 16,2025, Elapsed time: 0:01:59
+# Errors: 1, Warnings: 0
+# vsim UPDOWN_tb 
+# Start time: 12:47:22 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.UPDOWN_tb(fast)
+# Loading work.UPDOWN(fast)
+#  0
+#  1
+#  2
+#  3
+#  4
+#  5
+# ** Note: $stop    : UPDOWN.v(43)
+#    Time: 100 ns  Iteration: 0  Instance: /UPDOWN_tb
+# Break in Module UPDOWN_tb at UPDOWN.v line 43
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:47:57 on Sep 16,2025
+# vlog -reportprogress 300 UPDOWN.v "+acc" 
+# -- Compiling module UPDOWN
+# -- Compiling module UPDOWN_tb
+# 
+# Top level modules:
+# 	UPDOWN_tb
+# End time: 12:47:57 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:48:02 on Sep 16,2025, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 0
+# vsim UPDOWN_tb 
+# Start time: 12:48:02 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.UPDOWN_tb(fast)
+# Loading work.UPDOWN(fast)
+#  0
+# 15
+# 14
+# 13
+# 12
+# 11
+# ** Note: $stop    : UPDOWN.v(43)
+#    Time: 100 ns  Iteration: 0  Instance: /UPDOWN_tb
+# Break in Module UPDOWN_tb at UPDOWN.v line 43
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:48:47 on Sep 16,2025
+# vlog -reportprogress 300 UPDOWN.v "+acc" 
+# -- Compiling module UPDOWN
+# -- Compiling module UPDOWN_tb
+# 
+# Top level modules:
+# 	UPDOWN_tb
+# End time: 12:48:48 on Sep 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:48:51 on Sep 16,2025, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim UPDOWN_tb 
+# Start time: 12:48:51 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.UPDOWN_tb(fast)
+# Loading work.UPDOWN(fast)
+#  0
+# 15
+#  0
+#  1
+#  2
+#  3
+# ** Note: $stop    : UPDOWN.v(44)
+#    Time: 100 ns  Iteration: 0  Instance: /UPDOWN_tb
+# Break in Module UPDOWN_tb at UPDOWN.v line 44
+quit -sim
+# End time: 12:49:28 on Sep 16,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0

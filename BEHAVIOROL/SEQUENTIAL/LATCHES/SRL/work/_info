@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/SEQUENTIAL/LATCHES/SRL
+T_opt
+!s110 1757490369
+V[LV^7gm=z4DBL;6SLPWb60
+04 6 4 work SRL_tb fast 0
+=2-84144d0ea3d5-68c12cc1-26-17d4
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vSRL
+Z2 !s110 1757490368
+!i10b 1
+!s100 B_FBcQ[ef>Li@fQK8CODR2
+IFHKaj[L[PIKi_W^C4XLRf0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1757490161
+8SRL.v
+FSRL.v
+L0 1
+Z4 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z5 !s108 1757490368.000000
+Z6 !s107 SRL.v|SRL_tb.v|
+Z7 !s90 -reportprogress|300|SRL_tb.v|+acc|
+!i113 0
+Z8 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@s@r@l
+vSRL_tb
+R2
+!i10b 1
+!s100 Mn8A`GF?zRYHDGVe`26bM1
+I4aAcZR[^5[:0R36gUcSSj2
+R3
+R0
+w1757405570
+8SRL_tb.v
+FSRL_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@s@r@l_tb

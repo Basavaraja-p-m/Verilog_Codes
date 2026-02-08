@@ -1,0 +1,72 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/SEQUENTIAL/FIFO/ASYNFIFO
+T_opt
+!s110 1761666016
+Vmon_ZZ;Gd?14zUc?Hd7mX0
+Z1 04 2 4 work tb fast 0
+=1-84144d0ea3d5-6900e3e0-af-2e2c
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1761715422
+VOICnjUT]mOgL6oIo7`]UT1
+R1
+=1-84144d0ea3d5-6901a4de-1fe-3840
+R2
+R3
+n@_opt1
+R4
+vASYNFIFO
+Z5 !s110 1761715419
+!i10b 1
+!s100 ZgC?F:NfI:@_Qd<2J9[^?1
+IT[7PU0C<Pn^]68XmD84]P1
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z7 w1761715407
+Z8 8ASYNFIFO.v
+Z9 FASYNFIFO.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1761715418.000000
+Z12 !s107 ASYNFIFO.v|
+Z13 !s90 -reportprogress|300|ASYNFIFO.v|+acc|
+!i113 0
+Z14 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@a@s@y@n@f@i@f@o
+vtb
+R5
+!i10b 1
+!s100 P;DN77SDKjidV23][K@jF1
+ISm>1[h7YL5fe@FZ3IKRHX3
+R6
+R0
+R7
+R8
+R9
+L0 93
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3

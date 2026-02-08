@@ -1,0 +1,478 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlog FC.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:49:26 on Oct 12,2025
+# vlog -reportprogress 300 FC.v "+acc" 
+# -- Compiling module FC
+# ** Error: (vlog-13069) FC.v(15): near "assign": syntax error, unexpected assign, expecting ';' or ','.
+# ** Error: (vlog-13069) FC.v(16): near "=": syntax error, unexpected '=', expecting ++ or --.
+# -- Compiling module FC_tb
+# ** Error: FC.v(46): (vlog-2730) Undefined variable: 'WIDTH'.
+# ** Error: (vlog-13069) FC.v(98): near "EOF": syntax error, unexpected end of source code.
+# End time: 20:49:27 on Oct 12,2025, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog FC.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:51:27 on Oct 12,2025
+# vlog -reportprogress 300 FC.v "+acc" 
+# -- Compiling module FC
+# ** Error: (vlog-13069) FC.v(15): near "assign": syntax error, unexpected assign, expecting ';' or ','.
+# ** Error: FC.v(16): (vlog-2730) Undefined variable: 'depth'.
+# -- Compiling module FC_tb
+# ** Error: (vlog-13069) FC.v(98): near "EOF": syntax error, unexpected end of source code.
+# End time: 20:51:27 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog FC.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:51:55 on Oct 12,2025
+# vlog -reportprogress 300 FC.v "+acc" 
+# -- Compiling module FC
+# ** Error: FC.v(16): (vlog-2730) Undefined variable: 'depth'.
+# -- Compiling module FC_tb
+# ** Error: (vlog-13069) FC.v(98): near "EOF": syntax error, unexpected end of source code.
+# End time: 20:51:56 on Oct 12,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog FC.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:52:16 on Oct 12,2025
+# vlog -reportprogress 300 FC.v "+acc" 
+# -- Compiling module FC
+# ** Error: FC.v(22): (vlog-2110) Illegal reference to net "data_out".
+# ** Error: FC.v(37): (vlog-2110) Illegal reference to net "data_out".
+# -- Compiling module FC_tb
+# ** Error: (vlog-13069) FC.v(98): near "EOF": syntax error, unexpected end of source code.
+# End time: 20:52:16 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog FC.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:52:47 on Oct 12,2025
+# vlog -reportprogress 300 FC.v "+acc" 
+# -- Compiling module FC
+# -- Compiling module FC_tb
+# ** Error: (vlog-13069) FC.v(98): near "EOF": syntax error, unexpected end of source code.
+# End time: 20:52:47 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog FC.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:53:07 on Oct 12,2025
+# vlog -reportprogress 300 FC.v "+acc" 
+# -- Compiling module FC
+# -- Compiling module FC_tb
+# 
+# Top level modules:
+# 	FC_tb
+# End time: 20:53:07 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim FC_tb
+# vsim FC_tb 
+# Start time: 20:53:14 on Oct 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.FC_tb(fast)
+# Loading work.FC(fast)
+add wave *
+run 250ns
+# clk=0,rst=0,data_in= 36,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                   0
+# clk=1,rst=0,data_in= 36,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                   5
+# clk=0,rst=0,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  10
+# clk=1,rst=0,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  15
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  20
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  25
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  30
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  35
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  40
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  45
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  50
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  55
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  60
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  65
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  70
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  75
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  80
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  85
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  90
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                  95
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 100
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 105
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 110
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 115
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 120
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 125
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 130
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 135
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 140
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 145
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 150
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 155
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 160
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 165
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 170
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 175
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 180
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 185
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 190
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 195
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 200
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 205
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 210
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 215
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 220
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 225
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 230
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 235
+# clk=0,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 240
+# clk=1,rst=1,data_in=129,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 245
+vlog FC.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:58:43 on Oct 12,2025
+# vlog -reportprogress 300 FC.v "+acc" 
+# -- Compiling module FC
+# -- Compiling module FC_tb
+# 
+# Top level modules:
+# 	FC_tb
+# End time: 20:58:44 on Oct 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim FC_tb
+# End time: 20:58:49 on Oct 12,2025, Elapsed time: 0:05:35
+# Errors: 0, Warnings: 0
+# vsim FC_tb 
+# Start time: 20:58:49 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.FC_tb(fast)
+# Loading work.FC(fast)
+run 250ns
+# clk=0,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=x,full=x,Time=                   0
+# clk=1,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=x,full=x,Time=                   5
+# clk=0,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=x,full=x,Time=                  10
+# clk=1,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=x,full=x,Time=                  15
+# clk=0,rst=1,data_in= 36,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  20
+# clk=1,rst=1,data_in= 36,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  25
+# clk=0,rst=1,data_in=129,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  30
+# clk=1,rst=1,data_in=129,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  35
+# clk=0,rst=1,data_in=  9,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  40
+# clk=1,rst=1,data_in=  9,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  45
+# clk=0,rst=1,data_in= 99,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  50
+# clk=1,rst=1,data_in= 99,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  55
+# clk=0,rst=1,data_in= 13,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  60
+# clk=1,rst=1,data_in= 13,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  65
+# clk=0,rst=1,data_in=141,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  70
+# clk=1,rst=1,data_in=141,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  75
+# clk=0,rst=1,data_in=101,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  80
+# clk=1,rst=1,data_in=101,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  85
+# clk=0,rst=1,data_in= 18,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  90
+# clk=1,rst=1,data_in= 18,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  95
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 100
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 105
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 110
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 115
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 120
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 125
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 130
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 135
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 140
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 145
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 150
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 155
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 160
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 165
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 170
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 175
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 180
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 185
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 190
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 195
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 200
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 205
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 210
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 215
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 220
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 225
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 230
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 235
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 240
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 245
+run 250ns
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 250
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 255
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 260
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 265
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 270
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 275
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 280
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 285
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 290
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 295
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 300
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 305
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 310
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 315
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 320
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 325
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 330
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 335
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 340
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 345
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 350
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 355
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 360
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 365
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 370
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 375
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 380
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 385
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 390
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 395
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 400
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 405
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 410
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 415
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 420
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 425
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 430
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 435
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 440
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 445
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 450
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 455
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 460
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 465
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 470
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 475
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 480
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 485
+# clk=0,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 490
+# clk=1,rst=1,data_in=  1,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 495
+vlog FC.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:00:37 on Oct 12,2025
+# vlog -reportprogress 300 FC.v "+acc" 
+# -- Compiling module FC
+# -- Compiling module FC_tb
+# 
+# Top level modules:
+# 	FC_tb
+# End time: 21:00:37 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim FC_tb
+# End time: 21:00:41 on Oct 12,2025, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 0
+# vsim FC_tb 
+# Start time: 21:00:41 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.FC_tb(fast)
+# Loading work.FC(fast)
+add wave *
+run 250ns
+# clk=0,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=x,full=x,Time=                   0
+# clk=1,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=x,full=x,Time=                   5
+# clk=0,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=x,full=x,Time=                  10
+# clk=1,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=x,full=x,Time=                  15
+# clk=0,rst=1,data_in= 36,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  20
+# clk=1,rst=1,data_in= 36,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  25
+# clk=0,rst=1,data_in=129,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  30
+# clk=1,rst=1,data_in=129,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  35
+# clk=0,rst=1,data_in=  9,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  40
+# clk=1,rst=1,data_in=  9,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  45
+# clk=0,rst=1,data_in= 99,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  50
+# clk=1,rst=1,data_in= 99,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  55
+# clk=0,rst=1,data_in= 13,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  60
+# clk=1,rst=1,data_in= 13,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  65
+# clk=0,rst=1,data_in=141,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  70
+# clk=1,rst=1,data_in=141,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  75
+# clk=0,rst=1,data_in=101,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  80
+# clk=1,rst=1,data_in=101,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  85
+# clk=0,rst=1,data_in= 18,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  90
+# clk=1,rst=1,data_in= 18,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  95
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 100
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 105
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 110
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 115
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 120
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 125
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 130
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 135
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 140
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 145
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 150
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 155
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 160
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 165
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 170
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 175
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 180
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 185
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 190
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 195
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 200
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 205
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 210
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 215
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 220
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 225
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 230
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 235
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 240
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 245
+vlog FC.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:03:44 on Oct 12,2025
+# vlog -reportprogress 300 FC.v "+acc" 
+# -- Compiling module FC
+# -- Compiling module FC_tb
+# 
+# Top level modules:
+# 	FC_tb
+# End time: 21:03:44 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim FC_tb
+# End time: 21:03:47 on Oct 12,2025, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 0
+# vsim FC_tb 
+# Start time: 21:03:47 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.FC_tb(fast)
+# Loading work.FC(fast)
+add wave *
+run 250ns
+# clk=0,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=x,full=x,Time=                   0
+# clk=1,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=x,full=x,Time=                   5
+# clk=0,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=x,full=x,Time=                  10
+# clk=1,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=x,full=x,Time=                  15
+# clk=0,rst=1,data_in= 36,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  20
+# clk=1,rst=1,data_in= 36,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  25
+# clk=0,rst=1,data_in=129,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  30
+# clk=1,rst=1,data_in=129,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  35
+# clk=0,rst=1,data_in=  9,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  40
+# clk=1,rst=1,data_in=  9,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  45
+# clk=0,rst=1,data_in= 99,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  50
+# clk=1,rst=1,data_in= 99,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  55
+# clk=0,rst=1,data_in= 13,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  60
+# clk=1,rst=1,data_in= 13,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  65
+# clk=0,rst=1,data_in=141,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  70
+# clk=1,rst=1,data_in=141,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  75
+# clk=0,rst=1,data_in=101,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  80
+# clk=1,rst=1,data_in=101,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  85
+# clk=0,rst=1,data_in= 18,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  90
+# clk=1,rst=1,data_in= 18,wr=1,rd=0,data_out=  0,empty=x,full=x,Time=                  95
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 100
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 105
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 110
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 115
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 120
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 125
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 130
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 135
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 140
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 145
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 150
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 155
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 160
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 165
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 170
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 175
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 180
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 185
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 190
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 195
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 200
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 205
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 210
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 215
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 220
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 225
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 230
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 235
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 240
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=x,full=x,Time=                 245
+vlog FC.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:09:14 on Oct 12,2025
+# vlog -reportprogress 300 FC.v "+acc" 
+# -- Compiling module FC
+# -- Compiling module FC_tb
+# 
+# Top level modules:
+# 	FC_tb
+# End time: 21:09:14 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim FC_tb
+# End time: 21:09:21 on Oct 12,2025, Elapsed time: 0:05:34
+# Errors: 0, Warnings: 0
+# vsim FC_tb 
+# Start time: 21:09:21 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.FC_tb(fast)
+# Loading work.FC(fast)
+add wave *
+run 250ns
+# clk=0,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=1,full=0,Time=                   0
+# clk=1,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=1,full=0,Time=                   5
+# clk=0,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=1,full=0,Time=                  10
+# clk=1,rst=0,data_in=  x,wr=x,rd=x,data_out=  0,empty=1,full=0,Time=                  15
+# clk=0,rst=1,data_in= 36,wr=1,rd=0,data_out=  0,empty=1,full=0,Time=                  20
+# clk=1,rst=1,data_in= 36,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  25
+# clk=0,rst=1,data_in=129,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  30
+# clk=1,rst=1,data_in=129,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  35
+# clk=0,rst=1,data_in=  9,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  40
+# clk=1,rst=1,data_in=  9,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  45
+# clk=0,rst=1,data_in= 99,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  50
+# clk=1,rst=1,data_in= 99,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  55
+# clk=0,rst=1,data_in= 13,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  60
+# clk=1,rst=1,data_in= 13,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  65
+# clk=0,rst=1,data_in=141,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  70
+# clk=1,rst=1,data_in=141,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  75
+# clk=0,rst=1,data_in=101,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  80
+# clk=1,rst=1,data_in=101,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  85
+# clk=0,rst=1,data_in= 18,wr=1,rd=0,data_out=  0,empty=0,full=0,Time=                  90
+# clk=1,rst=1,data_in= 18,wr=1,rd=0,data_out=  0,empty=0,full=1,Time=                  95
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  0,empty=0,full=1,Time=                 100
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out= 36,empty=0,full=0,Time=                 105
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out= 36,empty=0,full=0,Time=                 110
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=129,empty=0,full=0,Time=                 115
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=129,empty=0,full=0,Time=                 120
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=  9,empty=0,full=0,Time=                 125
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=  9,empty=0,full=0,Time=                 130
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out= 99,empty=0,full=0,Time=                 135
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out= 99,empty=0,full=0,Time=                 140
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out= 13,empty=0,full=0,Time=                 145
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out= 13,empty=0,full=0,Time=                 150
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=141,empty=0,full=0,Time=                 155
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=141,empty=0,full=0,Time=                 160
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out=101,empty=0,full=0,Time=                 165
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out=101,empty=0,full=0,Time=                 170
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 175
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 180
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 185
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 190
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 195
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 200
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 205
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 210
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 215
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 220
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 225
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 230
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 235
+# clk=0,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 240
+# clk=1,rst=1,data_in= 18,wr=0,rd=1,data_out= 18,empty=1,full=0,Time=                 245
+quit -sim
+# End time: 21:12:41 on Oct 12,2025, Elapsed time: 0:03:20
+# Errors: 0, Warnings: 0

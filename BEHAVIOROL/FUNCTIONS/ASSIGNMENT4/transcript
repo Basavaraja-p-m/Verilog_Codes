@@ -1,0 +1,413 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# ASS4A.v  RCA.v  RCAF.v  run.do  transcript        
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:24:11 on Sep 14,2025
+# vlog -reportprogress 300 ASS4A_tb.v "+acc" 
+# ** Error: (vlog-7) Failed to open design unit file "ASS4A_tb.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 12:24:11 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog ASS4A_tb.v +acc"
+ls
+# ASS4A.v  RCA.v  RCAF.v  run.do  transcript  work      
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:25:21 on Sep 14,2025
+# vlog -reportprogress 300 ASS4A_tb.v "+acc" 
+# ** Error: (vlog-7) Failed to open design unit file "ASS4A_tb.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 12:25:21 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog ASS4A_tb.v +acc"
+vlog ASS4A_tb.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:25:49 on Sep 14,2025
+# vlog -reportprogress 300 ASS4A_tb.v "+acc" 
+# ** Error: (vlog-7) Failed to open design unit file "ASS4A_tb.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 12:25:49 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:28:35 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# ** Error: ASS4_tb.v(25): (vlog-13161) unexpected '$monitor'
+# ** Error: (vlog-13069) ASS4_tb.v(26): near "#": syntax error, unexpected '#'.
+# ** Error: ASS4_tb.v(27): (vlog-13161) unexpected '$monitor'
+# ** Error: (vlog-13069) ASS4_tb.v(33): near "else": syntax error, unexpected else.
+# End time: 12:28:35 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog ASS4_tb.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:30:09 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# ** Error: ASS4_tb.v(25): (vlog-13161) unexpected '$display'
+# ** Error: (vlog-13069) ASS4_tb.v(26): near "#": syntax error, unexpected '#'.
+# ** Error: ASS4_tb.v(27): (vlog-13161) unexpected '$display'
+# ** Error: (vlog-13069) ASS4_tb.v(32): near "else": syntax error, unexpected else.
+# End time: 12:30:09 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog ASS4_tb.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:31:39 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# ** Error: (vlog-13069) ASS4_tb.v(27): near "#": syntax error, unexpected '#'.
+# ** Error: ASS4_tb.v(28): (vlog-13161) unexpected '$monitor'
+# End time: 12:31:39 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog ASS4_tb.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:32:27 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# 
+# Top level modules:
+# 	RCAF_tb
+# 	RCA_tb
+# 	ASS4_tb
+# End time: 12:32:27 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim ASS4_tb 
+# Start time: 12:32:27 on Sep 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.ASS4_tb(fast)
+# Loading work.RCAF(fast)
+# Loading work.RCA(fast)
+# ** Error: wrong number of args for "add wave".
+# Usage: add wave [-allowconstants] [-clampanalog {0|1}] [-color <standard_color_name>] [-depth <level>] [-divider <divider_name>...] [-expand <signal_name>] [-filter <f> | -nofilter <f>] [-format <type> | -<format>] [-group <group_name> [<sig_name1>...]] [-height <pixels>] [[-in] [-out] [-inout] | [-ports]] [-internal] [-label <name>] [-max <real_num>] [-min <real_num>] [-mvcall] [-mvcovm] [-mvcreccomplete] [-noupdate] [-numdynitem <int>] [-optcells] [-position <location>] [-queueends] [-radix <type> | -<radix_type>] [-radixenumnumeric | -radixenumsymbolic] [-recursive] [-startdynitem <int>] [-time] [-window <wname>] [<object_name>...] [{<object_name> {sig1 sig2 ...}}] 
+# Error in macro ./run.do line 3
+# wrong number of args for "add wave".
+# Usage: add wave [-allowconstants] [-clampanalog {0|1}] [-color <standard_color_name>] [-depth <level>] [-divider <divider_name>...] [-expand <signal_name>] [-filter <f> | -nofilter <f>] [-format <type> | -<format>] [-group <group_name> [<sig_name1>...]] [-height <pixels>] [[-in] [-out] [-inout] | [-ports]] [-internal] [-label <name>] [-max <real_num>] [-min <real_num>] [-mvcall] [-mvcovm] [-mvcreccomplete] [-noupdate] [-numdynitem <int>] [-optcells] [-position <location>] [-queueends] [-radix <type> | -<radix_type>] [-radixenumnumeric | -radixenumsymbolic] [-recursive] [-startdynitem <int>] [-time] [-window <wname>] [<object_name>...] [{<object_name> {sig1 sig2 ...}}] 
+#     while executing
+# "add wave "
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:33:28 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# 
+# Top level modules:
+# 	RCAF_tb
+# 	RCA_tb
+# 	ASS4_tb
+# End time: 12:33:28 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:33:29 on Sep 14,2025, Elapsed time: 0:01:02
+# Errors: 3, Warnings: 0
+# vsim ASS4_tb 
+# Start time: 12:33:29 on Sep 14,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.ASS4_tb(fast)
+# Loading work.RCAF(fast)
+# Loading work.RCA(fast)
+# a=0011 b=0001 cin=1 sum=0101 carry=0
+# da=0011 db=0001 dcin=1 dsum=0101 dcarry=0
+# RCA IS MATCHED
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:34:13 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# 
+# Top level modules:
+# 	RCAF_tb
+# 	RCA_tb
+# 	ASS4_tb
+# End time: 12:34:13 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:34:14 on Sep 14,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0
+# vsim ASS4_tb 
+# Start time: 12:34:14 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ASS4_tb(fast)
+# Loading work.RCAF(fast)
+# Loading work.RCA(fast)
+# a=0001 b=0001 cin=1 sum=0011 carry=0
+# da=0011 db=0001 dcin=1 dsum=0101 dcarry=0
+# RCA IS NOT MATCHED
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:34:38 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# 
+# Top level modules:
+# 	RCAF_tb
+# 	RCA_tb
+# 	ASS4_tb
+# End time: 12:34:38 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:34:39 on Sep 14,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# vsim ASS4_tb 
+# Start time: 12:34:39 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ASS4_tb(fast)
+# Loading work.RCAF(fast)
+# Loading work.RCA(fast)
+# a=0011 b=0001 cin=1 sum=0101 carry=0
+# da=0011 db=0001 dcin=1 dsum=0101 dcarry=0
+# RCA IS MATCHED
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:35:10 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# 
+# Top level modules:
+# 	RCAF_tb
+# 	RCA_tb
+# 	ASS4_tb
+# End time: 12:35:10 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:35:11 on Sep 14,2025, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# vsim ASS4_tb 
+# Start time: 12:35:11 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ASS4_tb(fast)
+# Loading work.RCAF(fast)
+# Loading work.RCA(fast)
+# a=0011 b=0001 cin=1 sum=xxxx carry=x
+# da=0011 db=0001 dcin=1 dsum=0101 dcarry=0
+# RCA IS MATCHED
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:35:51 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# 
+# Top level modules:
+# 	RCAF_tb
+# 	RCA_tb
+# 	ASS4_tb
+# End time: 12:35:51 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:35:52 on Sep 14,2025, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+# vsim ASS4_tb 
+# Start time: 12:35:52 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ASS4_tb(fast)
+# Loading work.RCAF(fast)
+# Loading work.RCA(fast)
+# RCA IS NOT MATCHED
+# a=0011 b=0001 cin=1 sum=xxxx carry=x
+# da=0011 db=0001 dcin=1 dsum=0101 dcarry=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:36:27 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# 
+# Top level modules:
+# 	RCAF_tb
+# 	RCA_tb
+# 	ASS4_tb
+# End time: 12:36:27 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:36:28 on Sep 14,2025, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 0
+# vsim ASS4_tb 
+# Start time: 12:36:28 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ASS4_tb(fast)
+# Loading work.RCAF(fast)
+# Loading work.RCA(fast)
+# a=0011 b=0001 cin=1 sum=0101 carry=0
+# da=0011 db=0001 dcin=1 dsum=0101 dcarry=0
+# RCA IS MATCHED
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:39:50 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# 
+# Top level modules:
+# 	RCAF_tb
+# 	RCA_tb
+# 	ASS4_tb
+# End time: 12:39:50 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:39:51 on Sep 14,2025, Elapsed time: 0:03:23
+# Errors: 0, Warnings: 0
+# vsim ASS4_tb 
+# Start time: 12:39:51 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ASS4_tb(fast)
+# Loading work.RCAF(fast)
+# Loading work.RCA(fast)
+# a=0011 b=0001 cin=1 sum=0101 carry=0
+# RCA IS MATCHED
+# da=0011 db=0001 dcin=1 dsum=0101 dcarry=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:41:02 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# 
+# Top level modules:
+# 	RCAF_tb
+# 	RCA_tb
+# 	ASS4_tb
+# End time: 12:41:02 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:41:03 on Sep 14,2025, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 0
+# vsim ASS4_tb 
+# Start time: 12:41:03 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ASS4_tb(fast)
+# Loading work.RCAF(fast)
+# Loading work.RCA(fast)
+# a=0011 b=0001 cin=1 sum=0101 carry=0
+# da=0011 db=0001 dcin=1 dsum=0101 dcarry=0
+# RCA IS MATCHED
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:43:03 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# 
+# Top level modules:
+# 	RCAF_tb
+# 	RCA_tb
+# 	ASS4_tb
+# End time: 12:43:03 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:43:05 on Sep 14,2025, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 0
+# vsim ASS4_tb 
+# Start time: 12:43:05 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ASS4_tb(fast)
+# Loading work.RCAF(fast)
+# Loading work.RCA(fast)
+# a=0011 b=0001 cin=1 sum=0101 carry=0 Time=                   0
+# da=0011 db=0001 dcin=1 dsum=0101 dcarry=0 Time=                  10
+# RCA IS MATCHED
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:44:39 on Sep 14,2025
+# vlog -reportprogress 300 ASS4_tb.v "+acc" 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# -- Compiling module ASS4_tb
+# 
+# Top level modules:
+# 	RCAF_tb
+# 	RCA_tb
+# 	ASS4_tb
+# End time: 12:44:39 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:44:40 on Sep 14,2025, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 0
+# vsim ASS4_tb 
+# Start time: 12:44:41 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ASS4_tb(fast)
+# Loading work.RCAF(fast)
+# Loading work.RCA(fast)
+# a=0011 b=0001 cin=1 sum=0101 carry=0
+# da=0011 db=0001 dcin=1 dsum=0101 dcarry=0
+# RCA IS MATCHED
+quit -sim
+# End time: 13:01:13 on Sep 14,2025, Elapsed time: 0:16:32
+# Errors: 0, Warnings: 0

@@ -1,0 +1,50 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compq
+r 2018.08 Aug 18 2018
+# Start time: 11:06:57 on Dec 30,2025
+# vlog -reportprogress 300 FA.v "+acc" 
+# -- Compiling module FA
+# -- Compiling module FA_tb
+# 
+# Top level modules:
+# 	FA_tb
+# End time: 11:06:57 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim FA 
+# Start time: 11:06:58 on Dec 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.FA(fast)
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:07:19 on Dec 30,2025
+# vlog -reportprogress 300 FA.v "+acc" 
+# -- Compiling module FA
+# -- Compiling module FA_tb
+# 
+# Top level modules:
+# 	FA_tb
+# End time: 11:07:19 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:07:20 on Dec 30,2025, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim FA 
+# Start time: 11:07:20 on Dec 30,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.FA(fast)
+q
+# End time: 11:07:31 on Dec 30,2025, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0

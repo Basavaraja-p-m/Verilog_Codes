@@ -1,0 +1,133 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# TFF.v  TL.v  transcript            
+vlog TFF.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:46:12 on Sep 10,2025
+# vlog -reportprogress 300 TFF.v "+acc" 
+# -- Compiling module TFF
+# -- Compiling module TFF_tb
+# 
+# Top level modules:
+# 	TFF_tb
+# End time: 19:46:13 on Sep 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim TFF_tb
+# vsim TFF_tb 
+# Start time: 19:46:23 on Sep 10,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: TFF.v(7): Module 'TL' is not defined.
+# ** Error: TFF.v(8): Module 'TL' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 19:46:23 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:47:59 on Sep 10,2025
+# vlog -reportprogress 300 TFF.v "+acc" 
+# -- Compiling module TL
+# -- Compiling module TL_tb
+# -- Compiling module TFF
+# -- Compiling module TFF_tb
+# 
+# Top level modules:
+# 	TL_tb
+# 	TFF_tb
+# End time: 19:47:59 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TFF_tb 
+# Start time: 19:47:59 on Sep 10,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.TFF_tb(fast)
+# Loading work.TFF(fast)
+# Loading work.TL(fast)
+# clk=0 d=x Q=0 Qbar=1 rst=0 Time=                   0
+# clk=0 d=x Q=0 Qbar=1 rst=1 Time=                   5
+# clk=0 d=0 Q=0 Qbar=1 rst=1 Time=                   8
+# clk=1 d=0 Q=1 Qbar=0 rst=1 Time=                  10
+# clk=0 d=0 Q=1 Qbar=0 rst=1 Time=                  20
+# clk=0 d=1 Q=1 Qbar=0 rst=1 Time=                  21
+# clk=1 d=1 Q=1 Qbar=0 rst=1 Time=                  30
+# clk=0 d=1 Q=1 Qbar=0 rst=1 Time=                  40
+# clk=1 d=1 Q=0 Qbar=1 rst=1 Time=                  50
+# clk=0 d=1 Q=0 Qbar=1 rst=1 Time=                  60
+# clk=1 d=1 Q=0 Qbar=1 rst=1 Time=                  70
+# clk=0 d=1 Q=0 Qbar=1 rst=1 Time=                  80
+# clk=1 d=1 Q=1 Qbar=0 rst=1 Time=                  90
+# clk=1 d=0 Q=1 Qbar=0 rst=1 Time=                  99
+# ** Note: $stop    : TFF.v(36)
+#    Time: 100 ns  Iteration: 0  Instance: /TFF_tb
+# Break in Module TFF_tb at TFF.v line 36
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:51:15 on Sep 10,2025
+# vlog -reportprogress 300 TFF.v "+acc" 
+# -- Compiling module TL
+# -- Compiling module TL_tb
+# -- Compiling module TFF
+# -- Compiling module TFF_tb
+# ** Error: TFF.v(32): (vlog-2730) Undefined variable: 'd'.
+# End time: 19:51:15 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog TFF.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:52:01 on Sep 10,2025
+# vlog -reportprogress 300 TFF.v "+acc" 
+# -- Compiling module TL
+# -- Compiling module TL_tb
+# -- Compiling module TFF
+# -- Compiling module TFF_tb
+# 
+# Top level modules:
+# 	TL_tb
+# 	TFF_tb
+# End time: 19:52:01 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:52:03 on Sep 10,2025, Elapsed time: 0:04:04
+# Errors: 4, Warnings: 0
+# vsim TFF_tb 
+# Start time: 19:52:03 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TFF_tb(fast)
+# Loading work.TFF(fast)
+# Loading work.TL(fast)
+# clk=0 t=x Q=0 Qbar=1 rst=0 Time=                   0
+# clk=0 t=x Q=0 Qbar=1 rst=1 Time=                   5
+# clk=0 t=0 Q=0 Qbar=1 rst=1 Time=                   8
+# clk=1 t=0 Q=1 Qbar=0 rst=1 Time=                  10
+# clk=0 t=0 Q=1 Qbar=0 rst=1 Time=                  20
+# clk=0 t=1 Q=1 Qbar=0 rst=1 Time=                  21
+# clk=1 t=1 Q=1 Qbar=0 rst=1 Time=                  30
+# clk=0 t=1 Q=1 Qbar=0 rst=1 Time=                  40
+# clk=1 t=1 Q=0 Qbar=1 rst=1 Time=                  50
+# clk=0 t=1 Q=0 Qbar=1 rst=1 Time=                  60
+# clk=1 t=1 Q=0 Qbar=1 rst=1 Time=                  70
+# clk=0 t=1 Q=0 Qbar=1 rst=1 Time=                  80
+# clk=1 t=1 Q=1 Qbar=0 rst=1 Time=                  90
+# clk=1 t=0 Q=1 Qbar=0 rst=1 Time=                  99
+# ** Note: $stop    : TFF.v(36)
+#    Time: 100 ns  Iteration: 0  Instance: /TFF_tb
+# Break in Module TFF_tb at TFF.v line 36
+# Causality operation skipped due to absence of debug database file
+quit -sim
+# End time: 19:58:46 on Sep 10,2025, Elapsed time: 0:06:43
+# Errors: 0, Warnings: 1

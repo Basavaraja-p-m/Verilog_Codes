@@ -1,0 +1,73 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:23:10 on Sep 20,2025
+# vlog -reportprogress 300 PRAM.v "+acc" 
+# -- Compiling module PRAM
+# -- Compiling module PRAM_tb
+# 
+# Top level modules:
+# 	PRAM_tb
+# End time: 20:23:10 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim PRAM_tb 
+# Start time: 20:23:10 on Sep 20,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.PRAM_tb(fast)
+# Loading work.PRAM(fast)
+# clk=0 rst=0 data_in=    x addr=  x wr_rd=x data_out=    x Time=                   0
+# clk=1 rst=0 data_in=    x addr=  x wr_rd=x data_out=    x Time=                   5
+# clk=0 rst=0 data_in=    x addr=  x wr_rd=x data_out=    x Time=                  10
+# clk=1 rst=0 data_in=    x addr=  x wr_rd=x data_out=    x Time=                  15
+# clk=0 rst=1 data_in=13604 addr= 12 wr_rd=1 data_out=    x Time=                  20
+# clk=1 rst=1 data_in=13604 addr= 12 wr_rd=1 data_out=    0 Time=                  25
+# clk=0 rst=1 data_in=13604 addr= 12 wr_rd=0 data_out=    0 Time=                  30
+# clk=1 rst=1 data_in=13604 addr= 12 wr_rd=0 data_out=13604 Time=                  35
+# ** Note: $stop    : PRAM.v(95)
+#    Time: 40 ns  Iteration: 1  Instance: /PRAM_tb
+# Break in Module PRAM_tb at PRAM.v line 95
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:24:45 on Sep 20,2025
+# vlog -reportprogress 300 PRAM.v "+acc" 
+# -- Compiling module PRAM
+# -- Compiling module PRAM_tb
+# 
+# Top level modules:
+# 	PRAM_tb
+# End time: 20:24:45 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:24:50 on Sep 20,2025, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 0
+# vsim PRAM_tb 
+# Start time: 20:24:50 on Sep 20,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.PRAM_tb(fast)
+# Loading work.PRAM(fast)
+# clk=0 rst=0 data_in=  x addr= x wr_rd=x data_out=  x Time=                   0
+# clk=1 rst=0 data_in=  x addr= x wr_rd=x data_out=  x Time=                   5
+# clk=0 rst=0 data_in=  x addr= x wr_rd=x data_out=  x Time=                  10
+# clk=1 rst=0 data_in=  x addr= x wr_rd=x data_out=  x Time=                  15
+# clk=0 rst=1 data_in= 36 addr=12 wr_rd=1 data_out=  x Time=                  20
+# clk=1 rst=1 data_in= 36 addr=12 wr_rd=1 data_out=  0 Time=                  25
+# clk=0 rst=1 data_in= 36 addr=12 wr_rd=0 data_out=  0 Time=                  30
+# clk=1 rst=1 data_in= 36 addr=12 wr_rd=0 data_out= 36 Time=                  35
+# ** Note: $stop    : PRAM.v(95)
+#    Time: 40 ns  Iteration: 1  Instance: /PRAM_tb
+# Break in Module PRAM_tb at PRAM.v line 95
+quit -sim
+# End time: 20:25:20 on Sep 20,2025, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0

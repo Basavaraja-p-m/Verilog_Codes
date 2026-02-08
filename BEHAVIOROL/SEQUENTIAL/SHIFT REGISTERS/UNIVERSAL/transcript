@@ -1,0 +1,823 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:28:56 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# ** Error: (vlog-13069) UNIVERSOL.v(15): near "else": syntax error, unexpected else.
+# ** Error: (vlog-13069) UNIVERSOL.v(27): near "2": syntax error, unexpected INTEGER NUMBER.
+# ** Error: (vlog-13069) UNIVERSOL.v(35): near "3": syntax error, unexpected INTEGER NUMBER.
+# ** Error (suppressible): UNIVERSOL.v(42): (vlog-2388) 'clk' already declared in this scope (UNIVERSOL).
+# ** Error (suppressible): UNIVERSOL.v(42): (vlog-2388) 'rst' already declared in this scope (UNIVERSOL).
+# ** Error (suppressible): UNIVERSOL.v(43): (vlog-2388) 'opcode' already declared in this scope (UNIVERSOL).
+# ** Error (suppressible): UNIVERSOL.v(44): (vlog-2388) 'in' already declared in this scope (UNIVERSOL).
+# ** Error (suppressible): UNIVERSOL.v(45): (vlog-2388) 'out' already declared in this scope (UNIVERSOL).
+# ** Error: (vlog-13069) UNIVERSOL.v(57): near "#": syntax error, unexpected '#', expecting ';'.
+# End time: 19:28:56 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog UNIVERSOL.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:31:49 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# ** Error: UNIVERSOL.v(13): (vlog-2110) Illegal reference to net "out".
+# ** Error: UNIVERSOL.v(19): (vlog-2110) Illegal reference to net "out".
+# ** Error: UNIVERSOL.v(21): (vlog-2110) Illegal reference to net "out".
+# ** Error: UNIVERSOL.v(29): (vlog-2110) Illegal reference to net "out".
+# ** Error: UNIVERSOL.v(36): (vlog-2110) Illegal reference to net "out".
+# -- Compiling module UNIVERSOL_tb
+# ** Error: (vlog-13069) UNIVERSOL.v(59): near "#": syntax error, unexpected '#', expecting ';'.
+# End time: 19:31:49 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog UNIVERSOL.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:32:08 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# -- Compiling module UNIVERSOL_tb
+# ** Error: (vlog-13069) UNIVERSOL.v(59): near "#": syntax error, unexpected '#', expecting ';'.
+# End time: 19:32:08 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog UNIVERSOL.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:32:26 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# -- Compiling module UNIVERSOL_tb
+# ** Error: (vlog-13069) UNIVERSOL.v(61): near "initial": syntax error, unexpected initial.
+# End time: 19:32:26 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog UNIVERSOL.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:32:56 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# -- Compiling module UNIVERSOL_tb
+# 
+# Top level modules:
+# 	UNIVERSOL_tb
+# End time: 19:32:56 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim UNIVERSOL_tb 
+# Start time: 19:32:56 on Sep 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.UNIVERSOL_tb(fast)
+# Loading work.UNIVERSOL(fast)
+# clk=0 rst=0 opcode=00 in=1011 out=0000 time=                   0
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  10
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  20
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  30
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  40
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  50
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  60
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  70
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  80
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  90
+# clk=0 rst=1 opcode=01 in=1011 out=0000 time=                 100
+# clk=1 rst=1 opcode=01 in=1011 out=0000 time=                 110
+# clk=0 rst=1 opcode=01 in=1011 out=0000 time=                 120
+# clk=1 rst=1 opcode=01 in=1011 out=0000 time=                 130
+# clk=0 rst=1 opcode=01 in=1011 out=0000 time=                 140
+# clk=1 rst=1 opcode=01 in=1011 out=0000 time=                 150
+# clk=0 rst=1 opcode=01 in=1011 out=0000 time=                 160
+# clk=1 rst=1 opcode=01 in=1011 out=0000 time=                 170
+# clk=0 rst=1 opcode=01 in=1011 out=0000 time=                 180
+# clk=1 rst=1 opcode=01 in=1011 out=0001 time=                 190
+# clk=0 rst=1 opcode=10 in=1011 out=0001 time=                 200
+# clk=1 rst=1 opcode=10 in=1011 out=0001 time=                 210
+# clk=0 rst=1 opcode=10 in=1011 out=0001 time=                 220
+# clk=1 rst=1 opcode=10 in=1011 out=0001 time=                 230
+# clk=0 rst=1 opcode=10 in=1011 out=0001 time=                 240
+# clk=1 rst=1 opcode=10 in=1011 out=0001 time=                 250
+# clk=0 rst=1 opcode=10 in=1011 out=0001 time=                 260
+# clk=1 rst=1 opcode=10 in=1011 out=0001 time=                 270
+# clk=0 rst=1 opcode=10 in=1011 out=0001 time=                 280
+# clk=1 rst=1 opcode=10 in=1011 out=0001 time=                 290
+# clk=0 rst=1 opcode=11 in=1011 out=0001 time=                 300
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 310
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 320
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 330
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 340
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 350
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 360
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 370
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 380
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 390
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 400
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 410
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 420
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 430
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 440
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 450
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 460
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 470
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 480
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 490
+# ** Note: $stop    : UNIVERSOL.v(76)
+#    Time: 500 ns  Iteration: 0  Instance: /UNIVERSOL_tb
+# Break in Module UNIVERSOL_tb at UNIVERSOL.v line 76
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:44:05 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# -- Compiling module UNIVERSOL_tb
+# ** Error: (vlog-13069) UNIVERSOL.v(65): near "#": syntax error, unexpected '#', expecting ';'.
+# End time: 19:44:05 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog UNIVERSOL.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:44:26 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# -- Compiling module UNIVERSOL_tb
+# 
+# Top level modules:
+# 	UNIVERSOL_tb
+# End time: 19:44:26 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:44:28 on Sep 17,2025, Elapsed time: 0:11:32
+# Errors: 4, Warnings: 0
+# vsim UNIVERSOL_tb 
+# Start time: 19:44:28 on Sep 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.UNIVERSOL_tb(fast)
+# Loading work.UNIVERSOL(fast)
+# clk=0 rst=0 opcode=00 in=1011 out=0000 time=                   0
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  10
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  20
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  30
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  40
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                  50
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                  60
+# clk=0 rst=1 opcode=01 in=0000 out=0000 time=                  65
+# clk=1 rst=1 opcode=01 in=0000 out=0000 time=                  70
+# clk=0 rst=1 opcode=01 in=0000 out=0000 time=                  80
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                  90
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                 100
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                 110
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                 120
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 130
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 140
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                 150
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                 160
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 170
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 180
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 190
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 200
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 210
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 220
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 230
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 240
+# clk=0 rst=1 opcode=10 in=0000 out=0001 time=                 245
+# clk=1 rst=1 opcode=10 in=0000 out=0001 time=                 250
+# clk=0 rst=1 opcode=10 in=0000 out=0001 time=                 260
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 265
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 270
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 280
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 290
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 300
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 310
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 320
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                 330
+# clk=0 rst=1 opcode=10 in=0001 out=0000 time=                 340
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 350
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 360
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 370
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 380
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 390
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 400
+# clk=0 rst=1 opcode=11 in=1011 out=0001 time=                 405
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 410
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 420
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 430
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 440
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 450
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 460
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 470
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 480
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 490
+# ** Note: $stop    : UNIVERSOL.v(82)
+#    Time: 500 ns  Iteration: 0  Instance: /UNIVERSOL_tb
+# Break in Module UNIVERSOL_tb at UNIVERSOL.v line 82
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:46:51 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# -- Compiling module UNIVERSOL_tb
+# 
+# Top level modules:
+# 	UNIVERSOL_tb
+# End time: 19:46:51 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:46:56 on Sep 17,2025, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 0
+# vsim UNIVERSOL_tb 
+# Start time: 19:46:56 on Sep 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.UNIVERSOL_tb(fast)
+# Loading work.UNIVERSOL(fast)
+# clk=0 rst=0 opcode=00 in=1011 out=0000 time=                   0
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  10
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  20
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  30
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  40
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                  50
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                  60
+# clk=0 rst=1 opcode=01 in=0000 out=0000 time=                  65
+# clk=1 rst=1 opcode=01 in=0000 out=0000 time=                  70
+# clk=0 rst=1 opcode=01 in=0000 out=0000 time=                  80
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                  90
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                 100
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                 110
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                 120
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 130
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 140
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                 150
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                 160
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 170
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 180
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 190
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 200
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 210
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 220
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 230
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 240
+# clk=1 rst=1 opcode=10 in=0000 out=0001 time=                 250
+# clk=0 rst=1 opcode=10 in=0000 out=0001 time=                 260
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 270
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 280
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 290
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 300
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 310
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 320
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                 330
+# clk=0 rst=1 opcode=10 in=0001 out=0000 time=                 340
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 350
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 360
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 370
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 380
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 390
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 400
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 410
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 420
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 430
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 440
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 450
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 460
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 470
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 480
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 490
+# ** Note: $stop    : UNIVERSOL.v(83)
+#    Time: 500 ns  Iteration: 0  Instance: /UNIVERSOL_tb
+# Break in Module UNIVERSOL_tb at UNIVERSOL.v line 83
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:47:50 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# -- Compiling module UNIVERSOL_tb
+# 
+# Top level modules:
+# 	UNIVERSOL_tb
+# End time: 19:47:50 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:47:53 on Sep 17,2025, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim UNIVERSOL_tb 
+# Start time: 19:47:53 on Sep 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.UNIVERSOL_tb(fast)
+# Loading work.UNIVERSOL(fast)
+# clk=0 rst=0 opcode=00 in=1011 out=0000 time=                   0
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  10
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  20
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  30
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  40
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                  50
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                  60
+# clk=0 rst=1 opcode=01 in=0000 out=0000 time=                  65
+# clk=1 rst=1 opcode=01 in=0000 out=0000 time=                  70
+# clk=0 rst=1 opcode=01 in=0000 out=0000 time=                  80
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                  90
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                 100
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                 110
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                 120
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 130
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 140
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                 150
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                 160
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 170
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 180
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 190
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 200
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 210
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 220
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 230
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 240
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 250
+# clk=0 rst=1 opcode=10 in=0000 out=0001 time=                 260
+# clk=1 rst=1 opcode=10 in=0000 out=0001 time=                 270
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 280
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 290
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 300
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 310
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 320
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 330
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 340
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                 350
+# clk=0 rst=1 opcode=10 in=0001 out=0000 time=                 360
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 370
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 380
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 390
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 400
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 410
+# clk=0 rst=1 opcode=11 in=1011 out=0001 time=                 420
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 430
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 440
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 450
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 460
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 470
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 480
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 490
+# ** Note: $stop    : UNIVERSOL.v(83)
+#    Time: 500 ns  Iteration: 0  Instance: /UNIVERSOL_tb
+# Break in Module UNIVERSOL_tb at UNIVERSOL.v line 83
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:49:33 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# -- Compiling module UNIVERSOL_tb
+# 
+# Top level modules:
+# 	UNIVERSOL_tb
+# End time: 19:49:33 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:49:36 on Sep 17,2025, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 0
+# vsim UNIVERSOL_tb 
+# Start time: 19:49:36 on Sep 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.UNIVERSOL_tb(fast)
+# Loading work.UNIVERSOL(fast)
+# clk=0 rst=0 opcode=00 in=1011 out=0000 time=                   0
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  10
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  20
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  30
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  40
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  50
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  60
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  70
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  80
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  90
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 100
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 110
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 120
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 130
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 140
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 150
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 160
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 170
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 180
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 190
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 200
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 210
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 220
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 230
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 240
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 250
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 260
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 270
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 280
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 290
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 300
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 310
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 320
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 330
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 340
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 350
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 360
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 370
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 380
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 390
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 400
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 410
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 420
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 430
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 440
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 450
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 460
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 470
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                 480
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                 490
+# ** Note: $stop    : UNIVERSOL.v(84)
+#    Time: 500 ns  Iteration: 0  Instance: /UNIVERSOL_tb
+# Break in Module UNIVERSOL_tb at UNIVERSOL.v line 84
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:50:37 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# -- Compiling module UNIVERSOL_tb
+# 
+# Top level modules:
+# 	UNIVERSOL_tb
+# End time: 19:50:37 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:50:40 on Sep 17,2025, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 0
+# vsim UNIVERSOL_tb 
+# Start time: 19:50:40 on Sep 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.UNIVERSOL_tb(fast)
+# Loading work.UNIVERSOL(fast)
+# clk=0 rst=0 opcode=01 in=0001 out=0000 time=                   0
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                  10
+# clk=1 rst=1 opcode=01 in=0000 out=0000 time=                  15
+# clk=0 rst=1 opcode=01 in=0000 out=0000 time=                  20
+# clk=1 rst=1 opcode=01 in=0000 out=0000 time=                  30
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                  40
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                  50
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                  60
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                  70
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                  80
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                  90
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 100
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                 110
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                 120
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 130
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 140
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 150
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 160
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 170
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 180
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 190
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 200
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 210
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 220
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 230
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 240
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 250
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 260
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 270
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 280
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 290
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 300
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 310
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 320
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 330
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 340
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 350
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 360
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 370
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 380
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 390
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 400
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 410
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 420
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 430
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 440
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 450
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 460
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 470
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 480
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 490
+# ** Note: $stop    : UNIVERSOL.v(84)
+#    Time: 500 ns  Iteration: 0  Instance: /UNIVERSOL_tb
+# Break in Module UNIVERSOL_tb at UNIVERSOL.v line 84
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:52:14 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# -- Compiling module UNIVERSOL_tb
+# 
+# Top level modules:
+# 	UNIVERSOL_tb
+# End time: 19:52:14 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:52:16 on Sep 17,2025, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 0
+# vsim UNIVERSOL_tb 
+# Start time: 19:52:16 on Sep 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.UNIVERSOL_tb(fast)
+# Loading work.UNIVERSOL(fast)
+# clk=0 rst=0 opcode=10 in=0001 out=0000 time=                   0
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                  10
+# clk=1 rst=1 opcode=10 in=0000 out=0000 time=                  15
+# clk=0 rst=1 opcode=10 in=0000 out=0000 time=                  20
+# clk=1 rst=1 opcode=10 in=0000 out=0000 time=                  30
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                  35
+# clk=0 rst=1 opcode=10 in=0001 out=0000 time=                  40
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                  50
+# clk=0 rst=1 opcode=10 in=0001 out=0000 time=                  60
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                  70
+# clk=0 rst=1 opcode=10 in=0001 out=0000 time=                  80
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                  90
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 100
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                 110
+# clk=0 rst=1 opcode=10 in=0001 out=0000 time=                 120
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 130
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 140
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 150
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 160
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 170
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 180
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 190
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 200
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 210
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 220
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 230
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 240
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 250
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 260
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 270
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 280
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 290
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 300
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 310
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 320
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 330
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 340
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 350
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 360
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 370
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 380
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 390
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 400
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 410
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 420
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 430
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 440
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 450
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 460
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 470
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 480
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 490
+# ** Note: $stop    : UNIVERSOL.v(83)
+#    Time: 500 ns  Iteration: 0  Instance: /UNIVERSOL_tb
+# Break in Module UNIVERSOL_tb at UNIVERSOL.v line 83
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:52:55 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# -- Compiling module UNIVERSOL_tb
+# 
+# Top level modules:
+# 	UNIVERSOL_tb
+# End time: 19:52:55 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:52:58 on Sep 17,2025, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
+# vsim UNIVERSOL_tb 
+# Start time: 19:52:58 on Sep 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.UNIVERSOL_tb(fast)
+# Loading work.UNIVERSOL(fast)
+# clk=0 rst=0 opcode=10 in=0001 out=0000 time=                   0
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                  10
+# clk=1 rst=1 opcode=10 in=0000 out=0000 time=                  15
+# clk=0 rst=1 opcode=10 in=0000 out=0000 time=                  20
+# clk=1 rst=1 opcode=10 in=0000 out=0000 time=                  30
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                  35
+# clk=0 rst=1 opcode=10 in=0001 out=0000 time=                  40
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                  50
+# clk=0 rst=1 opcode=10 in=0001 out=0000 time=                  60
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                  70
+# clk=0 rst=1 opcode=10 in=0001 out=0000 time=                  80
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                  90
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 100
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                 110
+# clk=0 rst=1 opcode=10 in=0001 out=0000 time=                 120
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 130
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 140
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 150
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 160
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 170
+# clk=1 rst=1 opcode=11 in=1011 out=0001 time=                 175
+# clk=0 rst=1 opcode=11 in=1011 out=0001 time=                 180
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 190
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 200
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 210
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 220
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 230
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 240
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 250
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 260
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 270
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 280
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 290
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 300
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 310
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 320
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 330
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 340
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 350
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 360
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 370
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 380
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 390
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 400
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 410
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 420
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 430
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 440
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 450
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 460
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 470
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 480
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 490
+# ** Note: $stop    : UNIVERSOL.v(83)
+#    Time: 500 ns  Iteration: 0  Instance: /UNIVERSOL_tb
+# Break in Module UNIVERSOL_tb at UNIVERSOL.v line 83
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:53:39 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# -- Compiling module UNIVERSOL_tb
+# 
+# Top level modules:
+# 	UNIVERSOL_tb
+# End time: 19:53:40 on Sep 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:53:42 on Sep 17,2025, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+# vsim UNIVERSOL_tb 
+# Start time: 19:53:42 on Sep 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.UNIVERSOL_tb(fast)
+# Loading work.UNIVERSOL(fast)
+# clk=0 rst=0 opcode=11 in=1011 out=0000 time=                   0
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                  10
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                  20
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                  30
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                  40
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                  50
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                  60
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                  70
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                  80
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                  90
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 100
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 110
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 120
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 130
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 140
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 150
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 160
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 170
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 180
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 190
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 200
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 210
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 220
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 230
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 240
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 250
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 260
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 270
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 280
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 290
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 300
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 310
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 320
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 330
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 340
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 350
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 360
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 370
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 380
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 390
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 400
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 410
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 420
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 430
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 440
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 450
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 460
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 470
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 480
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 490
+# ** Note: $stop    : UNIVERSOL.v(83)
+#    Time: 500 ns  Iteration: 0  Instance: /UNIVERSOL_tb
+# Break in Module UNIVERSOL_tb at UNIVERSOL.v line 83
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:55:20 on Sep 17,2025
+# vlog -reportprogress 300 UNIVERSOL.v "+acc" 
+# -- Compiling module UNIVERSOL
+# -- Compiling module UNIVERSOL_tb
+# 
+# Top level modules:
+# 	UNIVERSOL_tb
+# End time: 19:55:20 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:55:23 on Sep 17,2025, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 0
+# vsim UNIVERSOL_tb 
+# Start time: 19:55:23 on Sep 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.UNIVERSOL_tb(fast)
+# Loading work.UNIVERSOL(fast)
+# clk=0 rst=0 opcode=00 in=1011 out=0000 time=                   0
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  10
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  20
+# clk=1 rst=1 opcode=00 in=1011 out=0000 time=                  30
+# clk=0 rst=1 opcode=00 in=1011 out=0000 time=                  40
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                  50
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                  60
+# clk=0 rst=1 opcode=01 in=0000 out=0000 time=                  65
+# clk=1 rst=1 opcode=01 in=0000 out=0000 time=                  70
+# clk=0 rst=1 opcode=01 in=0000 out=0000 time=                  80
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                  90
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                 100
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                 110
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                 120
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 130
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 140
+# clk=1 rst=1 opcode=01 in=0001 out=0000 time=                 150
+# clk=0 rst=1 opcode=01 in=0001 out=0000 time=                 160
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 170
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 180
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 190
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 200
+# clk=1 rst=1 opcode=01 in=0001 out=0001 time=                 210
+# clk=0 rst=1 opcode=01 in=0001 out=0001 time=                 220
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 230
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 240
+# clk=0 rst=1 opcode=10 in=0000 out=0001 time=                 245
+# clk=1 rst=1 opcode=10 in=0000 out=0001 time=                 250
+# clk=0 rst=1 opcode=10 in=0000 out=0001 time=                 260
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 265
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 270
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 280
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 290
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 300
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 310
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 320
+# clk=1 rst=1 opcode=10 in=0001 out=0000 time=                 330
+# clk=0 rst=1 opcode=10 in=0001 out=0000 time=                 340
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 350
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 360
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 370
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 380
+# clk=1 rst=1 opcode=10 in=0001 out=0001 time=                 390
+# clk=0 rst=1 opcode=10 in=0001 out=0001 time=                 400
+# clk=0 rst=1 opcode=11 in=1011 out=0001 time=                 405
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 410
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 420
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 430
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 440
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 450
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 460
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 470
+# clk=0 rst=1 opcode=11 in=1011 out=1011 time=                 480
+# clk=1 rst=1 opcode=11 in=1011 out=1011 time=                 490
+# ** Note: $stop    : UNIVERSOL.v(82)
+#    Time: 500 ns  Iteration: 0  Instance: /UNIVERSOL_tb
+# Break in Module UNIVERSOL_tb at UNIVERSOL.v line 82
+quit -sim
+# End time: 19:56:12 on Sep 17,2025, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0

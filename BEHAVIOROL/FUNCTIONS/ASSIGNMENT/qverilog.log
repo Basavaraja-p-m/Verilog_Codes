@@ -1,0 +1,31 @@
+Start time: 15:06:18 on Sep 12,2025
+qverilog EXAMPLE.v 
+-- Compiling module EXAMPLE
+
+Top level modules:
+	EXAMPLE
+# vsim -lib work work.EXAMPLE -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.EXAMPLE(fast)
+# run -all
+# a=5 b=5 addition=10 Time=0
+# a=25 b=10 subtraction=15 Time=0
+# a=5 b=5 multiply=25 Time=0
+# a=10 b=2 division=5 Time=0
+#  quit -f
+# End time: 15:06:21 on Sep 12,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

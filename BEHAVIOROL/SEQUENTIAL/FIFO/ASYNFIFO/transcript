@@ -1,0 +1,623 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:35:05 on Oct 29,2025
+# vlog -reportprogress 300 ASYNFIFO.v "+acc" 
+# -- Compiling module ASYNFIFO
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 10:35:05 on Oct 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 10:35:05 on Oct 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.ASYNFIFO(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: BASAVARAJ  Hostname: DESKTOP-UFCQR41  ProcessID: 11820
+#           Attempting to use alternate WLF file "./wlftm47nvf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftm47nvf
+# wr_clk=0,rd_clk=0,rst=0,wr=1,rd=0,data_in= 36,data_out=  0,empty=1,full=0,time=0
+# wr_clk=1,rd_clk=0,rst=0,wr=1,rd=0,data_in= 36,data_out=  0,empty=1,full=0,time=5
+# wr_clk=1,rd_clk=1,rst=0,wr=1,rd=0,data_in= 36,data_out=  0,empty=1,full=0,time=7
+# wr_clk=0,rd_clk=1,rst=0,wr=1,rd=0,data_in=129,data_out=  0,empty=1,full=0,time=10
+# wr_clk=0,rd_clk=0,rst=0,wr=1,rd=0,data_in=129,data_out=  0,empty=1,full=0,time=14
+# wr_clk=1,rd_clk=0,rst=0,wr=1,rd=0,data_in=129,data_out=  0,empty=1,full=0,time=15
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=1,full=0,time=20
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=1,full=0,time=21
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=0,full=0,time=25
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=0,full=0,time=28
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in= 99,data_out=  0,empty=0,full=0,time=30
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 99,data_out=  0,empty=0,full=0,time=35
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=40
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=42
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=45
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=49
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in=141,data_out=  0,empty=0,full=0,time=50
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=141,data_out=  0,empty=0,full=0,time=55
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in=141,data_out=  0,empty=0,full=0,time=56
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=101,data_out=  0,empty=0,full=0,time=60
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in=101,data_out=  0,empty=0,full=0,time=63
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=101,data_out=  0,empty=0,full=0,time=65
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=0,time=70
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=0,time=75
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=0,time=77
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in=  1,data_out=  0,empty=0,full=0,time=80
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=  1,data_out=  0,empty=0,full=0,time=84
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in=  1,data_out=  0,empty=0,full=0,time=85
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  0,empty=0,full=0,time=90
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  9,empty=0,full=0,time=91
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  9,empty=0,full=0,time=95
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  9,empty=0,full=0,time=98
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  9,empty=0,full=0,time=100
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 99,empty=0,full=0,time=105
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 99,empty=0,full=0,time=110
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 99,empty=0,full=0,time=112
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 99,empty=0,full=0,time=115
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=119
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=120
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=125
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=126
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=130
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=141,empty=0,full=0,time=133
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=141,empty=0,full=0,time=135
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=141,empty=0,full=0,time=140
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=141,empty=0,full=0,time=145
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=147
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=150
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=154
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=155
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=160
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=0,full=0,time=161
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=0,full=0,time=165
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=0,full=0,time=168
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=0,full=0,time=170
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=175
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=180
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=182
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=185
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=189
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=190
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=195
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=196
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=200
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=203
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=205
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=210
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=215
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=217
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=220
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=224
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=225
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=230
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=231
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=235
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=238
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=240
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=245
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=250
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=252
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=255
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=259
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=260
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=265
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=266
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=270
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=273
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=275
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=280
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=285
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=287
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=290
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=294
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=295
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=300
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=301
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=305
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=308
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=310
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=315
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=320
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=322
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=325
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=329
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=330
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=335
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=336
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=340
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=343
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=345
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=350
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=355
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=357
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=360
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=364
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=365
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=370
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=371
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=375
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=378
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=380
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=385
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=390
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=392
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=395
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=399
+# ** Note: $stop    : ASYNFIFO.v(148)
+#    Time: 400 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at ASYNFIFO.v line 148
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:36:06 on Oct 29,2025
+# vlog -reportprogress 300 ASYNFIFO.v "+acc" 
+# -- Compiling module ASYNFIFO
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 10:36:06 on Oct 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:36:08 on Oct 29,2025, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 10:36:08 on Oct 29,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb(fast)
+# Loading work.ASYNFIFO(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: BASAVARAJ  Hostname: DESKTOP-UFCQR41  ProcessID: 11820
+#           Attempting to use alternate WLF file "./wlft437jv4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft437jv4
+# wr_clk=0,rd_clk=0,rst=0,wr=1,rd=0,data_in= 36,data_out=  0,empty=1,full=0,time=0
+# wr_clk=1,rd_clk=0,rst=0,wr=1,rd=0,data_in= 36,data_out=  0,empty=1,full=0,time=5
+# wr_clk=1,rd_clk=1,rst=0,wr=1,rd=0,data_in= 36,data_out=  0,empty=1,full=0,time=7
+# wr_clk=0,rd_clk=1,rst=0,wr=1,rd=0,data_in=129,data_out=  0,empty=1,full=0,time=10
+# wr_clk=0,rd_clk=0,rst=0,wr=1,rd=0,data_in=129,data_out=  0,empty=1,full=0,time=14
+# wr_clk=1,rd_clk=0,rst=0,wr=1,rd=0,data_in=129,data_out=  0,empty=1,full=0,time=15
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=1,full=0,time=20
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=1,full=0,time=21
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=0,full=0,time=25
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=0,full=0,time=28
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in= 99,data_out=  0,empty=0,full=0,time=30
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 99,data_out=  0,empty=0,full=0,time=35
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=40
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=42
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=45
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=49
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in=141,data_out=  0,empty=0,full=0,time=50
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=141,data_out=  0,empty=0,full=0,time=55
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in=141,data_out=  0,empty=0,full=0,time=56
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=101,data_out=  0,empty=0,full=0,time=60
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in=101,data_out=  0,empty=0,full=0,time=63
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=101,data_out=  0,empty=0,full=0,time=65
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=0,time=70
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=0,time=75
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=0,time=77
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in=  1,data_out=  0,empty=0,full=0,time=80
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=  1,data_out=  0,empty=0,full=0,time=84
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in=  1,data_out=  0,empty=0,full=0,time=85
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  0,empty=0,full=0,time=90
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  9,empty=0,full=0,time=91
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  9,empty=0,full=0,time=95
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  9,empty=0,full=0,time=98
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  9,empty=0,full=0,time=100
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 99,empty=0,full=0,time=105
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 99,empty=0,full=0,time=110
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 99,empty=0,full=0,time=112
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 99,empty=0,full=0,time=115
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=119
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=120
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=125
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=126
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=130
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=141,empty=0,full=0,time=133
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=141,empty=0,full=0,time=135
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=141,empty=0,full=0,time=140
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=141,empty=0,full=0,time=145
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=147
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=150
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=154
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=155
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=160
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=0,full=0,time=161
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=0,full=0,time=165
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=0,full=0,time=168
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=0,full=0,time=170
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=175
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=180
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=182
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=185
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=189
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=190
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=195
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=196
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=200
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=203
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=205
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=210
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=215
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=217
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=220
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=224
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=225
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=230
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=231
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=235
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=238
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=240
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=245
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=250
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=252
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=255
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=259
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=260
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=265
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=266
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=270
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=273
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=275
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=280
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=285
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=287
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=290
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=294
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=295
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=300
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=301
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=305
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=308
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=310
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=315
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=320
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=322
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=325
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=329
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=330
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=335
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=336
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=340
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=343
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=345
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=350
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=355
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=357
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=360
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=364
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=365
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=370
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=371
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=375
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=378
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=380
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=385
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=390
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=392
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=395
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  1,empty=1,full=0,time=399
+# ** Note: $stop    : ASYNFIFO.v(148)
+#    Time: 400 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at ASYNFIFO.v line 148
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:38:38 on Oct 29,2025
+# vlog -reportprogress 300 ASYNFIFO.v "+acc" 
+# -- Compiling module ASYNFIFO
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 10:38:39 on Oct 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 10:38:40 on Oct 29,2025, Elapsed time: 0:02:32
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 10:38:40 on Oct 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.ASYNFIFO(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: BASAVARAJ  Hostname: DESKTOP-UFCQR41  ProcessID: 11820
+#           Attempting to use alternate WLF file "./wlftc9zcq6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftc9zcq6
+# wr_clk=0,rd_clk=0,rst=0,wr=0,rd=0,data_in=  0,data_out=  0,empty=1,full=0,time=0
+# wr_clk=1,rd_clk=0,rst=0,wr=0,rd=0,data_in=  0,data_out=  0,empty=1,full=0,time=5
+# wr_clk=1,rd_clk=1,rst=0,wr=0,rd=0,data_in=  0,data_out=  0,empty=1,full=0,time=7
+# wr_clk=0,rd_clk=1,rst=0,wr=0,rd=0,data_in=  0,data_out=  0,empty=1,full=0,time=10
+# wr_clk=0,rd_clk=0,rst=0,wr=0,rd=0,data_in=  0,data_out=  0,empty=1,full=0,time=14
+# wr_clk=1,rd_clk=0,rst=0,wr=0,rd=0,data_in=  0,data_out=  0,empty=1,full=0,time=15
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in= 36,data_out=  0,empty=1,full=0,time=20
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in= 36,data_out=  0,empty=1,full=0,time=21
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 36,data_out=  0,empty=0,full=0,time=25
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in= 36,data_out=  0,empty=0,full=0,time=28
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=129,data_out=  0,empty=0,full=0,time=30
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=129,data_out=  0,empty=0,full=0,time=35
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=0,full=0,time=40
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=0,full=0,time=42
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=0,full=0,time=45
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=0,full=0,time=49
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in= 99,data_out=  0,empty=0,full=0,time=50
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 99,data_out=  0,empty=0,full=0,time=55
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in= 99,data_out=  0,empty=0,full=0,time=56
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=60
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=63
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=65
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=141,data_out=  0,empty=0,full=0,time=70
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in=141,data_out=  0,empty=0,full=0,time=75
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=141,data_out=  0,empty=0,full=0,time=77
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in=101,data_out=  0,empty=0,full=0,time=80
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=101,data_out=  0,empty=0,full=0,time=84
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in=101,data_out=  0,empty=0,full=0,time=85
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=0,time=90
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=0,time=91
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=1,time=95
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=1,time=98
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=  1,data_out=  0,empty=0,full=1,time=100
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=  1,data_out=  0,empty=0,full=1,time=105
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  0,empty=0,full=1,time=110
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  0,empty=0,full=1,time=112
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  0,empty=0,full=1,time=115
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 36,empty=0,full=0,time=119
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 36,empty=0,full=0,time=120
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 36,empty=0,full=0,time=125
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 36,empty=0,full=0,time=126
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 36,empty=0,full=0,time=130
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=129,empty=0,full=0,time=133
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=129,empty=0,full=0,time=135
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=129,empty=0,full=0,time=140
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=129,empty=0,full=0,time=145
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  9,empty=0,full=0,time=147
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=  9,empty=0,full=0,time=150
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  9,empty=0,full=0,time=154
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  9,empty=0,full=0,time=155
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=  9,empty=0,full=0,time=160
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 99,empty=0,full=0,time=161
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 99,empty=0,full=0,time=165
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 99,empty=0,full=0,time=168
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 99,empty=0,full=0,time=170
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=175
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=180
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=182
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 13,empty=0,full=0,time=185
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=141,empty=0,full=0,time=189
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=141,empty=0,full=0,time=190
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=141,empty=0,full=0,time=195
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=141,empty=0,full=0,time=196
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=141,empty=0,full=0,time=200
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=203
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=205
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=210
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out=101,empty=0,full=0,time=215
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=217
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=220
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=224
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=225
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=230
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=231
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=235
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=238
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=240
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=245
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=250
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=252
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=255
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=259
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=260
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=265
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=266
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=270
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=273
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=275
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=280
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=285
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=287
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=290
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=294
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=295
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=300
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=301
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=305
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=308
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=310
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=315
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=320
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=322
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=325
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=329
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=330
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=335
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=336
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=340
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=343
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=345
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=350
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=355
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=357
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=360
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=364
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=365
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=370
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=371
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=375
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=378
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=380
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=385
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=390
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=392
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=395
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  1,data_out= 18,empty=1,full=0,time=399
+# ** Note: $stop    : ASYNFIFO.v(148)
+#    Time: 400 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at ASYNFIFO.v line 148
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:53:38 on Oct 29,2025
+# vlog -reportprogress 300 ASYNFIFO.v "+acc" 
+# -- Compiling module ASYNFIFO
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 10:53:39 on Oct 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 10:53:41 on Oct 29,2025, Elapsed time: 0:15:01
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 10:53:41 on Oct 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.ASYNFIFO(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: BASAVARAJ  Hostname: DESKTOP-UFCQR41  ProcessID: 11820
+#           Attempting to use alternate WLF file "./wlfte4t1bm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfte4t1bm
+# wr_clk=0,rd_clk=0,rst=0,wr=0,rd=0,data_in=  0,data_out=  0,empty=1,full=0,time=0
+# wr_clk=1,rd_clk=0,rst=0,wr=0,rd=0,data_in=  0,data_out=  0,empty=1,full=0,time=5
+# wr_clk=1,rd_clk=1,rst=0,wr=0,rd=0,data_in=  0,data_out=  0,empty=1,full=0,time=7
+# wr_clk=0,rd_clk=1,rst=0,wr=0,rd=0,data_in=  0,data_out=  0,empty=1,full=0,time=10
+# wr_clk=0,rd_clk=0,rst=0,wr=0,rd=0,data_in=  0,data_out=  0,empty=1,full=0,time=14
+# wr_clk=1,rd_clk=0,rst=0,wr=0,rd=0,data_in=  0,data_out=  0,empty=1,full=0,time=15
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in= 36,data_out=  0,empty=1,full=0,time=20
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in= 36,data_out=  0,empty=1,full=0,time=21
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 36,data_out=  0,empty=0,full=0,time=25
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in= 36,data_out=  0,empty=0,full=0,time=28
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=129,data_out=  0,empty=0,full=0,time=30
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=129,data_out=  0,empty=0,full=0,time=35
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=0,full=0,time=40
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=0,full=0,time=42
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=0,full=0,time=45
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=  9,data_out=  0,empty=0,full=0,time=49
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in= 99,data_out=  0,empty=0,full=0,time=50
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 99,data_out=  0,empty=0,full=0,time=55
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in= 99,data_out=  0,empty=0,full=0,time=56
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=60
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=63
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 13,data_out=  0,empty=0,full=0,time=65
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=141,data_out=  0,empty=0,full=0,time=70
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in=141,data_out=  0,empty=0,full=0,time=75
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=141,data_out=  0,empty=0,full=0,time=77
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in=101,data_out=  0,empty=0,full=0,time=80
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=101,data_out=  0,empty=0,full=0,time=84
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in=101,data_out=  0,empty=0,full=0,time=85
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=0,time=90
+# wr_clk=0,rd_clk=1,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=0,time=91
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=1,time=95
+# wr_clk=1,rd_clk=0,rst=1,wr=1,rd=0,data_in= 18,data_out=  0,empty=0,full=1,time=98
+# wr_clk=0,rd_clk=0,rst=1,wr=1,rd=0,data_in=  1,data_out=  0,empty=0,full=1,time=100
+# wr_clk=1,rd_clk=1,rst=1,wr=1,rd=0,data_in=  1,data_out=  0,empty=0,full=1,time=105
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out=  0,empty=0,full=1,time=110
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out=  0,empty=0,full=1,time=112
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out=  0,empty=0,full=1,time=115
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 36,empty=0,full=0,time=119
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 36,empty=0,full=0,time=120
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 36,empty=0,full=0,time=125
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 36,empty=0,full=0,time=126
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 36,empty=0,full=0,time=130
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out=129,empty=0,full=0,time=133
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out=129,empty=0,full=0,time=135
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out=129,empty=0,full=0,time=140
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out=129,empty=0,full=0,time=145
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out=  9,empty=0,full=0,time=147
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out=  9,empty=0,full=0,time=150
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out=  9,empty=0,full=0,time=154
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out=  9,empty=0,full=0,time=155
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out=  9,empty=0,full=0,time=160
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 99,empty=0,full=0,time=161
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 99,empty=0,full=0,time=165
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 99,empty=0,full=0,time=168
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 99,empty=0,full=0,time=170
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 13,empty=0,full=0,time=175
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 13,empty=0,full=0,time=180
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 13,empty=0,full=0,time=182
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 13,empty=0,full=0,time=185
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out=141,empty=0,full=0,time=189
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out=141,empty=0,full=0,time=190
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out=141,empty=0,full=0,time=195
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out=141,empty=0,full=0,time=196
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out=141,empty=0,full=0,time=200
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out=101,empty=0,full=0,time=203
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out=101,empty=0,full=0,time=205
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out=101,empty=0,full=0,time=210
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out=101,empty=0,full=0,time=215
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=217
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=220
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=224
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=225
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=230
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=231
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=235
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=238
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=240
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=245
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=250
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=252
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=255
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=259
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=260
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=265
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=266
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=270
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=273
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=275
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=280
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=285
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=287
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=290
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=294
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=295
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=300
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=301
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=305
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=308
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=310
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=315
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=320
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=322
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=325
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=329
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=330
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=335
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=336
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=340
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=343
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=345
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=350
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=355
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=357
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=360
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=364
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=365
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=370
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=371
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=375
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=378
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=380
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=385
+# wr_clk=0,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=390
+# wr_clk=0,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=392
+# wr_clk=1,rd_clk=0,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=395
+# wr_clk=1,rd_clk=1,rst=1,wr=0,rd=1,data_in=  0,data_out= 18,empty=1,full=0,time=399
+# ** Note: $stop    : ASYNFIFO.v(149)
+#    Time: 400 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at ASYNFIFO.v line 149
+quit -sim
+# End time: 10:54:41 on Oct 29,2025, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 2

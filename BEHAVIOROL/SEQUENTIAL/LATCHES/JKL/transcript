@@ -1,0 +1,94 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# JKL.v  JKL_tb.v  run.do  transcript  vsim.wlf  work      
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:21:55 on Sep 10,2025
+# vlog -reportprogress 300 JKL_tb.v "+acc" 
+# -- Compiling module JKL
+# -- Compiling module JKL_tb
+# 
+# Top level modules:
+# 	JKL_tb
+# End time: 13:21:55 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim JKL_tb 
+# Start time: 13:21:55 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.JKL_tb(fast)
+# Loading work.JKL(fast)
+# clk=0 rst=0 j=0 k=0 q=0 qbar=1 Time=                   0
+# clk=1 rst=1 j=0 k=1 q=0 qbar=1 Time=                  10
+# clk=0 rst=1 j=1 k=0 q=1 qbar=0 Time=                  20
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=                  30
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=                  40
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=                  50
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=                  60
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=                  70
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=                  80
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=                  90
+# ** Note: $stop    : JKL_tb.v(25)
+#    Time: 100 ns  Iteration: 0  Instance: /JKL_tb
+# Break in Module JKL_tb at JKL_tb.v line 25
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:24:52 on Sep 10,2025
+# vlog -reportprogress 300 JKL_tb.v "+acc" 
+# -- Compiling module JKL
+# -- Compiling module JKL_tb
+# ** Error: (vlog-13069) JKL_tb.v(18): near "=": syntax error, unexpected '='.
+# ** Error: JKL_tb.v(18): (vlog-13205) Syntax error found in the scope following 'j'. Is there a missing '::'?
+# End time: 13:24:52 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog JKL_tb.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:25:10 on Sep 10,2025
+# vlog -reportprogress 300 JKL_tb.v "+acc" 
+# -- Compiling module JKL
+# -- Compiling module JKL_tb
+# 
+# Top level modules:
+# 	JKL_tb
+# End time: 13:25:10 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:25:12 on Sep 10,2025, Elapsed time: 0:03:17
+# Errors: 5, Warnings: 0
+# vsim JKL_tb 
+# Start time: 13:25:12 on Sep 10,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.JKL_tb(fast)
+# Loading work.JKL(fast)
+# clk=0 rst=0 j=0 k=0 q=0 qbar=1 Time=                   0
+# clk=1 rst=1 j=0 k=1 q=0 qbar=1 Time=                  10
+# clk=0 rst=1 j=1 k=0 q=1 qbar=0 Time=                  20
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=                  30
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=                  40
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=                  50
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=                  60
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=                  70
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=                  80
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=                  90
+# ** Note: $stop    : JKL_tb.v(25)
+#    Time: 100 ns  Iteration: 0  Instance: /JKL_tb
+# Break in Module JKL_tb at JKL_tb.v line 25
+quit -sim
+# End time: 13:27:28 on Sep 10,2025, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 0

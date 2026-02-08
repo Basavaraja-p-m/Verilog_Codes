@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/SEQUENTIAL/SHIFT REGISTERS/UNIVERSAL
+T_opt
+!s110 1758119124
+VDJJ::k2G20RV?jzkf3]A<1
+04 12 4 work UNIVERSOL_tb fast 0
+=1-84144d0ea3d5-68cac4d4-7d-2074
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vUNIVERSOL
+Z2 !s110 1758119120
+!i10b 1
+!s100 SiT3IT2[b?XIlj57Co0D91
+I=5GHYB?mUS4clf5;FMcA72
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758119115
+Z5 8UNIVERSOL.v
+Z6 FUNIVERSOL.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758119120.000000
+Z9 !s107 UNIVERSOL.v|
+Z10 !s90 -reportprogress|300|UNIVERSOL.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@u@n@i@v@e@r@s@o@l
+vUNIVERSOL_tb
+R2
+!i10b 1
+!s100 SgoFCHD8[NNneMab@Ak^h1
+IR4F?f4i_Vf_dl7hONz>JX1
+R3
+R0
+R4
+R5
+R6
+L0 43
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@u@n@i@v@e@r@s@o@l_tb

@@ -1,0 +1,165 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# SRFF1.v  run.do  transcript            
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:13:07 on Sep 11,2025
+# vlog -reportprogress 300 SRFF1.v "+acc" 
+# -- Compiling module SRFF1
+# ** Error: (vlog-13069) SRFF1.v(30): near "end": syntax error, unexpected end.
+# ** Error (suppressible): SRFF1.v(36): (vlog-2388) 's' already declared in this scope (SRFF1).
+# ** Error (suppressible): SRFF1.v(36): (vlog-2388) 'r' already declared in this scope (SRFF1).
+# ** Error (suppressible): SRFF1.v(36): (vlog-2388) 'clk' already declared in this scope (SRFF1).
+# ** Error (suppressible): SRFF1.v(36): (vlog-2388) 'rst' already declared in this scope (SRFF1).
+# ** Error: SRFF1.v(36): Declarations not allowed in unnamed block.
+# ** Error: SRFF1.v(37): Illegal declaration after the statement near line '35'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: SRFF1.v(40): Checker 'SRFF1' not found.  Instantiation 'S1' must be of a visible checker.
+# ** Error: (vlog-13069) SRFF1.v(44): near "initial": syntax error, unexpected initial.
+# ** Error: SRFF1.v(40): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: (vlog-13069) SRFF1.v(61): near "initial": syntax error, unexpected initial.
+# End time: 18:13:07 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog SRFF1.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:16:59 on Sep 11,2025
+# vlog -reportprogress 300 SRFF1.v "+acc" 
+# -- Compiling module SRFF1
+# ** Error: (vlog-13069) SRFF1.v(16): near "/": syntax error, unexpected '/'.
+# -- Compiling module SRFF1_tb
+# End time: 18:16:59 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog SRFF1.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:17:15 on Sep 11,2025
+# vlog -reportprogress 300 SRFF1.v "+acc" 
+# -- Compiling module SRFF1
+# -- Compiling module SRFF1_tb
+# 
+# Top level modules:
+# 	SRFF1_tb
+# End time: 18:17:15 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim SRFF1_tb 
+# Start time: 18:17:15 on Sep 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.SRFF1_tb(fast)
+# Loading work.SRFF1(fast)
+# s=x r=x clk=0 rst=0 q=x qbar=x Time=                   0
+# s=x r=x clk=0 rst=1 q=x qbar=x Time=                   5
+# s=0 r=1 clk=0 rst=1 q=x qbar=x Time=                   8
+# s=0 r=1 clk=1 rst=1 q=0 qbar=1 Time=                  10
+# s=0 r=1 clk=0 rst=1 q=0 qbar=1 Time=                  20
+# s=1 r=1 clk=0 rst=1 q=0 qbar=1 Time=                  21
+# s=1 r=1 clk=1 rst=1 q=x qbar=x Time=                  30
+# s=1 r=1 clk=0 rst=1 q=x qbar=x Time=                  40
+# s=1 r=0 clk=0 rst=1 q=x qbar=x Time=                  47
+# s=1 r=0 clk=1 rst=1 q=1 qbar=0 Time=                  50
+# s=1 r=1 clk=0 rst=1 q=1 qbar=0 Time=                  60
+# s=1 r=1 clk=1 rst=1 q=x qbar=x Time=                  70
+# s=0 r=1 clk=1 rst=1 q=x qbar=x Time=                  73
+# s=0 r=1 clk=0 rst=1 q=x qbar=x Time=                  80
+# s=1 r=0 clk=0 rst=1 q=x qbar=x Time=                  86
+# s=1 r=0 clk=1 rst=1 q=1 qbar=0 Time=                  90
+# ** Note: $stop    : SRFF1.v(63)
+#    Time: 100 ns  Iteration: 0  Instance: /SRFF1_tb
+# Break in Module SRFF1_tb at SRFF1.v line 63
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:18:13 on Sep 11,2025
+# vlog -reportprogress 300 SRFF1.v "+acc" 
+# -- Compiling module SRFF1
+# -- Compiling module SRFF1_tb
+# 
+# Top level modules:
+# 	SRFF1_tb
+# End time: 18:18:13 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:18:16 on Sep 11,2025, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 0
+# vsim SRFF1_tb 
+# Start time: 18:18:16 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.SRFF1_tb(fast)
+# Loading work.SRFF1(fast)
+# s=x r=x clk=0 rst=0 q=x qbar=x Time=                   0
+# s=x r=x clk=0 rst=1 q=x qbar=x Time=                   5
+# s=0 r=1 clk=0 rst=1 q=x qbar=x Time=                   8
+# s=0 r=1 clk=1 rst=1 q=0 qbar=1 Time=                  10
+# s=0 r=1 clk=0 rst=1 q=0 qbar=1 Time=                  20
+# s=1 r=1 clk=0 rst=1 q=0 qbar=1 Time=                  21
+# s=1 r=1 clk=1 rst=1 q=x qbar=x Time=                  30
+# s=1 r=1 clk=0 rst=1 q=x qbar=x Time=                  40
+# s=1 r=0 clk=0 rst=1 q=x qbar=x Time=                  47
+# s=1 r=0 clk=1 rst=1 q=1 qbar=0 Time=                  50
+# s=1 r=1 clk=0 rst=1 q=1 qbar=0 Time=                  60
+# s=1 r=1 clk=1 rst=1 q=x qbar=x Time=                  70
+# s=0 r=1 clk=1 rst=1 q=x qbar=x Time=                  73
+# s=0 r=1 clk=0 rst=1 q=x qbar=x Time=                  80
+# s=1 r=0 clk=0 rst=1 q=x qbar=x Time=                  86
+# s=1 r=0 clk=1 rst=1 q=1 qbar=0 Time=                  90
+# ** Note: $stop    : SRFF1.v(64)
+#    Time: 100 ns  Iteration: 0  Instance: /SRFF1_tb
+# Break in Module SRFF1_tb at SRFF1.v line 64
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:18:45 on Sep 11,2025
+# vlog -reportprogress 300 SRFF1.v "+acc" 
+# -- Compiling module SRFF1
+# -- Compiling module SRFF1_tb
+# 
+# Top level modules:
+# 	SRFF1_tb
+# End time: 18:18:45 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:18:47 on Sep 11,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim SRFF1_tb 
+# Start time: 18:18:47 on Sep 11,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.SRFF1_tb(fast)
+# Loading work.SRFF1(fast)
+# s=x r=x clk=0 rst=0 q=x qbar=x Time=                   0
+# s=x r=x clk=0 rst=1 q=x qbar=x Time=                   5
+# s=0 r=1 clk=0 rst=1 q=x qbar=x Time=                   8
+# s=0 r=1 clk=1 rst=1 q=0 qbar=1 Time=                  10
+# s=0 r=1 clk=0 rst=1 q=0 qbar=1 Time=                  20
+# s=1 r=1 clk=0 rst=1 q=0 qbar=1 Time=                  21
+# s=1 r=1 clk=1 rst=1 q=x qbar=x Time=                  30
+# s=1 r=1 clk=0 rst=1 q=x qbar=x Time=                  40
+# s=1 r=0 clk=0 rst=1 q=x qbar=x Time=                  47
+# s=1 r=0 clk=1 rst=1 q=1 qbar=0 Time=                  50
+# s=1 r=1 clk=0 rst=1 q=1 qbar=0 Time=                  60
+# s=1 r=1 clk=1 rst=1 q=x qbar=x Time=                  70
+# s=0 r=1 clk=1 rst=1 q=x qbar=x Time=                  73
+# s=0 r=1 clk=0 rst=1 q=x qbar=x Time=                  80
+# s=1 r=0 clk=0 rst=1 q=x qbar=x Time=                  86
+# s=1 r=0 clk=1 rst=1 q=1 qbar=0 Time=                  90
+# ** Note: $stop    : SRFF1.v(64)
+#    Time: 100 ns  Iteration: 0  Instance: /SRFF1_tb
+# Break in Module SRFF1_tb at SRFF1.v line 64
+quit -sim
+# End time: 18:20:06 on Sep 11,2025, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 0

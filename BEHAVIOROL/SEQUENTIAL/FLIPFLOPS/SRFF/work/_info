@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/SEQUENTIAL/FLIPFLOPS/SRFF
+T_opt
+!s110 1757509041
+VH==U>alUC?iPYPXg6g[7Q3
+Z1 04 7 4 work SRFF_tb fast 0
+=1-84144d0ea3d5-68c175b1-250-34f8
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1757429824
+V25X_HRNCGB[o6<SJk_Dab3
+04 6 4 work SRL_tb fast 0
+04 6 4 work SRP_tb fast 0
+R1
+=1-84144d0ea3d5-68c04040-bb-4358
+R2
+R3
+n@_opt1
+R4
+R0
+vSRFF
+Z5 !s110 1757669543
+!i10b 1
+!s100 Coh?WJKWOmiA>84oUfS^i2
+I57S;aRfi;^oZACbKzHX?i1
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z7 w1757509033
+Z8 8SRFF.v
+Z9 FSRFF.v
+L0 2
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1757669543.000000
+!s107 SRL.v|SRFF.v|
+Z12 !s90 -reportprogress|300|SRFF.v|+acc|
+!i113 0
+Z13 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@s@r@f@f
+vSRFF_tb
+R5
+!i10b 1
+!s100 =Y^M8U;YNaG3nom@IKKMj2
+I`>;PV:B4_Fb;R:_29mJ]G3
+R6
+R0
+R7
+R8
+R9
+L0 26
+R10
+r1
+!s85 0
+31
+R11
+Z14 !s107 SRL.v|SRFF.v|
+R12
+!i113 0
+R13
+R3
+n@s@r@f@f_tb
+vSRL
+R5
+!i10b 1
+!s100 P^bnYTl33Gd0N>XT2AS_12
+I3`FJJVYfTo0^fl0YmL2Cg3
+R6
+R0
+Z15 w1757490247
+Z16 8SRL.v
+Z17 FSRL.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+R14
+R12
+!i113 0
+R13
+R3
+n@s@r@l
+vSRL_tb
+R5
+!i10b 1
+!s100 MBz7n:GPAFT2=jL`KeiH90
+IC;AOfcQCe;hcEQfS4X4Ad3
+R6
+R0
+R15
+R16
+R17
+Z18 L0 32
+R10
+r1
+!s85 0
+31
+R11
+R14
+R12
+!i113 0
+R13
+R3
+n@s@r@l_tb
+vSRP
+Z19 !s110 1757430083
+!i10b 1
+!s100 [0>j:K1nOkaRoXgT:c0WC3
+I4`LWQHV`@0gJ3M?cIHc?U1
+R6
+R0
+Z20 w1757426012
+Z21 8SRP.v
+Z22 FSRP.v
+L0 1
+R10
+r1
+!s85 0
+31
+Z23 !s108 1757430083.000000
+Z24 !s107 SRP.v|SRL.v|SRFF.v|
+Z25 !s90 SRFF.v|
+!i113 0
+Z26 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@s@r@p
+vSRP_tb
+R19
+!i10b 1
+!s100 dYUd4oY:O2FWFVYN:bX6o3
+I>7@D[P1?PGOF=1;NaRke]3
+R6
+R0
+R20
+R21
+R22
+R18
+R10
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 0
+R26
+R3
+n@s@r@p_tb

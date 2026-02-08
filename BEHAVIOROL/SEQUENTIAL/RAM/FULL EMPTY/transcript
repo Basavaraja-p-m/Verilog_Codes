@@ -1,0 +1,474 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:17:16 on Sep 22,2025
+# vlog -reportprogress 300 RAM.v "+acc" 
+# -- Compiling module RAM
+# -- Compiling module RAM_tb
+# 
+# Top level modules:
+# 	RAM_tb
+# End time: 10:17:16 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim RAM_tb 
+# Start time: 10:17:16 on Sep 22,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.RAM_tb(fast)
+# Loading work.RAM(fast)
+# clk=0 rst=0 wr_rd=x data_in=  x addr= x data_out=  0 full=x empty=x Time=                   0
+# clk=1 rst=0 wr_rd=x data_in=  x addr= x data_out=  0 full=0 empty=1 Time=                   5
+# clk=0 rst=0 wr_rd=x data_in=  x addr= x data_out=  0 full=0 empty=1 Time=                  10
+# clk=1 rst=0 wr_rd=x data_in=  x addr= x data_out=  0 full=0 empty=1 Time=                  15
+# clk=0 rst=1 wr_rd=1 data_in= 36 addr= 0 data_out=  0 full=0 empty=1 Time=                  20
+# clk=1 rst=1 wr_rd=1 data_in= 36 addr= 0 data_out=  0 full=0 empty=0 Time=                  25
+# clk=0 rst=1 wr_rd=1 data_in=129 addr= 1 data_out=  0 full=0 empty=0 Time=                  30
+# clk=1 rst=1 wr_rd=1 data_in=129 addr= 1 data_out=  0 full=0 empty=0 Time=                  35
+# clk=0 rst=1 wr_rd=1 data_in=  9 addr= 2 data_out=  0 full=0 empty=0 Time=                  40
+# clk=1 rst=1 wr_rd=1 data_in=  9 addr= 2 data_out=  0 full=0 empty=0 Time=                  45
+# clk=0 rst=1 wr_rd=1 data_in= 99 addr= 3 data_out=  0 full=0 empty=0 Time=                  50
+# clk=1 rst=1 wr_rd=1 data_in= 99 addr= 3 data_out=  0 full=0 empty=0 Time=                  55
+# clk=0 rst=1 wr_rd=1 data_in= 13 addr= 4 data_out=  0 full=0 empty=0 Time=                  60
+# clk=1 rst=1 wr_rd=1 data_in= 13 addr= 4 data_out=  0 full=0 empty=0 Time=                  65
+# clk=0 rst=1 wr_rd=1 data_in=141 addr= 5 data_out=  0 full=0 empty=0 Time=                  70
+# clk=1 rst=1 wr_rd=1 data_in=141 addr= 5 data_out=  0 full=0 empty=0 Time=                  75
+# clk=0 rst=1 wr_rd=1 data_in=101 addr= 6 data_out=  0 full=0 empty=0 Time=                  80
+# clk=1 rst=1 wr_rd=1 data_in=101 addr= 6 data_out=  0 full=0 empty=0 Time=                  85
+# clk=0 rst=1 wr_rd=1 data_in= 18 addr= 7 data_out=  0 full=0 empty=0 Time=                  90
+# clk=1 rst=1 wr_rd=1 data_in= 18 addr= 7 data_out=  0 full=0 empty=0 Time=                  95
+# clk=0 rst=1 wr_rd=1 data_in=  1 addr= 8 data_out=  0 full=0 empty=0 Time=                 100
+# clk=1 rst=1 wr_rd=1 data_in=  1 addr= 8 data_out=  0 full=0 empty=0 Time=                 105
+# clk=0 rst=1 wr_rd=1 data_in= 13 addr= 9 data_out=  0 full=0 empty=0 Time=                 110
+# clk=1 rst=1 wr_rd=1 data_in= 13 addr= 9 data_out=  0 full=0 empty=0 Time=                 115
+# clk=0 rst=1 wr_rd=1 data_in=118 addr=10 data_out=  0 full=0 empty=0 Time=                 120
+# clk=1 rst=1 wr_rd=1 data_in=118 addr=10 data_out=  0 full=0 empty=0 Time=                 125
+# clk=0 rst=1 wr_rd=1 data_in= 61 addr=11 data_out=  0 full=0 empty=0 Time=                 130
+# clk=1 rst=1 wr_rd=1 data_in= 61 addr=11 data_out=  0 full=0 empty=0 Time=                 135
+# clk=0 rst=1 wr_rd=1 data_in=237 addr=12 data_out=  0 full=0 empty=0 Time=                 140
+# clk=1 rst=1 wr_rd=1 data_in=237 addr=12 data_out=  0 full=0 empty=0 Time=                 145
+# clk=0 rst=1 wr_rd=1 data_in=140 addr=13 data_out=  0 full=0 empty=0 Time=                 150
+# clk=1 rst=1 wr_rd=1 data_in=140 addr=13 data_out=  0 full=0 empty=0 Time=                 155
+# clk=0 rst=1 wr_rd=1 data_in=249 addr=14 data_out=  0 full=0 empty=0 Time=                 160
+# clk=1 rst=1 wr_rd=1 data_in=249 addr=14 data_out=  0 full=0 empty=0 Time=                 165
+# clk=0 rst=1 wr_rd=1 data_in=198 addr=15 data_out=  0 full=0 empty=0 Time=                 170
+# clk=1 rst=1 wr_rd=1 data_in=198 addr=15 data_out=  0 full=0 empty=0 Time=                 175
+# clk=0 rst=1 wr_rd=1 data_in=197 addr=16 data_out=  0 full=0 empty=0 Time=                 180
+# clk=1 rst=1 wr_rd=1 data_in=197 addr=16 data_out=  0 full=0 empty=0 Time=                 185
+# clk=0 rst=1 wr_rd=1 data_in=170 addr=17 data_out=  0 full=0 empty=0 Time=                 190
+# clk=1 rst=1 wr_rd=1 data_in=170 addr=17 data_out=  0 full=0 empty=0 Time=                 195
+# clk=0 rst=1 wr_rd=1 data_in=229 addr=18 data_out=  0 full=0 empty=0 Time=                 200
+# clk=1 rst=1 wr_rd=1 data_in=229 addr=18 data_out=  0 full=0 empty=0 Time=                 205
+# clk=0 rst=1 wr_rd=1 data_in=119 addr=19 data_out=  0 full=0 empty=0 Time=                 210
+# clk=1 rst=1 wr_rd=1 data_in=119 addr=19 data_out=  0 full=0 empty=0 Time=                 215
+# clk=0 rst=1 wr_rd=1 data_in= 18 addr=20 data_out=  0 full=0 empty=0 Time=                 220
+# clk=1 rst=1 wr_rd=1 data_in= 18 addr=20 data_out=  0 full=0 empty=0 Time=                 225
+# clk=0 rst=1 wr_rd=1 data_in=143 addr=21 data_out=  0 full=0 empty=0 Time=                 230
+# clk=1 rst=1 wr_rd=1 data_in=143 addr=21 data_out=  0 full=0 empty=0 Time=                 235
+# clk=0 rst=1 wr_rd=1 data_in=242 addr=22 data_out=  0 full=0 empty=0 Time=                 240
+# clk=1 rst=1 wr_rd=1 data_in=242 addr=22 data_out=  0 full=0 empty=0 Time=                 245
+# clk=0 rst=1 wr_rd=1 data_in=206 addr=23 data_out=  0 full=0 empty=0 Time=                 250
+# clk=1 rst=1 wr_rd=1 data_in=206 addr=23 data_out=  0 full=0 empty=0 Time=                 255
+# clk=0 rst=1 wr_rd=1 data_in=232 addr=24 data_out=  0 full=0 empty=0 Time=                 260
+# clk=1 rst=1 wr_rd=1 data_in=232 addr=24 data_out=  0 full=0 empty=0 Time=                 265
+# clk=0 rst=1 wr_rd=1 data_in=197 addr=25 data_out=  0 full=0 empty=0 Time=                 270
+# clk=1 rst=1 wr_rd=1 data_in=197 addr=25 data_out=  0 full=0 empty=0 Time=                 275
+# clk=0 rst=1 wr_rd=1 data_in= 92 addr=26 data_out=  0 full=0 empty=0 Time=                 280
+# clk=1 rst=1 wr_rd=1 data_in= 92 addr=26 data_out=  0 full=0 empty=0 Time=                 285
+# clk=0 rst=1 wr_rd=1 data_in=189 addr=27 data_out=  0 full=0 empty=0 Time=                 290
+# clk=1 rst=1 wr_rd=1 data_in=189 addr=27 data_out=  0 full=0 empty=0 Time=                 295
+# clk=0 rst=1 wr_rd=1 data_in= 45 addr=28 data_out=  0 full=0 empty=0 Time=                 300
+# clk=1 rst=1 wr_rd=1 data_in= 45 addr=28 data_out=  0 full=0 empty=0 Time=                 305
+# clk=0 rst=1 wr_rd=1 data_in=101 addr=29 data_out=  0 full=0 empty=0 Time=                 310
+# clk=1 rst=1 wr_rd=1 data_in=101 addr=29 data_out=  0 full=0 empty=0 Time=                 315
+# clk=0 rst=1 wr_rd=1 data_in= 99 addr=30 data_out=  0 full=0 empty=0 Time=                 320
+# clk=1 rst=1 wr_rd=1 data_in= 99 addr=30 data_out=  0 full=0 empty=0 Time=                 325
+# clk=0 rst=1 wr_rd=1 data_in= 10 addr=31 data_out=  0 full=0 empty=0 Time=                 330
+# clk=1 rst=1 wr_rd=1 data_in= 10 addr=31 data_out=  0 full=1 empty=0 Time=                 335
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 0 data_out=  0 full=1 empty=0 Time=                 340
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 0 data_out= 36 full=0 empty=0 Time=                 345
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 1 data_out= 36 full=0 empty=0 Time=                 350
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 1 data_out=129 full=0 empty=0 Time=                 355
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 2 data_out=129 full=0 empty=0 Time=                 360
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 2 data_out=  9 full=0 empty=0 Time=                 365
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 3 data_out=  9 full=0 empty=0 Time=                 370
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 3 data_out= 99 full=0 empty=0 Time=                 375
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 4 data_out= 99 full=0 empty=0 Time=                 380
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 4 data_out= 13 full=0 empty=0 Time=                 385
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 5 data_out= 13 full=0 empty=0 Time=                 390
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 5 data_out=141 full=0 empty=0 Time=                 395
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 6 data_out=141 full=0 empty=0 Time=                 400
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 6 data_out=101 full=0 empty=0 Time=                 405
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 7 data_out=101 full=0 empty=0 Time=                 410
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 7 data_out= 18 full=0 empty=0 Time=                 415
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 8 data_out= 18 full=0 empty=0 Time=                 420
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 8 data_out=  1 full=0 empty=0 Time=                 425
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 9 data_out=  1 full=0 empty=0 Time=                 430
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 9 data_out= 13 full=0 empty=0 Time=                 435
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=10 data_out= 13 full=0 empty=0 Time=                 440
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=10 data_out=118 full=0 empty=0 Time=                 445
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=11 data_out=118 full=0 empty=0 Time=                 450
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=11 data_out= 61 full=0 empty=0 Time=                 455
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=12 data_out= 61 full=0 empty=0 Time=                 460
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=12 data_out=237 full=0 empty=0 Time=                 465
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=13 data_out=237 full=0 empty=0 Time=                 470
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=13 data_out=140 full=0 empty=0 Time=                 475
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=14 data_out=140 full=0 empty=0 Time=                 480
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=14 data_out=249 full=0 empty=0 Time=                 485
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=15 data_out=249 full=0 empty=0 Time=                 490
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=15 data_out=198 full=0 empty=0 Time=                 495
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=16 data_out=198 full=0 empty=0 Time=                 500
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=16 data_out=197 full=0 empty=0 Time=                 505
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=17 data_out=197 full=0 empty=0 Time=                 510
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=17 data_out=170 full=0 empty=0 Time=                 515
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=18 data_out=170 full=0 empty=0 Time=                 520
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=18 data_out=229 full=0 empty=0 Time=                 525
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=19 data_out=229 full=0 empty=0 Time=                 530
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=19 data_out=119 full=0 empty=0 Time=                 535
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=20 data_out=119 full=0 empty=0 Time=                 540
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=20 data_out= 18 full=0 empty=0 Time=                 545
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=21 data_out= 18 full=0 empty=0 Time=                 550
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=21 data_out=143 full=0 empty=0 Time=                 555
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=22 data_out=143 full=0 empty=0 Time=                 560
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=22 data_out=242 full=0 empty=0 Time=                 565
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=23 data_out=242 full=0 empty=0 Time=                 570
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=23 data_out=206 full=0 empty=0 Time=                 575
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=24 data_out=206 full=0 empty=0 Time=                 580
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=24 data_out=232 full=0 empty=0 Time=                 585
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=25 data_out=232 full=0 empty=0 Time=                 590
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=25 data_out=197 full=0 empty=0 Time=                 595
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=26 data_out=197 full=0 empty=0 Time=                 600
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=26 data_out= 92 full=0 empty=0 Time=                 605
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=27 data_out= 92 full=0 empty=0 Time=                 610
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=27 data_out=189 full=0 empty=0 Time=                 615
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=28 data_out=189 full=0 empty=0 Time=                 620
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=28 data_out= 45 full=0 empty=0 Time=                 625
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=29 data_out= 45 full=0 empty=0 Time=                 630
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=29 data_out=101 full=0 empty=0 Time=                 635
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=30 data_out=101 full=0 empty=0 Time=                 640
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=30 data_out= 99 full=0 empty=0 Time=                 645
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=31 data_out= 99 full=0 empty=0 Time=                 650
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=31 data_out= 10 full=0 empty=1 Time=                 655
+# ** Note: $stop    : RAM.v(105)
+#    Time: 660 ns  Iteration: 1  Instance: /RAM_tb
+# Break in Module RAM_tb at RAM.v line 105
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:17:44 on Sep 22,2025
+# vlog -reportprogress 300 RAM.v "+acc" 
+# -- Compiling module RAM
+# -- Compiling module RAM_tb
+# 
+# Top level modules:
+# 	RAM_tb
+# End time: 10:17:44 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:17:49 on Sep 22,2025, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
+# vsim RAM_tb 
+# Start time: 10:17:49 on Sep 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RAM_tb(fast)
+# Loading work.RAM(fast)
+# clk=0 rst=0 wr_rd=x data_in=  x addr= x data_out=  0 full=x empty=x Time=                   0
+# clk=1 rst=0 wr_rd=x data_in=  x addr= x data_out=  0 full=0 empty=1 Time=                   5
+# clk=0 rst=0 wr_rd=x data_in=  x addr= x data_out=  0 full=0 empty=1 Time=                  10
+# clk=1 rst=0 wr_rd=x data_in=  x addr= x data_out=  0 full=0 empty=1 Time=                  15
+# clk=0 rst=1 wr_rd=1 data_in= 36 addr= 0 data_out=  0 full=0 empty=1 Time=                  20
+# clk=1 rst=1 wr_rd=1 data_in= 36 addr= 0 data_out=  0 full=0 empty=1 Time=                  25
+# clk=0 rst=1 wr_rd=1 data_in=129 addr= 1 data_out=  0 full=0 empty=1 Time=                  30
+# clk=1 rst=1 wr_rd=1 data_in=129 addr= 1 data_out=  0 full=0 empty=0 Time=                  35
+# clk=0 rst=1 wr_rd=1 data_in=  9 addr= 2 data_out=  0 full=0 empty=0 Time=                  40
+# clk=1 rst=1 wr_rd=1 data_in=  9 addr= 2 data_out=  0 full=0 empty=0 Time=                  45
+# clk=0 rst=1 wr_rd=1 data_in= 99 addr= 3 data_out=  0 full=0 empty=0 Time=                  50
+# clk=1 rst=1 wr_rd=1 data_in= 99 addr= 3 data_out=  0 full=0 empty=0 Time=                  55
+# clk=0 rst=1 wr_rd=1 data_in= 13 addr= 4 data_out=  0 full=0 empty=0 Time=                  60
+# clk=1 rst=1 wr_rd=1 data_in= 13 addr= 4 data_out=  0 full=0 empty=0 Time=                  65
+# clk=0 rst=1 wr_rd=1 data_in=141 addr= 5 data_out=  0 full=0 empty=0 Time=                  70
+# clk=1 rst=1 wr_rd=1 data_in=141 addr= 5 data_out=  0 full=0 empty=0 Time=                  75
+# clk=0 rst=1 wr_rd=1 data_in=101 addr= 6 data_out=  0 full=0 empty=0 Time=                  80
+# clk=1 rst=1 wr_rd=1 data_in=101 addr= 6 data_out=  0 full=0 empty=0 Time=                  85
+# clk=0 rst=1 wr_rd=1 data_in= 18 addr= 7 data_out=  0 full=0 empty=0 Time=                  90
+# clk=1 rst=1 wr_rd=1 data_in= 18 addr= 7 data_out=  0 full=0 empty=0 Time=                  95
+# clk=0 rst=1 wr_rd=1 data_in=  1 addr= 8 data_out=  0 full=0 empty=0 Time=                 100
+# clk=1 rst=1 wr_rd=1 data_in=  1 addr= 8 data_out=  0 full=0 empty=0 Time=                 105
+# clk=0 rst=1 wr_rd=1 data_in= 13 addr= 9 data_out=  0 full=0 empty=0 Time=                 110
+# clk=1 rst=1 wr_rd=1 data_in= 13 addr= 9 data_out=  0 full=0 empty=0 Time=                 115
+# clk=0 rst=1 wr_rd=1 data_in=118 addr=10 data_out=  0 full=0 empty=0 Time=                 120
+# clk=1 rst=1 wr_rd=1 data_in=118 addr=10 data_out=  0 full=0 empty=0 Time=                 125
+# clk=0 rst=1 wr_rd=1 data_in= 61 addr=11 data_out=  0 full=0 empty=0 Time=                 130
+# clk=1 rst=1 wr_rd=1 data_in= 61 addr=11 data_out=  0 full=0 empty=0 Time=                 135
+# clk=0 rst=1 wr_rd=1 data_in=237 addr=12 data_out=  0 full=0 empty=0 Time=                 140
+# clk=1 rst=1 wr_rd=1 data_in=237 addr=12 data_out=  0 full=0 empty=0 Time=                 145
+# clk=0 rst=1 wr_rd=1 data_in=140 addr=13 data_out=  0 full=0 empty=0 Time=                 150
+# clk=1 rst=1 wr_rd=1 data_in=140 addr=13 data_out=  0 full=0 empty=0 Time=                 155
+# clk=0 rst=1 wr_rd=1 data_in=249 addr=14 data_out=  0 full=0 empty=0 Time=                 160
+# clk=1 rst=1 wr_rd=1 data_in=249 addr=14 data_out=  0 full=0 empty=0 Time=                 165
+# clk=0 rst=1 wr_rd=1 data_in=198 addr=15 data_out=  0 full=0 empty=0 Time=                 170
+# clk=1 rst=1 wr_rd=1 data_in=198 addr=15 data_out=  0 full=0 empty=0 Time=                 175
+# clk=0 rst=1 wr_rd=1 data_in=197 addr=16 data_out=  0 full=0 empty=0 Time=                 180
+# clk=1 rst=1 wr_rd=1 data_in=197 addr=16 data_out=  0 full=0 empty=0 Time=                 185
+# clk=0 rst=1 wr_rd=1 data_in=170 addr=17 data_out=  0 full=0 empty=0 Time=                 190
+# clk=1 rst=1 wr_rd=1 data_in=170 addr=17 data_out=  0 full=0 empty=0 Time=                 195
+# clk=0 rst=1 wr_rd=1 data_in=229 addr=18 data_out=  0 full=0 empty=0 Time=                 200
+# clk=1 rst=1 wr_rd=1 data_in=229 addr=18 data_out=  0 full=0 empty=0 Time=                 205
+# clk=0 rst=1 wr_rd=1 data_in=119 addr=19 data_out=  0 full=0 empty=0 Time=                 210
+# clk=1 rst=1 wr_rd=1 data_in=119 addr=19 data_out=  0 full=0 empty=0 Time=                 215
+# clk=0 rst=1 wr_rd=1 data_in= 18 addr=20 data_out=  0 full=0 empty=0 Time=                 220
+# clk=1 rst=1 wr_rd=1 data_in= 18 addr=20 data_out=  0 full=0 empty=0 Time=                 225
+# clk=0 rst=1 wr_rd=1 data_in=143 addr=21 data_out=  0 full=0 empty=0 Time=                 230
+# clk=1 rst=1 wr_rd=1 data_in=143 addr=21 data_out=  0 full=0 empty=0 Time=                 235
+# clk=0 rst=1 wr_rd=1 data_in=242 addr=22 data_out=  0 full=0 empty=0 Time=                 240
+# clk=1 rst=1 wr_rd=1 data_in=242 addr=22 data_out=  0 full=0 empty=0 Time=                 245
+# clk=0 rst=1 wr_rd=1 data_in=206 addr=23 data_out=  0 full=0 empty=0 Time=                 250
+# clk=1 rst=1 wr_rd=1 data_in=206 addr=23 data_out=  0 full=0 empty=0 Time=                 255
+# clk=0 rst=1 wr_rd=1 data_in=232 addr=24 data_out=  0 full=0 empty=0 Time=                 260
+# clk=1 rst=1 wr_rd=1 data_in=232 addr=24 data_out=  0 full=0 empty=0 Time=                 265
+# clk=0 rst=1 wr_rd=1 data_in=197 addr=25 data_out=  0 full=0 empty=0 Time=                 270
+# clk=1 rst=1 wr_rd=1 data_in=197 addr=25 data_out=  0 full=0 empty=0 Time=                 275
+# clk=0 rst=1 wr_rd=1 data_in= 92 addr=26 data_out=  0 full=0 empty=0 Time=                 280
+# clk=1 rst=1 wr_rd=1 data_in= 92 addr=26 data_out=  0 full=0 empty=0 Time=                 285
+# clk=0 rst=1 wr_rd=1 data_in=189 addr=27 data_out=  0 full=0 empty=0 Time=                 290
+# clk=1 rst=1 wr_rd=1 data_in=189 addr=27 data_out=  0 full=0 empty=0 Time=                 295
+# clk=0 rst=1 wr_rd=1 data_in= 45 addr=28 data_out=  0 full=0 empty=0 Time=                 300
+# clk=1 rst=1 wr_rd=1 data_in= 45 addr=28 data_out=  0 full=0 empty=0 Time=                 305
+# clk=0 rst=1 wr_rd=1 data_in=101 addr=29 data_out=  0 full=0 empty=0 Time=                 310
+# clk=1 rst=1 wr_rd=1 data_in=101 addr=29 data_out=  0 full=0 empty=0 Time=                 315
+# clk=0 rst=1 wr_rd=1 data_in= 99 addr=30 data_out=  0 full=0 empty=0 Time=                 320
+# clk=1 rst=1 wr_rd=1 data_in= 99 addr=30 data_out=  0 full=0 empty=0 Time=                 325
+# clk=0 rst=1 wr_rd=1 data_in= 10 addr=31 data_out=  0 full=0 empty=0 Time=                 330
+# clk=1 rst=1 wr_rd=1 data_in= 10 addr=31 data_out=  0 full=0 empty=0 Time=                 335
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 0 data_out=  0 full=0 empty=0 Time=                 340
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 0 data_out= 36 full=1 empty=0 Time=                 345
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 1 data_out= 36 full=1 empty=0 Time=                 350
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 1 data_out=129 full=0 empty=0 Time=                 355
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 2 data_out=129 full=0 empty=0 Time=                 360
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 2 data_out=  9 full=0 empty=0 Time=                 365
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 3 data_out=  9 full=0 empty=0 Time=                 370
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 3 data_out= 99 full=0 empty=0 Time=                 375
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 4 data_out= 99 full=0 empty=0 Time=                 380
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 4 data_out= 13 full=0 empty=0 Time=                 385
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 5 data_out= 13 full=0 empty=0 Time=                 390
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 5 data_out=141 full=0 empty=0 Time=                 395
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 6 data_out=141 full=0 empty=0 Time=                 400
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 6 data_out=101 full=0 empty=0 Time=                 405
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 7 data_out=101 full=0 empty=0 Time=                 410
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 7 data_out= 18 full=0 empty=0 Time=                 415
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 8 data_out= 18 full=0 empty=0 Time=                 420
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 8 data_out=  1 full=0 empty=0 Time=                 425
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 9 data_out=  1 full=0 empty=0 Time=                 430
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 9 data_out= 13 full=0 empty=0 Time=                 435
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=10 data_out= 13 full=0 empty=0 Time=                 440
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=10 data_out=118 full=0 empty=0 Time=                 445
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=11 data_out=118 full=0 empty=0 Time=                 450
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=11 data_out= 61 full=0 empty=0 Time=                 455
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=12 data_out= 61 full=0 empty=0 Time=                 460
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=12 data_out=237 full=0 empty=0 Time=                 465
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=13 data_out=237 full=0 empty=0 Time=                 470
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=13 data_out=140 full=0 empty=0 Time=                 475
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=14 data_out=140 full=0 empty=0 Time=                 480
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=14 data_out=249 full=0 empty=0 Time=                 485
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=15 data_out=249 full=0 empty=0 Time=                 490
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=15 data_out=198 full=0 empty=0 Time=                 495
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=16 data_out=198 full=0 empty=0 Time=                 500
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=16 data_out=197 full=0 empty=0 Time=                 505
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=17 data_out=197 full=0 empty=0 Time=                 510
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=17 data_out=170 full=0 empty=0 Time=                 515
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=18 data_out=170 full=0 empty=0 Time=                 520
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=18 data_out=229 full=0 empty=0 Time=                 525
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=19 data_out=229 full=0 empty=0 Time=                 530
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=19 data_out=119 full=0 empty=0 Time=                 535
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=20 data_out=119 full=0 empty=0 Time=                 540
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=20 data_out= 18 full=0 empty=0 Time=                 545
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=21 data_out= 18 full=0 empty=0 Time=                 550
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=21 data_out=143 full=0 empty=0 Time=                 555
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=22 data_out=143 full=0 empty=0 Time=                 560
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=22 data_out=242 full=0 empty=0 Time=                 565
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=23 data_out=242 full=0 empty=0 Time=                 570
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=23 data_out=206 full=0 empty=0 Time=                 575
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=24 data_out=206 full=0 empty=0 Time=                 580
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=24 data_out=232 full=0 empty=0 Time=                 585
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=25 data_out=232 full=0 empty=0 Time=                 590
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=25 data_out=197 full=0 empty=0 Time=                 595
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=26 data_out=197 full=0 empty=0 Time=                 600
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=26 data_out= 92 full=0 empty=0 Time=                 605
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=27 data_out= 92 full=0 empty=0 Time=                 610
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=27 data_out=189 full=0 empty=0 Time=                 615
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=28 data_out=189 full=0 empty=0 Time=                 620
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=28 data_out= 45 full=0 empty=0 Time=                 625
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=29 data_out= 45 full=0 empty=0 Time=                 630
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=29 data_out=101 full=0 empty=0 Time=                 635
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=30 data_out=101 full=0 empty=0 Time=                 640
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=30 data_out= 99 full=0 empty=0 Time=                 645
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=31 data_out= 99 full=0 empty=0 Time=                 650
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=31 data_out= 10 full=0 empty=0 Time=                 655
+# ** Note: $stop    : RAM.v(105)
+#    Time: 660 ns  Iteration: 1  Instance: /RAM_tb
+# Break in Module RAM_tb at RAM.v line 105
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:19:08 on Sep 22,2025
+# vlog -reportprogress 300 RAM.v "+acc" 
+# -- Compiling module RAM
+# -- Compiling module RAM_tb
+# 
+# Top level modules:
+# 	RAM_tb
+# End time: 10:19:08 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:19:12 on Sep 22,2025, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 0
+# vsim RAM_tb 
+# Start time: 10:19:12 on Sep 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RAM_tb(fast)
+# Loading work.RAM(fast)
+# clk=0 rst=0 wr_rd=x data_in=  x addr= x data_out=  0 full=0 empty=1 Time=                   0
+# clk=1 rst=0 wr_rd=x data_in=  x addr= x data_out=  0 full=0 empty=1 Time=                   5
+# clk=0 rst=0 wr_rd=x data_in=  x addr= x data_out=  0 full=0 empty=1 Time=                  10
+# clk=1 rst=0 wr_rd=x data_in=  x addr= x data_out=  0 full=0 empty=1 Time=                  15
+# clk=0 rst=1 wr_rd=1 data_in= 36 addr= 0 data_out=  0 full=0 empty=1 Time=                  20
+# clk=1 rst=1 wr_rd=1 data_in= 36 addr= 0 data_out=  0 full=0 empty=0 Time=                  25
+# clk=0 rst=1 wr_rd=1 data_in=129 addr= 1 data_out=  0 full=0 empty=0 Time=                  30
+# clk=1 rst=1 wr_rd=1 data_in=129 addr= 1 data_out=  0 full=0 empty=0 Time=                  35
+# clk=0 rst=1 wr_rd=1 data_in=  9 addr= 2 data_out=  0 full=0 empty=0 Time=                  40
+# clk=1 rst=1 wr_rd=1 data_in=  9 addr= 2 data_out=  0 full=0 empty=0 Time=                  45
+# clk=0 rst=1 wr_rd=1 data_in= 99 addr= 3 data_out=  0 full=0 empty=0 Time=                  50
+# clk=1 rst=1 wr_rd=1 data_in= 99 addr= 3 data_out=  0 full=0 empty=0 Time=                  55
+# clk=0 rst=1 wr_rd=1 data_in= 13 addr= 4 data_out=  0 full=0 empty=0 Time=                  60
+# clk=1 rst=1 wr_rd=1 data_in= 13 addr= 4 data_out=  0 full=0 empty=0 Time=                  65
+# clk=0 rst=1 wr_rd=1 data_in=141 addr= 5 data_out=  0 full=0 empty=0 Time=                  70
+# clk=1 rst=1 wr_rd=1 data_in=141 addr= 5 data_out=  0 full=0 empty=0 Time=                  75
+# clk=0 rst=1 wr_rd=1 data_in=101 addr= 6 data_out=  0 full=0 empty=0 Time=                  80
+# clk=1 rst=1 wr_rd=1 data_in=101 addr= 6 data_out=  0 full=0 empty=0 Time=                  85
+# clk=0 rst=1 wr_rd=1 data_in= 18 addr= 7 data_out=  0 full=0 empty=0 Time=                  90
+# clk=1 rst=1 wr_rd=1 data_in= 18 addr= 7 data_out=  0 full=0 empty=0 Time=                  95
+# clk=0 rst=1 wr_rd=1 data_in=  1 addr= 8 data_out=  0 full=0 empty=0 Time=                 100
+# clk=1 rst=1 wr_rd=1 data_in=  1 addr= 8 data_out=  0 full=0 empty=0 Time=                 105
+# clk=0 rst=1 wr_rd=1 data_in= 13 addr= 9 data_out=  0 full=0 empty=0 Time=                 110
+# clk=1 rst=1 wr_rd=1 data_in= 13 addr= 9 data_out=  0 full=0 empty=0 Time=                 115
+# clk=0 rst=1 wr_rd=1 data_in=118 addr=10 data_out=  0 full=0 empty=0 Time=                 120
+# clk=1 rst=1 wr_rd=1 data_in=118 addr=10 data_out=  0 full=0 empty=0 Time=                 125
+# clk=0 rst=1 wr_rd=1 data_in= 61 addr=11 data_out=  0 full=0 empty=0 Time=                 130
+# clk=1 rst=1 wr_rd=1 data_in= 61 addr=11 data_out=  0 full=0 empty=0 Time=                 135
+# clk=0 rst=1 wr_rd=1 data_in=237 addr=12 data_out=  0 full=0 empty=0 Time=                 140
+# clk=1 rst=1 wr_rd=1 data_in=237 addr=12 data_out=  0 full=0 empty=0 Time=                 145
+# clk=0 rst=1 wr_rd=1 data_in=140 addr=13 data_out=  0 full=0 empty=0 Time=                 150
+# clk=1 rst=1 wr_rd=1 data_in=140 addr=13 data_out=  0 full=0 empty=0 Time=                 155
+# clk=0 rst=1 wr_rd=1 data_in=249 addr=14 data_out=  0 full=0 empty=0 Time=                 160
+# clk=1 rst=1 wr_rd=1 data_in=249 addr=14 data_out=  0 full=0 empty=0 Time=                 165
+# clk=0 rst=1 wr_rd=1 data_in=198 addr=15 data_out=  0 full=0 empty=0 Time=                 170
+# clk=1 rst=1 wr_rd=1 data_in=198 addr=15 data_out=  0 full=0 empty=0 Time=                 175
+# clk=0 rst=1 wr_rd=1 data_in=197 addr=16 data_out=  0 full=0 empty=0 Time=                 180
+# clk=1 rst=1 wr_rd=1 data_in=197 addr=16 data_out=  0 full=0 empty=0 Time=                 185
+# clk=0 rst=1 wr_rd=1 data_in=170 addr=17 data_out=  0 full=0 empty=0 Time=                 190
+# clk=1 rst=1 wr_rd=1 data_in=170 addr=17 data_out=  0 full=0 empty=0 Time=                 195
+# clk=0 rst=1 wr_rd=1 data_in=229 addr=18 data_out=  0 full=0 empty=0 Time=                 200
+# clk=1 rst=1 wr_rd=1 data_in=229 addr=18 data_out=  0 full=0 empty=0 Time=                 205
+# clk=0 rst=1 wr_rd=1 data_in=119 addr=19 data_out=  0 full=0 empty=0 Time=                 210
+# clk=1 rst=1 wr_rd=1 data_in=119 addr=19 data_out=  0 full=0 empty=0 Time=                 215
+# clk=0 rst=1 wr_rd=1 data_in= 18 addr=20 data_out=  0 full=0 empty=0 Time=                 220
+# clk=1 rst=1 wr_rd=1 data_in= 18 addr=20 data_out=  0 full=0 empty=0 Time=                 225
+# clk=0 rst=1 wr_rd=1 data_in=143 addr=21 data_out=  0 full=0 empty=0 Time=                 230
+# clk=1 rst=1 wr_rd=1 data_in=143 addr=21 data_out=  0 full=0 empty=0 Time=                 235
+# clk=0 rst=1 wr_rd=1 data_in=242 addr=22 data_out=  0 full=0 empty=0 Time=                 240
+# clk=1 rst=1 wr_rd=1 data_in=242 addr=22 data_out=  0 full=0 empty=0 Time=                 245
+# clk=0 rst=1 wr_rd=1 data_in=206 addr=23 data_out=  0 full=0 empty=0 Time=                 250
+# clk=1 rst=1 wr_rd=1 data_in=206 addr=23 data_out=  0 full=0 empty=0 Time=                 255
+# clk=0 rst=1 wr_rd=1 data_in=232 addr=24 data_out=  0 full=0 empty=0 Time=                 260
+# clk=1 rst=1 wr_rd=1 data_in=232 addr=24 data_out=  0 full=0 empty=0 Time=                 265
+# clk=0 rst=1 wr_rd=1 data_in=197 addr=25 data_out=  0 full=0 empty=0 Time=                 270
+# clk=1 rst=1 wr_rd=1 data_in=197 addr=25 data_out=  0 full=0 empty=0 Time=                 275
+# clk=0 rst=1 wr_rd=1 data_in= 92 addr=26 data_out=  0 full=0 empty=0 Time=                 280
+# clk=1 rst=1 wr_rd=1 data_in= 92 addr=26 data_out=  0 full=0 empty=0 Time=                 285
+# clk=0 rst=1 wr_rd=1 data_in=189 addr=27 data_out=  0 full=0 empty=0 Time=                 290
+# clk=1 rst=1 wr_rd=1 data_in=189 addr=27 data_out=  0 full=0 empty=0 Time=                 295
+# clk=0 rst=1 wr_rd=1 data_in= 45 addr=28 data_out=  0 full=0 empty=0 Time=                 300
+# clk=1 rst=1 wr_rd=1 data_in= 45 addr=28 data_out=  0 full=0 empty=0 Time=                 305
+# clk=0 rst=1 wr_rd=1 data_in=101 addr=29 data_out=  0 full=0 empty=0 Time=                 310
+# clk=1 rst=1 wr_rd=1 data_in=101 addr=29 data_out=  0 full=0 empty=0 Time=                 315
+# clk=0 rst=1 wr_rd=1 data_in= 99 addr=30 data_out=  0 full=0 empty=0 Time=                 320
+# clk=1 rst=1 wr_rd=1 data_in= 99 addr=30 data_out=  0 full=0 empty=0 Time=                 325
+# clk=0 rst=1 wr_rd=1 data_in= 10 addr=31 data_out=  0 full=0 empty=0 Time=                 330
+# clk=1 rst=1 wr_rd=1 data_in= 10 addr=31 data_out=  0 full=1 empty=0 Time=                 335
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 0 data_out=  0 full=1 empty=0 Time=                 340
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 0 data_out= 36 full=0 empty=0 Time=                 345
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 1 data_out= 36 full=0 empty=0 Time=                 350
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 1 data_out=129 full=0 empty=0 Time=                 355
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 2 data_out=129 full=0 empty=0 Time=                 360
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 2 data_out=  9 full=0 empty=0 Time=                 365
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 3 data_out=  9 full=0 empty=0 Time=                 370
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 3 data_out= 99 full=0 empty=0 Time=                 375
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 4 data_out= 99 full=0 empty=0 Time=                 380
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 4 data_out= 13 full=0 empty=0 Time=                 385
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 5 data_out= 13 full=0 empty=0 Time=                 390
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 5 data_out=141 full=0 empty=0 Time=                 395
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 6 data_out=141 full=0 empty=0 Time=                 400
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 6 data_out=101 full=0 empty=0 Time=                 405
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 7 data_out=101 full=0 empty=0 Time=                 410
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 7 data_out= 18 full=0 empty=0 Time=                 415
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 8 data_out= 18 full=0 empty=0 Time=                 420
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 8 data_out=  1 full=0 empty=0 Time=                 425
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr= 9 data_out=  1 full=0 empty=0 Time=                 430
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr= 9 data_out= 13 full=0 empty=0 Time=                 435
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=10 data_out= 13 full=0 empty=0 Time=                 440
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=10 data_out=118 full=0 empty=0 Time=                 445
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=11 data_out=118 full=0 empty=0 Time=                 450
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=11 data_out= 61 full=0 empty=0 Time=                 455
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=12 data_out= 61 full=0 empty=0 Time=                 460
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=12 data_out=237 full=0 empty=0 Time=                 465
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=13 data_out=237 full=0 empty=0 Time=                 470
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=13 data_out=140 full=0 empty=0 Time=                 475
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=14 data_out=140 full=0 empty=0 Time=                 480
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=14 data_out=249 full=0 empty=0 Time=                 485
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=15 data_out=249 full=0 empty=0 Time=                 490
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=15 data_out=198 full=0 empty=0 Time=                 495
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=16 data_out=198 full=0 empty=0 Time=                 500
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=16 data_out=197 full=0 empty=0 Time=                 505
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=17 data_out=197 full=0 empty=0 Time=                 510
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=17 data_out=170 full=0 empty=0 Time=                 515
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=18 data_out=170 full=0 empty=0 Time=                 520
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=18 data_out=229 full=0 empty=0 Time=                 525
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=19 data_out=229 full=0 empty=0 Time=                 530
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=19 data_out=119 full=0 empty=0 Time=                 535
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=20 data_out=119 full=0 empty=0 Time=                 540
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=20 data_out= 18 full=0 empty=0 Time=                 545
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=21 data_out= 18 full=0 empty=0 Time=                 550
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=21 data_out=143 full=0 empty=0 Time=                 555
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=22 data_out=143 full=0 empty=0 Time=                 560
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=22 data_out=242 full=0 empty=0 Time=                 565
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=23 data_out=242 full=0 empty=0 Time=                 570
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=23 data_out=206 full=0 empty=0 Time=                 575
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=24 data_out=206 full=0 empty=0 Time=                 580
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=24 data_out=232 full=0 empty=0 Time=                 585
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=25 data_out=232 full=0 empty=0 Time=                 590
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=25 data_out=197 full=0 empty=0 Time=                 595
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=26 data_out=197 full=0 empty=0 Time=                 600
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=26 data_out= 92 full=0 empty=0 Time=                 605
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=27 data_out= 92 full=0 empty=0 Time=                 610
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=27 data_out=189 full=0 empty=0 Time=                 615
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=28 data_out=189 full=0 empty=0 Time=                 620
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=28 data_out= 45 full=0 empty=0 Time=                 625
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=29 data_out= 45 full=0 empty=0 Time=                 630
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=29 data_out=101 full=0 empty=0 Time=                 635
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=30 data_out=101 full=0 empty=0 Time=                 640
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=30 data_out= 99 full=0 empty=0 Time=                 645
+# clk=0 rst=1 wr_rd=0 data_in= 10 addr=31 data_out= 99 full=0 empty=0 Time=                 650
+# clk=1 rst=1 wr_rd=0 data_in= 10 addr=31 data_out= 10 full=0 empty=1 Time=                 655
+# ** Note: $stop    : RAM.v(107)
+#    Time: 660 ns  Iteration: 1  Instance: /RAM_tb
+# Break in Module RAM_tb at RAM.v line 107
+quit -sim
+# End time: 10:22:24 on Sep 22,2025, Elapsed time: 0:03:12
+# Errors: 0, Warnings: 0
