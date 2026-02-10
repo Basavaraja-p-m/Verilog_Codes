@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/FRAMES/ETHERNET
+T_opt
+!s110 1758218764
+V[:2ZZX<H1e8IJaWj49L`n3
+04 11 4 work ETHERNET_tb fast 0
+=1-84144d0ea3d5-68cc4a0c-35-14c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vETHERNET
+Z2 !s110 1758218761
+!i10b 1
+!s100 9@Qb8JG;_lOcR9^K169Q;3
+IY0<oB`2o=DGdBf65jc;L`3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758218756
+Z5 8ETHERNET.v
+Z6 FETHERNET.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758218761.000000
+Z9 !s107 ETHERNET.v|
+Z10 !s90 -reportprogress|300|ETHERNET.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@e@t@h@e@r@n@e@t
+vETHERNET_tb
+R2
+!i10b 1
+!s100 ;F03N1RG[ZDVhKN29>JZ72
+In7UGH5:I@W_`1Rj931]P]2
+R3
+R0
+R4
+R5
+R6
+L0 26
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@e@t@h@e@r@n@e@t_tb

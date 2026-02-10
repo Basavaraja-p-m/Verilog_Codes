@@ -1,0 +1,261 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+pwd
+# C:/questasim64_10.7c/examples/VERILOG CODES/GATE LEVEL/DEMUX 4 TO 1
+ls
+# DEMUX_4TO1.v  run.do  transcript        
+vlog DEMUX_4TO1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:53:05 on Aug 25,2025
+# vlog -reportprogress 300 DEMUX_4TO1.v "+acc" 
+# -- Compiling module DEMUX_4TO1
+# ** Error: (vlog-13038) DEMUX_4TO1.v(5): near ")": Missing port in ansi port list.
+# End time: 12:53:05 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog DEMUX_4TO1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:55:08 on Aug 25,2025
+# vlog -reportprogress 300 DEMUX_4TO1.v "+acc" 
+# -- Compiling module DEMUX_4TO1
+# -- Compiling module DEMUX_4TO1_tb
+# ** Error: DEMUX_4TO1.v(25): 'Repeat' statement found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: (vlog-13069) DEMUX_4TO1.v(27): near "=": syntax error, unexpected '='.
+# ** Error: DEMUX_4TO1.v(27): (vlog-13205) Syntax error found in the scope following 'y'. Is there a missing '::'?
+# End time: 12:55:08 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog DEMUX_4TO1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:56:30 on Aug 25,2025
+# vlog -reportprogress 300 DEMUX_4TO1.v "+acc" 
+# -- Compiling module DEMUX_4TO1
+# -- Compiling module DEMUX_4TO1_tb
+# 
+# Top level modules:
+# 	DEMUX_4TO1_tb
+# End time: 12:56:31 on Aug 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim DEMUX_4TO1_tb
+# vsim DEMUX_4TO1_tb 
+# Start time: 12:56:42 on Aug 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.DEMUX_4TO1_tb(fast)
+# Loading work.DEMUX_4TO1(fast)
+add wave *
+run -all
+# y=0 y=  y= Time=                   0                   0
+# y=0 y= y= Time=                   0                  10
+# y=0 y= y= Time=                   0                  20
+# y=0 y= y= Time=                   0                  30
+# y=1 y=  y= Time=                   1                  40
+# y=1 y= y= Time=                   2                  50
+# y=1 y= y= Time=                   4                  60
+# y=1 y= y= Time=                   8                  70
+# y=1 y=  y= Time=                   1                  80
+# y=1 y= y= Time=                   2                  90
+# y=1 y= y= Time=                   4                 100
+# y=1 y= y= Time=                   8                 110
+# y=1 y=  y= Time=                   1                 120
+# y=1 y= y= Time=                   2                 130
+# y=1 y= y= Time=                   4                 140
+# y=1 y= y= Time=                   8                 150
+# y=1 y=  y= Time=                   1                 160
+# y=1 y= y= Time=                   2                 170
+# y=1 y= y= Time=                   4                 180
+# y=1 y= y= Time=                   8                 190
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:58:22 on Aug 25,2025
+# vlog -reportprogress 300 DEMUX_4TO1.v "+acc" 
+# -- Compiling module DEMUX_4TO1
+# -- Compiling module DEMUX_4TO1_tb
+# 
+# Top level modules:
+# 	DEMUX_4TO1_tb
+# End time: 12:58:22 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:58:23 on Aug 25,2025, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 0
+# vsim DEMUX_4TO1_tb 
+# Start time: 12:58:23 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.DEMUX_4TO1_tb(fast)
+# Loading work.DEMUX_4TO1(fast)
+# y=0 s=00 i=0000 Time=                   0
+# y=0 s=01 i=0000 Time=                  10
+# y=0 s=10 i=0000 Time=                  20
+# y=0 s=11 i=0000 Time=                  30
+# y=1 s=00 i=0001 Time=                  40
+# y=1 s=01 i=0010 Time=                  50
+# y=1 s=10 i=0100 Time=                  60
+# y=1 s=11 i=1000 Time=                  70
+# y=1 s=00 i=0001 Time=                  80
+# y=1 s=01 i=0010 Time=                  90
+# y=1 s=10 i=0100 Time=                 100
+# y=1 s=11 i=1000 Time=                 110
+# y=1 s=00 i=0001 Time=                 120
+# y=1 s=01 i=0010 Time=                 130
+# y=1 s=10 i=0100 Time=                 140
+# y=1 s=11 i=1000 Time=                 150
+# y=1 s=00 i=0001 Time=                 160
+# y=1 s=01 i=0010 Time=                 170
+# y=1 s=10 i=0100 Time=                 180
+# y=1 s=11 i=1000 Time=                 190
+vsim -debugdb DEMUX_4TO1_tb
+# End time: 13:05:10 on Aug 25,2025, Elapsed time: 0:06:47
+# Errors: 0, Warnings: 0
+# vsim -debugdb DEMUX_4TO1_tb 
+# Start time: 13:05:10 on Aug 25,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.DEMUX_4TO1_tb(fast)
+# Loading work.DEMUX_4TO1(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:08:35 on Aug 25,2025
+# vlog -reportprogress 300 DEMUX_4TO1.v "+acc" 
+# -- Compiling module DEMUX_4TO1
+# -- Compiling module DEMUX_4TO1_tb
+# 
+# Top level modules:
+# 	DEMUX_4TO1_tb
+# End time: 13:08:35 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:08:36 on Aug 25,2025, Elapsed time: 0:03:26
+# Errors: 0, Warnings: 2
+# vsim DEMUX_4TO1_tb 
+# Start time: 13:08:36 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.DEMUX_4TO1_tb(fast)
+# Loading work.DEMUX_4TO1(fast)
+# y=0 s=00 i[0]=0 i[1]=0 i[2]=0 i[3]=0 Time=                   0
+# y=0 s=01 i[0]=0 i[1]=0 i[2]=0 i[3]=0 Time=                  10
+# y=0 s=10 i[0]=0 i[1]=0 i[2]=0 i[3]=0 Time=                  20
+# y=0 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=0 Time=                  30
+# y=1 s=00 i[0]=1 i[1]=0 i[2]=0 i[3]=0 Time=                  40
+# y=1 s=01 i[0]=0 i[1]=1 i[2]=0 i[3]=0 Time=                  50
+# y=1 s=10 i[0]=0 i[1]=0 i[2]=1 i[3]=0 Time=                  60
+# y=1 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=1 Time=                  70
+# y=1 s=00 i[0]=1 i[1]=0 i[2]=0 i[3]=0 Time=                  80
+# y=1 s=01 i[0]=0 i[1]=1 i[2]=0 i[3]=0 Time=                  90
+# y=1 s=10 i[0]=0 i[1]=0 i[2]=1 i[3]=0 Time=                 100
+# y=1 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=1 Time=                 110
+# y=1 s=00 i[0]=1 i[1]=0 i[2]=0 i[3]=0 Time=                 120
+# y=1 s=01 i[0]=0 i[1]=1 i[2]=0 i[3]=0 Time=                 130
+# y=1 s=10 i[0]=0 i[1]=0 i[2]=1 i[3]=0 Time=                 140
+# y=1 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=1 Time=                 150
+# y=1 s=00 i[0]=1 i[1]=0 i[2]=0 i[3]=0 Time=                 160
+# y=1 s=01 i[0]=0 i[1]=1 i[2]=0 i[3]=0 Time=                 170
+# y=1 s=10 i[0]=0 i[1]=0 i[2]=1 i[3]=0 Time=                 180
+# y=1 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=1 Time=                 190
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:20:42 on Aug 25,2025
+# vlog -reportprogress 300 DEMUX_4TO1.v "+acc" 
+# -- Compiling module DEMUX_4TO1
+# -- Compiling module DEMUX_4TO1_tb
+# ** Error: (vlog-13069) DEMUX_4TO1.v(18): near "reg": syntax error, unexpected reg, expecting ';' or ','.
+# ** Error: DEMUX_4TO1.v(31): (vlog-2730) Undefined variable: 'sel'.
+# ** Error: (vlog-13069) DEMUX_4TO1.v(39): near "end": syntax error, unexpected end.
+# End time: 13:20:43 on Aug 25,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog DEMUX_4TO1.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:21:27 on Aug 25,2025
+# vlog -reportprogress 300 DEMUX_4TO1.v "+acc" 
+# -- Compiling module DEMUX_4TO1
+# -- Compiling module DEMUX_4TO1_tb
+# 
+# Top level modules:
+# 	DEMUX_4TO1_tb
+# End time: 13:21:27 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:21:28 on Aug 25,2025, Elapsed time: 0:12:52
+# Errors: 6, Warnings: 0
+# vsim DEMUX_4TO1_tb 
+# Start time: 13:21:28 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.DEMUX_4TO1_tb(fast)
+# Loading work.DEMUX_4TO1(fast)
+# y=0 s=00 i[0]=0 i[1]=0 i[2]=0 i[3]=0 Time=                   0
+# y=0 s=01 i[0]=0 i[1]=0 i[2]=0 i[3]=0 Time=                  10
+# y=0 s=10 i[0]=0 i[1]=0 i[2]=0 i[3]=0 Time=                  20
+# y=0 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=0 Time=                  30
+# y=1 s=00 i[0]=1 i[1]=0 i[2]=0 i[3]=0 Time=                  40
+# y=1 s=01 i[0]=0 i[1]=1 i[2]=0 i[3]=0 Time=                  50
+# y=1 s=10 i[0]=0 i[1]=0 i[2]=1 i[3]=0 Time=                  60
+# y=1 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=1 Time=                  70
+# y=1 s=00 i[0]=1 i[1]=0 i[2]=0 i[3]=0 Time=                  80
+# y=1 s=01 i[0]=0 i[1]=1 i[2]=0 i[3]=0 Time=                  90
+# y=1 s=10 i[0]=0 i[1]=0 i[2]=1 i[3]=0 Time=                 100
+# y=1 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=1 Time=                 110
+# y=1 s=00 i[0]=1 i[1]=0 i[2]=0 i[3]=0 Time=                 120
+# y=1 s=01 i[0]=0 i[1]=1 i[2]=0 i[3]=0 Time=                 130
+# y=1 s=10 i[0]=0 i[1]=0 i[2]=1 i[3]=0 Time=                 140
+# y=1 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=1 Time=                 150
+# y=1 s=00 i[0]=1 i[1]=0 i[2]=0 i[3]=0 Time=                 160
+# y=1 s=01 i[0]=0 i[1]=1 i[2]=0 i[3]=0 Time=                 170
+# y=1 s=10 i[0]=0 i[1]=0 i[2]=1 i[3]=0 Time=                 180
+# y=1 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=1 Time=                 190
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:25:13 on Aug 25,2025
+# vlog -reportprogress 300 DEMUX_4TO1.v "+acc" 
+# -- Compiling module DEMUX_4TO1
+# -- Compiling module DEMUX_4TO1_tb
+# 
+# Top level modules:
+# 	DEMUX_4TO1_tb
+# End time: 13:25:13 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:25:14 on Aug 25,2025, Elapsed time: 0:03:46
+# Errors: 0, Warnings: 0
+# vsim DEMUX_4TO1_tb 
+# Start time: 13:25:14 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.DEMUX_4TO1_tb(fast)
+# Loading work.DEMUX_4TO1(fast)
+# y=0 s=00 i[0]=0 i[1]=0 i[2]=0 i[3]=0 Time=                   0
+# y=0 s=01 i[0]=0 i[1]=0 i[2]=0 i[3]=0 Time=                  10
+# y=0 s=10 i[0]=0 i[1]=0 i[2]=0 i[3]=0 Time=                  20
+# y=0 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=0 Time=                  30
+# y=1 s=00 i[0]=1 i[1]=0 i[2]=0 i[3]=0 Time=                  40
+# y=1 s=01 i[0]=0 i[1]=1 i[2]=0 i[3]=0 Time=                  50
+# y=1 s=10 i[0]=0 i[1]=0 i[2]=1 i[3]=0 Time=                  60
+# y=1 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=1 Time=                  70
+# y=1 s=00 i[0]=1 i[1]=0 i[2]=0 i[3]=0 Time=                  80
+# y=1 s=01 i[0]=0 i[1]=1 i[2]=0 i[3]=0 Time=                  90
+# y=1 s=10 i[0]=0 i[1]=0 i[2]=1 i[3]=0 Time=                 100
+# y=1 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=1 Time=                 110
+# y=1 s=00 i[0]=1 i[1]=0 i[2]=0 i[3]=0 Time=                 120
+# y=1 s=01 i[0]=0 i[1]=1 i[2]=0 i[3]=0 Time=                 130
+# y=1 s=10 i[0]=0 i[1]=0 i[2]=1 i[3]=0 Time=                 140
+# y=1 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=1 Time=                 150
+# y=1 s=00 i[0]=1 i[1]=0 i[2]=0 i[3]=0 Time=                 160
+# y=1 s=01 i[0]=0 i[1]=1 i[2]=0 i[3]=0 Time=                 170
+# y=1 s=10 i[0]=0 i[1]=0 i[2]=1 i[3]=0 Time=                 180
+# y=1 s=11 i[0]=0 i[1]=0 i[2]=0 i[3]=1 Time=                 190
+quit -sim
+# End time: 13:30:39 on Aug 25,2025, Elapsed time: 0:05:25
+# Errors: 0, Warnings: 0

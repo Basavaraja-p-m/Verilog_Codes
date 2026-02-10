@@ -1,0 +1,53 @@
+module OPERATORS();
+    reg [15:0]a,b;
+    reg [15:0]y;
+    reg s;
+
+    initial begin
+     a=10;b=8;
+     $display("airthamatic operators-----------------------------------------------");
+     y=a+b;
+     $display("Addition a=%0d b=%0d y=%0d",a,b,y);
+     y=a-b;
+     $display("Subtraction a=%0d b=%0d y=%0d",a,b,y);
+     y=a*b;
+     $display("Multiplication a=%0d b=%0d y=%0d",a,b,y);
+     y=a/b;
+     $display("Division a=%0d b=%0d y=%0d",a,b,y);
+     y=a%b;
+     $display("Modulus a=%0d b=%0d y=%0d",a,b,y);
+     $display("logical operators-------------------------------------------------");
+     y=a||b;
+     $display("Or a=%0b b=%0b y=%0b",a,b,y);
+     y=a&&b;
+     $display("And a=%0b b=%0b y=%0b",a,b,y);
+     y=!a;
+     $display("Not a=%0b b=%0b y=%0b",a,b,y);
+     $display("Bitwise operators------------------------------------------------");
+     y=a&b;
+     $display("And a=%0b b=%0b y=%0b",a,b,y);
+     y=a|b;
+     $display("OR a=%0b b=%0b y=%0b",a,b,y);
+     y=a^b;
+     $display("Xor a=%0b b=%0b y=%0b",a,b,y);
+     $display("logical shifting operators----------------------------------------");
+     y=a>>1;
+     $display("a=%0b y=%0b",a,y);
+     y=b<<1;
+     $display("b=%0b y=%0b",b,y);
+     $display("Airthamatic shift operators-------------------------------------------------");
+     y=a>>>2;
+     $display("a=%0b y=%0b",a,y);
+     y=b<<<2;
+     $display("b=%0b y=%0b",b,y);
+     s=0;
+     y=(s==1)?a:b;
+     $display("The ternary operator a=%0d b=%0d y=%0d",a,b,y);
+     s=1;
+     y=(s==1)?a:b;
+     $display("The ternary operator a=%0d b=%0d y=%0d",a,b,y);
+     $display("concatination----------------------------------------------------------");
+     y={a[3:0],b[3:0]};
+     $display("a=%0b b=%0b y=%0b",a,b,y);
+     end
+ endmodule

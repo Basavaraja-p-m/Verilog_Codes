@@ -1,0 +1,197 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/GRAND TEST/ROM
+T_opt
+!s110 1760355950
+VUJA4`6`?C=TCJkn2n8T5]2
+04 16 4 work tb_memory_system fast 0
+=1-84144d0ea3d5-68ece66e-85-2374
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1760358839
+VCW]>46PJz[ze[fh>^DaFd2
+04 2 4 work tb fast 0
+=1-84144d0ea3d5-68ecf1b6-39b-2c2c
+R1
+R2
+n@_opt1
+R3
+vmemory_system
+Z4 !s110 1760355913
+!i10b 1
+!s100 kC2;HG^doNEb5dX9UZ27[0
+IeDGi=IX[b3;>EOWiV3bJ12
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z6 w1760355877
+Z7 8ROM.v
+Z8 FROM.v
+L0 72
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1760355913.000000
+Z11 !s107 ROM.v|
+Z12 !s90 -reportprogress|300|ROM.v|+acc|
+!i113 0
+Z13 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmux4x1
+Z14 !s110 1760358837
+!i10b 1
+!s100 S>RBOi0UQMHolZS6`IMe62
+I?d2ZI<<hPnY9P8]=JS9=k2
+R5
+R0
+Z15 w1760358830
+R7
+R8
+L0 13
+R9
+r1
+!s85 0
+31
+Z16 !s108 1760358837.000000
+R11
+R12
+!i113 0
+R13
+R2
+vpiso_8bit
+R14
+!i10b 1
+!s100 1?n5Wa0?7g9a]ecj6B]]b0
+IhM6ceoN47]IPiJU?@RdlE2
+R5
+R0
+R15
+R7
+R8
+L0 30
+R9
+r1
+!s85 0
+31
+R16
+R11
+R12
+!i113 0
+R13
+R2
+vrom_4x8
+R14
+!i10b 1
+!s100 _09QcCKToH3dLPIWcdle`1
+IHQ9;]fTn8dKW]zeBB;M`<2
+R5
+R0
+R15
+R7
+R8
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+R11
+R12
+!i113 0
+R13
+R2
+vtb
+R14
+!i10b 1
+!s100 k0I<ia^><7KaSF1oD5_S;3
+IXEzkVcYn7ODh575@G8cVo3
+R5
+R0
+R15
+R7
+R8
+L0 83
+R9
+r1
+!s85 0
+31
+R16
+R11
+R12
+!i113 0
+R13
+R2
+vtb_memory_system
+R4
+!i10b 1
+!s100 ISBETHXmAlAMFN_PDic?K0
+IQMlL569DO0XOd[e@Ze1Va1
+R5
+R0
+R6
+R7
+R8
+L0 106
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+vtop
+R14
+!i10b 1
+!s100 VFL[o5E5NbW>JPVnSDh]h2
+I_JE@N?:XGBYPWTom@mSl:2
+R5
+R0
+R15
+R7
+R8
+L0 63
+R9
+r1
+!s85 0
+31
+R16
+R11
+R12
+!i113 0
+R13
+R2
+vwom_8bit
+R14
+!i10b 1
+!s100 Dbm:7Y2CXTzUMX69B2jLL1
+IZ?W8L3m`eG0ABY]?]JUBW3
+R5
+R0
+R15
+R7
+R8
+L0 53
+R9
+r1
+!s85 0
+31
+R16
+R11
+R12
+!i113 0
+R13
+R2

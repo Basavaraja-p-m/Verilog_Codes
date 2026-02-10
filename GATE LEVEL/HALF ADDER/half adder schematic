@@ -1,0 +1,62 @@
+WindowType FullviewSchematic /HALF_ADDER1_tb/HA1
+DesignChecksum {z]SB;8IUIR2kcl8nz_RA@0}
+RoutedNets {}
+RoutedInst {}
+WindowPreferences {showhierarchy 1 showacttime 1 inoutlocation 1 selequivnets 0 hidebuffers 0 hidecells 1 hideinverters 0 selectenv 1 autowave 1 lognets 1 popupenabled 1 mouseoverenabled 1 showdunames 0 showinstnames 1 shownetnames 0 shownetnamestyle corner shownetstate 0 showpinnames 1 showripindices 1 showvalues 1 verticaltext 1 netxFollowsControlLogic 0 netxMaxGates 1024 netxMaxLevels 32 use_code_preview 1 time0_warning 1 depth_warning 1 add_error_warning 1 diverge_warning 1}
+EndOfStateInfo
+# File saved with Nlview version 6.6.36_0 (04/08/25-18:45:38 bk=1.779)
+#
+property -reset
+property autobundle 20
+property boxcolor0 #00ffff
+property boxcolor1 #999999
+property boxinstcolor #ffffff
+property boxpincolor #00ffff
+property buscolor #ffff00
+property closeenough 3
+property enablebufferchaincollapsing 1
+property enablescrollrect 1
+property evaluateattrvalue 1
+property extractsequentiallogic 2
+property gatepinname 1
+property incrementmode 2
+property inferbundlename 1
+property instattrmax 50
+property objecthighlight3 #008000
+property objecthighlight4 #ff00ff
+property objecthighlight5 #ffd700
+property objecthighlight6 #0000ff
+property objecthighlight9 #fa8072
+property outboxcolor1 #a52a2a
+property outboxcolor2 #000000
+property outboxcolor4 #000000
+property outfblevel 10
+property picksubnet 1
+property pinattrmax 50
+property pinorder 1
+property questalayoutimprovement 1
+property recursivecallerrorlen 10
+property searchvisibleobjects 1
+property selectbycolor9 1
+property showcellname 0
+property showmarks 1
+property shownetattr 4
+property showripindex 3
+property timelimit 50
+
+module new v {} -nosplit
+load symbol /HALF_ADDER1_tb/HA1/x1 v XOR port sum output port b input port a input
+load symbol /HALF_ADDER1_tb/HA1/a1 v AND port carry output port b input port a input
+load symbol work.HALF_ADDER1(fast) v HIERGEN port carry output.right port sum output.right port a input.left port b input.left boxcolor 1
+load inst /HALF_ADDER1_tb/HA1 work.HALF_ADDER1(fast) v -autohide -attr acc +acc=<full> -attr @name HA1 -attr @cell work.HALF_ADDER1(fast) -x 39 -y 20 -pg 1
+load inst /HALF_ADDER1_tb/HA1/a1 /HALF_ADDER1_tb/HA1/a1 v -hier /HALF_ADDER1_tb/HA1 -attr @cell {} -attr acc {} -attr @name a1 -x 137 -y 90 -pg 1
+load inst /HALF_ADDER1_tb/HA1/x1 /HALF_ADDER1_tb/HA1/x1 v -hier /HALF_ADDER1_tb/HA1 -attr @cell {} -attr acc {} -attr @name x1 -x 137 -y 40 -pg 1
+load net /HALF_ADDER1_tb/HA1/carry -attr @name carry -attr @simnet 5 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /HALF_ADDER1_tb/HA1 carry -pin /HALF_ADDER1_tb/HA1/a1 carry
+load net /HALF_ADDER1_tb/HA1/a -attr @name a -attr @simnet 7 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /HALF_ADDER1_tb/HA1 a -pin /HALF_ADDER1_tb/HA1/a1 a -pin /HALF_ADDER1_tb/HA1/x1 a
+load net /HALF_ADDER1_tb/HA1/b -attr @name b -attr @simnet 8 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /HALF_ADDER1_tb/HA1 b -pin /HALF_ADDER1_tb/HA1/a1 b -pin /HALF_ADDER1_tb/HA1/x1 b
+load net /HALF_ADDER1_tb/HA1/sum -attr @name sum -attr @simnet 6 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /HALF_ADDER1_tb/HA1 sum -pin /HALF_ADDER1_tb/HA1/x1 sum
+greymode off
+show 1
+zoom 1.6
+scrollpos -328 -39
+

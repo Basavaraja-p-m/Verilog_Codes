@@ -1,0 +1,70 @@
+WindowType FullviewSchematic /PROBLEM_3_tb/P3
+DesignChecksum M_ekQnO_iC3>LjRoBmHBn0
+RoutedNets {}
+RoutedInst {}
+WindowPreferences {showhierarchy 1 showacttime 1 inoutlocation 1 selequivnets 0 hidebuffers 0 hidecells 1 hideinverters 0 selectenv 1 autowave 1 lognets 1 popupenabled 1 mouseoverenabled 1 showdunames 0 showinstnames 1 shownetnames 0 shownetnamestyle corner shownetstate 0 showpinnames 1 showripindices 1 showvalues 1 verticaltext 1 netxFollowsControlLogic 0 netxMaxGates 1024 netxMaxLevels 32 use_code_preview 1 time0_warning 1 depth_warning 1 add_error_warning 1 diverge_warning 1}
+EndOfStateInfo
+# File saved with Nlview version 6.6.36_0 (04/08/25-18:45:38 bk=1.779)
+#
+property -reset
+property autobundle 20
+property boxcolor0 #00ffff
+property boxcolor1 #999999
+property boxinstcolor #ffffff
+property boxpincolor #00ffff
+property buscolor #ffff00
+property closeenough 3
+property enablebufferchaincollapsing 1
+property enablescrollrect 1
+property evaluateattrvalue 1
+property extractsequentiallogic 2
+property gatepinname 1
+property incrementmode 2
+property inferbundlename 1
+property instattrmax 50
+property objecthighlight3 #008000
+property objecthighlight4 #ff00ff
+property objecthighlight5 #ffd700
+property objecthighlight6 #0000ff
+property objecthighlight9 #fa8072
+property outboxcolor1 #a52a2a
+property outboxcolor2 #000000
+property outboxcolor4 #000000
+property outfblevel 10
+property picksubnet 1
+property pinattrmax 50
+property pinorder 1
+property questalayoutimprovement 1
+property recursivecallerrorlen 10
+property searchvisibleobjects 1
+property selectbycolor9 1
+property showcellname 0
+property showmarks 1
+property shownetattr 4
+property showripindex 3
+property timelimit 50
+
+module new v {} -nosplit
+load symbol work.BTOG(fast) v HIERGEN portBus b input.left 4 {b[0]} {b[1]} {b[2]} {b[3]} portBus g output.right 4 {g[0]} {g[1]} {g[2]} {g[3]} boxcolor 1
+load symbol work.GTOB(fast) v HIERGEN portBus g input.left 4 {g[0]} {g[1]} {g[2]} {g[3]} portBus b output.right 4 {b[0]} {b[1]} {b[2]} {b[3]} boxcolor 1
+load symbol work.PROBLEM_3(fast) v HIERGEN portBus y output.right 4 {y[0]} {y[1]} {y[2]} {y[3]} portBus b input.left 4 {b[0]} {b[1]} {b[2]} {b[3]} boxcolor 1
+load inst /PROBLEM_3_tb/P3 work.PROBLEM_3(fast) v -autohide -attr acc +acc=<full> -attr @name P3 -attr @cell work.PROBLEM_3(fast) -x 39 -y 20 -pg 1
+load inst /PROBLEM_3_tb/P3/G1 work.GTOB(fast) v -fold -hier /PROBLEM_3_tb/P3 -attr acc +acc=<full> -attr @name G1 -attr @cell work.GTOB(fast) -attr @style dashed -attr @fillcolor #000084 -x 260 -y 40 -pg 1
+load inst /PROBLEM_3_tb/P3/B1 work.BTOG(fast) v -fold -hier /PROBLEM_3_tb/P3 -attr acc +acc=<full> -attr @name B1 -attr @cell work.BTOG(fast) -attr @style dashed -attr @fillcolor #000084 -x 104 -y 40 -pg 1
+load net {/PROBLEM_3_tb/P3/w[2]} -attr @name {w[2]} -attr @simnet 19 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /PROBLEM_3_tb/P3/B1 {g[2]} -pin /PROBLEM_3_tb/P3/G1 {g[2]}
+load net {/PROBLEM_3_tb/P3/b[1]} -attr @name {b[1]} -attr @simnet 14 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /PROBLEM_3_tb/P3 {b[1]} -pin /PROBLEM_3_tb/P3/B1 {b[1]}
+load net {/PROBLEM_3_tb/P3/y[1]} -attr @name {y[1]} -attr @simnet 10 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /PROBLEM_3_tb/P3 {y[1]} -pin /PROBLEM_3_tb/P3/G1 {b[1]}
+load net {/PROBLEM_3_tb/P3/w[3]} -attr @name {w[3]} -attr @simnet 20 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /PROBLEM_3_tb/P3/B1 {g[3]} -pin /PROBLEM_3_tb/P3/G1 {g[3]}
+load net {/PROBLEM_3_tb/P3/b[2]} -attr @name {b[2]} -attr @simnet 15 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /PROBLEM_3_tb/P3 {b[2]} -pin /PROBLEM_3_tb/P3/B1 {b[2]}
+load net {/PROBLEM_3_tb/P3/y[2]} -attr @name {y[2]} -attr @simnet 11 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /PROBLEM_3_tb/P3 {y[2]} -pin /PROBLEM_3_tb/P3/G1 {b[2]}
+load net {/PROBLEM_3_tb/P3/b[3]} -attr @name {b[3]} -attr @simnet 16 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /PROBLEM_3_tb/P3 {b[3]} -pin /PROBLEM_3_tb/P3/B1 {b[3]}
+load net {/PROBLEM_3_tb/P3/y[3]} -attr @name {y[3]} -attr @simnet 12 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /PROBLEM_3_tb/P3 {y[3]} -pin /PROBLEM_3_tb/P3/G1 {b[3]}
+load net {/PROBLEM_3_tb/P3/w[0]} -attr @name {w[0]} -attr @simnet 17 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /PROBLEM_3_tb/P3/B1 {g[0]} -pin /PROBLEM_3_tb/P3/G1 {g[0]}
+load net {/PROBLEM_3_tb/P3/w[1]} -attr @name {w[1]} -attr @simnet 18 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /PROBLEM_3_tb/P3/B1 {g[1]} -pin /PROBLEM_3_tb/P3/G1 {g[1]}
+load net {/PROBLEM_3_tb/P3/b[0]} -attr @name {b[0]} -attr @simnet 13 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /PROBLEM_3_tb/P3 {b[0]} -pin /PROBLEM_3_tb/P3/B1 {b[0]}
+load net {/PROBLEM_3_tb/P3/y[0]} -attr @name {y[0]} -attr @simnet 9 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /PROBLEM_3_tb/P3 {y[0]} -pin /PROBLEM_3_tb/P3/G1 {b[0]}
+greymode off
+show 1
+zoom 2.5
+scrollpos 1 -97
+

@@ -1,0 +1,183 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# EPG.v  transcript              
+vlog EPG.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:48:50 on Sep 03,2025
+# vlog -reportprogress 300 EPG.v "+acc" 
+# -- Compiling module EPG
+# ** Error (suppressible): EPG.v(6): (vlog-13299) Undefined variable: 'c'.
+# ** Error: EPG.v(1): (vlog-2730) Undefined variable: 'c'.
+# ** Error: EPG.v(1): (vlog-13294) Identifier must be declared with a port mode: c.
+# -- Compiling module EPG_tb
+# ** Error: EPG.v(19): 'Repeat' statement found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: (vlog-13069) EPG.v(21): near "=": syntax error, unexpected '='.
+# ** Error: EPG.v(21): (vlog-13205) Syntax error found in the scope following 'a'. Is there a missing '::'?
+# End time: 15:48:51 on Sep 03,2025, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog EPG.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:49:44 on Sep 03,2025
+# vlog -reportprogress 300 EPG.v "+acc" 
+# -- Compiling module EPG
+# -- Compiling module EPG_tb
+# ** Error: EPG.v(19): 'Repeat' statement found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: (vlog-13069) EPG.v(21): near "=": syntax error, unexpected '='.
+# ** Error: EPG.v(21): (vlog-13205) Syntax error found in the scope following 'a'. Is there a missing '::'?
+# End time: 15:49:44 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog EPG.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:50:42 on Sep 03,2025
+# vlog -reportprogress 300 EPG.v "+acc" 
+# -- Compiling module EPG
+# -- Compiling module EPG_tb
+# 
+# Top level modules:
+# 	EPG_tb
+# End time: 15:50:42 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim EPG_tb
+# vsim EPG_tb 
+# Start time: 15:50:53 on Sep 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.EPG_tb(fast)
+# Loading work.EPG(fast)
+add wave *
+run -all
+# a=0 b=1 c=1 pg=0 Time=                   0
+# a=1 b=1 c=1 pg=1 Time=                  10
+# a=1 b=0 c=1 pg=0 Time=                  20
+# a=0 b=1 c=0 pg=1 Time=                  50
+# a=1 b=1 c=0 pg=0 Time=                  60
+# a=1 b=0 c=0 pg=1 Time=                  70
+# a=0 b=1 c=0 pg=1 Time=                  80
+# a=1 b=1 c=1 pg=1 Time=                  90
+vlog EPG.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:51:54 on Sep 03,2025
+# vlog -reportprogress 300 EPG.v "+acc" 
+# -- Compiling module EPG
+# -- Compiling module EPG_tb
+# 
+# Top level modules:
+# 	EPG_tb
+# End time: 15:51:54 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog EPG.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:51:57 on Sep 03,2025
+# vlog -reportprogress 300 EPG.v "+acc" 
+# -- Compiling module EPG
+# -- Compiling module EPG_tb
+# 
+# Top level modules:
+# 	EPG_tb
+# End time: 15:51:57 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+add wave *
+run -all
+vlog EPG.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:52:10 on Sep 03,2025
+# vlog -reportprogress 300 EPG.v "+acc" 
+# -- Compiling module EPG
+# -- Compiling module EPG_tb
+# 
+# Top level modules:
+# 	EPG_tb
+# End time: 15:52:10 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim EPG_tb
+# End time: 15:52:25 on Sep 03,2025, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 0
+# vsim EPG_tb 
+# Start time: 15:52:25 on Sep 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.EPG_tb(fast)
+# Loading work.EPG(fast)
+add wave *
+run -all
+# a=0 b=1 c=1 pg=0 Time=0
+# a=1 b=1 c=1 pg=1 Time=10
+# a=1 b=0 c=1 pg=0 Time=20
+# a=0 b=1 c=0 pg=1 Time=50
+# a=1 b=1 c=0 pg=0 Time=60
+# a=1 b=0 c=0 pg=1 Time=70
+# a=0 b=1 c=0 pg=1 Time=80
+# a=1 b=1 c=1 pg=1 Time=90
+vlog EPG.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:52:55 on Sep 03,2025
+# vlog -reportprogress 300 EPG.v "+acc" 
+# -- Compiling module EPG
+# -- Compiling module EPG_tb
+# 
+# Top level modules:
+# 	EPG_tb
+# End time: 15:52:55 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim EPG_tb
+# End time: 15:52:58 on Sep 03,2025, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
+# vsim EPG_tb 
+# Start time: 15:52:58 on Sep 03,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.EPG_tb(fast)
+# Loading work.EPG(fast)
+run -all
+# a=0 b=1 c=1 pg=0 Time=0
+# a=1 b=1 c=1 pg=1 Time=10
+# a=1 b=0 c=1 pg=0 Time=20
+# a=0 b=1 c=0 pg=1 Time=50
+# a=1 b=1 c=0 pg=0 Time=60
+# a=1 b=0 c=0 pg=1 Time=70
+# a=0 b=1 c=0 pg=1 Time=80
+# a=1 b=1 c=1 pg=1 Time=90
+vlog EPG.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:53:20 on Sep 03,2025
+# vlog -reportprogress 300 EPG.v "+acc" 
+# -- Compiling module EPG
+# -- Compiling module EPG_tb
+# 
+# Top level modules:
+# 	EPG_tb
+# End time: 15:53:20 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim EPG_tb
+# End time: 15:53:23 on Sep 03,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# vsim EPG_tb 
+# Start time: 15:53:23 on Sep 03,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.EPG_tb(fast)
+# Loading work.EPG(fast)
+add wave *
+run -all
+# a=0 b=1 c=1 pg=0 Time=0
+# a=1 b=1 c=1 pg=1 Time=10
+# a=1 b=0 c=1 pg=0 Time=20
+# a=0 b=1 c=0 pg=1 Time=50
+# a=1 b=1 c=0 pg=0 Time=60
+# a=1 b=0 c=0 pg=1 Time=70
+# a=0 b=1 c=0 pg=1 Time=80
+# a=1 b=1 c=1 pg=1 Time=90
+quit -sim
+# End time: 15:55:26 on Sep 03,2025, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 0

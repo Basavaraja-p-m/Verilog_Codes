@@ -1,0 +1,304 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+pwd
+# C:/questasim64_10.7c/examples/VERILOG CODES/GATE LEVEL/PROBLEM 3
+ls
+# PROBLEM_3.v  transcript            
+vlog PROBLEM_3.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:00:40 on Aug 28,2025
+# vlog -reportprogress 300 PROBLEM_3.v "+acc" 
+# -- Compiling module PROBLEM_3
+# -- Compiling module PROBLEM_3_tb
+# 
+# Top level modules:
+# 	PROBLEM_3_tb
+# End time: 13:00:40 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim PROBLEM_3_tb
+# vsim PROBLEM_3_tb 
+# Start time: 13:00:53 on Aug 28,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: PROBLEM_3.v(7): Module 'BTOG' is not defined.
+# ** Error: PROBLEM_3.v(8): Module 'GTOB' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 13:00:54 on Aug 28,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+vlog PROBLEM_3.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:06:08 on Aug 28,2025
+# vlog -reportprogress 300 PROBLEM_3.v "+acc" 
+# -- Compiling module BTOG
+# -- Compiling module BTOG_tb
+# -- Compiling module GTOB
+# -- Compiling module GTOB_tb
+# -- Compiling module PROBLEM_3
+# -- Compiling module PROBLEM_3_tb
+# 
+# Top level modules:
+# 	BTOG_tb
+# 	GTOB_tb
+# 	PROBLEM_3_tb
+# End time: 13:06:08 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim PROBLEM_3_tb
+# vsim PROBLEM_3_tb 
+# Start time: 13:06:11 on Aug 28,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.PROBLEM_3_tb(fast)
+# Loading work.PROBLEM_3(fast)
+# Loading work.BTOG(fast)
+# Loading work.GTOB(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'y'. The port definition is at: PROBLEM_3.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /PROBLEM_3_tb/P3 File: PROBLEM_3.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'g'. The port definition is at: BTOG.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /PROBLEM_3_tb/P3/B1 File: PROBLEM_3.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'g'. The port definition is at: GTOB.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /PROBLEM_3_tb/P3/G1 File: PROBLEM_3.v Line: 10
+add wave *
+run -all
+# b=0100 g=0 Time=0
+# b=0001 g=0 Time=10
+# b=1001 g=0 Time=20
+# b=0011 g=0 Time=30
+# b=1101 g=0 Time=40
+vlog PROBLEM_3.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:07:37 on Aug 28,2025
+# vlog -reportprogress 300 PROBLEM_3.v "+acc" 
+# -- Compiling module BTOG
+# -- Compiling module BTOG_tb
+# -- Compiling module GTOB
+# -- Compiling module GTOB_tb
+# -- Compiling module PROBLEM_3
+# -- Compiling module PROBLEM_3_tb
+# 
+# Top level modules:
+# 	BTOG_tb
+# 	GTOB_tb
+# 	PROBLEM_3_tb
+# End time: 13:07:37 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim PROBLEM_3_tb
+# End time: 13:07:40 on Aug 28,2025, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 3
+# vsim PROBLEM_3_tb 
+# Start time: 13:07:40 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): PROBLEM_3.v(27): (vopt-2122) Invalid format specification '%y'.
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
+# Error loading design
+# End time: 13:07:41 on Aug 28,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+vlog PROBLEM_3.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:08:10 on Aug 28,2025
+# vlog -reportprogress 300 PROBLEM_3.v "+acc" 
+# -- Compiling module BTOG
+# -- Compiling module BTOG_tb
+# -- Compiling module GTOB
+# -- Compiling module GTOB_tb
+# -- Compiling module PROBLEM_3
+# -- Compiling module PROBLEM_3_tb
+# 
+# Top level modules:
+# 	BTOG_tb
+# 	GTOB_tb
+# 	PROBLEM_3_tb
+# End time: 13:08:10 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim PROBLEM_3_tb
+# vsim PROBLEM_3_tb 
+# Start time: 13:08:13 on Aug 28,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.PROBLEM_3_tb(fast)
+# Loading work.PROBLEM_3(fast)
+# Loading work.BTOG(fast)
+# Loading work.GTOB(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'g'. The port definition is at: BTOG.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /PROBLEM_3_tb/P3/B1 File: PROBLEM_3.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'g'. The port definition is at: GTOB.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /PROBLEM_3_tb/P3/G1 File: PROBLEM_3.v Line: 10
+run -all
+# b=0100 y=zzzz Time=0
+# b=0001 y=zzzz Time=10
+# b=1001 y=zzzz Time=20
+# b=0011 y=zzzz Time=30
+# b=1101 y=zzzz Time=40
+vlog PROBLEM_3.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:11:20 on Aug 28,2025
+# vlog -reportprogress 300 PROBLEM_3.v "+acc" 
+# -- Compiling module BTOG
+# -- Compiling module BTOG_tb
+# -- Compiling module GTOB
+# -- Compiling module GTOB_tb
+# -- Compiling module PROBLEM_3
+# -- Compiling module PROBLEM_3_tb
+# 
+# Top level modules:
+# 	BTOG_tb
+# 	GTOB_tb
+# 	PROBLEM_3_tb
+# End time: 13:11:20 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim PROBLEM_3_tb
+# End time: 13:11:24 on Aug 28,2025, Elapsed time: 0:03:11
+# Errors: 0, Warnings: 2
+# vsim PROBLEM_3_tb 
+# Start time: 13:11:24 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.PROBLEM_3_tb(fast)
+# Loading work.PROBLEM_3(fast)
+# Loading work.BTOG(fast)
+# Loading work.GTOB(fast)
+run -all
+# b=0100 y=0100 Time=0
+# b=0001 y=0001 Time=10
+# b=1001 y=1001 Time=20
+# b=0011 y=0011 Time=30
+# b=1101 y=1101 Time=40
+vlog PROBLEM_3.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:13:23 on Aug 28,2025
+# vlog -reportprogress 300 PROBLEM_3.v "+acc" 
+# -- Compiling module BTOG
+# -- Compiling module BTOG_tb
+# -- Compiling module GTOB
+# -- Compiling module GTOB_tb
+# -- Compiling module PROBLEM_3
+# ** Error: PROBLEM_3.v(13): 'b' is not a function name.
+# ** Error (suppressible): (vlog-13276) PROBLEM_3.v(9): Could not find field/method name ($$) in 'b' of 'b.$$'.
+# ** Error: PROBLEM_3.v(9): 'b' is not a function name.
+# -- Compiling module PROBLEM_3_tb
+# End time: 13:13:23 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog PROBLEM_3.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:18:31 on Aug 28,2025
+# vlog -reportprogress 300 PROBLEM_3.v "+acc" 
+# -- Compiling module BTOG
+# -- Compiling module BTOG_tb
+# -- Compiling module GTOB
+# -- Compiling module GTOB_tb
+# -- Compiling module PROBLEM_3
+# -- Compiling module PROBLEM_3_tb
+# 
+# Top level modules:
+# 	BTOG_tb
+# 	GTOB_tb
+# 	PROBLEM_3_tb
+# End time: 13:18:31 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim PROBLEM_3_tb
+# End time: 13:18:36 on Aug 28,2025, Elapsed time: 0:07:12
+# Errors: 3, Warnings: 0
+# vsim PROBLEM_3_tb 
+# Start time: 13:18:36 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.PROBLEM_3_tb(fast)
+# Loading work.PROBLEM_3(fast)
+# Loading work.BTOG(fast)
+# Loading work.GTOB(fast)
+add wave *
+run -all
+# b=0100 y=0100 Time=0
+# b=0001 y=0001 Time=10
+# b=1001 y=1001 Time=20
+# b=0011 y=0011 Time=30
+# b=1101 y=1101 Time=40
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:30:18 on Aug 28,2025
+# vlog -reportprogress 300 PROBLEM_3.v "+acc" 
+# -- Compiling module BTOG
+# -- Compiling module BTOG_tb
+# -- Compiling module GTOB
+# -- Compiling module GTOB_tb
+# -- Compiling module PROBLEM_3
+# -- Compiling module PROBLEM_3_tb
+# 
+# Top level modules:
+# 	BTOG_tb
+# 	GTOB_tb
+# 	PROBLEM_3_tb
+# End time: 13:30:18 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:30:18 on Aug 28,2025, Elapsed time: 0:11:42
+# Errors: 0, Warnings: 0
+# vsim PROBLEM_3_tb 
+# Start time: 13:30:18 on Aug 28,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.PROBLEM_3_tb(fast)
+# Loading work.PROBLEM_3(fast)
+# Loading work.BTOG(fast)
+# Loading work.GTOB(fast)
+# b=0100 y=0100 Time=0
+# b=0001 y=0001 Time=10
+# b=1001 y=1001 Time=20
+# b=0011 y=0011 Time=30
+# b=1101 y=1101 Time=40
+quit -sim
+# End time: 13:36:08 on Aug 28,2025, Elapsed time: 0:05:50
+# Errors: 0, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:36:20 on Aug 28,2025
+# vlog -reportprogress 300 PROBLEM_3.v "+acc" 
+# -- Compiling module BTOG
+# -- Compiling module BTOG_tb
+# -- Compiling module GTOB
+# -- Compiling module GTOB_tb
+# -- Compiling module PROBLEM_3
+# -- Compiling module PROBLEM_3_tb
+# 
+# Top level modules:
+# 	BTOG_tb
+# 	GTOB_tb
+# 	PROBLEM_3_tb
+# End time: 13:36:20 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim PROBLEM_3_tb 
+# Start time: 13:36:20 on Aug 28,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.PROBLEM_3_tb(fast)
+# Loading work.PROBLEM_3(fast)
+# Loading work.BTOG(fast)
+# Loading work.GTOB(fast)
+# b=0100 y=0100 Time=0
+# b=0001 y=0001 Time=10
+# b=1001 y=1001 Time=20
+# b=0011 y=0011 Time=30
+# b=1101 y=1101 Time=40
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/questasim64_10.7c/examples/VERILOG CODES/GATE LEVEL/PROBLEM 3/wave.do}
+vsim -debugdb PROBLEM_3_tb
+# End time: 13:37:16 on Aug 28,2025, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 0
+# vsim -debugdb PROBLEM_3_tb 
+# Start time: 13:37:16 on Aug 28,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.PROBLEM_3_tb(fast)
+# Loading work.PROBLEM_3(fast)
+# Loading work.BTOG(fast)
+# Loading work.GTOB(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+quit -sim
+# End time: 13:38:34 on Aug 28,2025, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 2

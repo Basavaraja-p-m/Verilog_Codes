@@ -1,0 +1,400 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+pwd
+# C:/questasim64_10.7c/examples/VERILOG CODES/GATE LEVEL/RCA OR RCS
+ls
+# RCAORS.v  transcript              
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:37:59 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# ** Error: RCAORS.v(1): Cannot find `include file "FULL_ADDER1.v" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module RCAORS
+# ** Error: (vlog-13069) RCAORS.v(3): near ";": syntax error, unexpected ';'.
+# End time: 20:37:59 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:39:12 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# ** Error: (vlog-13069) RCAORS.v(3): near ";": syntax error, unexpected ';'.
+# End time: 20:39:12 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:39:31 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# ** Error: RCAORS.v(28): (vlog-13282) 'FA2' already declared in this scope.
+# End time: 20:39:31 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:39:51 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# ** Error: RCAORS.v(28): (vlog-13282) 'FA2' already declared in this scope.
+# End time: 20:39:51 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:40:11 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# 
+# Top level modules:
+# 	FULL_ADDER1_tb
+# 	RCAORS
+# End time: 20:40:11 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim RCAORS_tb
+# vsim RCAORS_tb 
+# Start time: 20:40:44 on Aug 28,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit RCAORS_tb.
+#         Searched libraries:
+#             work
+# Optimization failed
+# Error loading design
+# End time: 20:40:45 on Aug 28,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:47:10 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# -- Compiling module RCAORS_tb
+# 
+# Top level modules:
+# 	FULL_ADDER1_tb
+# 	RCAORS_tb
+# End time: 20:47:10 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim RCAORS_tb
+# vsim RCAORS_tb 
+# Start time: 20:47:16 on Aug 28,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.RCAORS_tb(fast)
+# Loading work.RCAORS(fast)
+# Loading work.FULL_ADDER1(fast)
+run -all
+# a=1000 b=0001 cin=0 ctrl=0 cout=x Time=                   0
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:59:19 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# ** Error (suppressible): RCAORS.v(12): (vlog-10008) Too many indices (1) for array type B (dimensionality 0).
+# ** Error (suppressible): RCAORS.v(13): (vlog-10008) Too many indices (1) for array type B (dimensionality 0).
+# ** Error: RCAORS.v(13): (vlog-2884) Bit-select into 'B' is out of bounds.
+# ** Error (suppressible): RCAORS.v(14): (vlog-10008) Too many indices (1) for array type B (dimensionality 0).
+# ** Error: RCAORS.v(14): (vlog-2884) Bit-select into 'B' is out of bounds.
+# ** Error (suppressible): RCAORS.v(15): (vlog-10008) Too many indices (1) for array type B (dimensionality 0).
+# ** Error: RCAORS.v(15): (vlog-2884) Bit-select into 'B' is out of bounds.
+# ** Error (suppressible): RCAORS.v(19): (vlog-10008) Too many indices (1) for array type B (dimensionality 0).
+# ** Error (suppressible): RCAORS.v(25): (vlog-10008) Too many indices (1) for array type B (dimensionality 0).
+# ** Error: RCAORS.v(25): (vlog-2884) Bit-select into 'B' is out of bounds.
+# ** Error (suppressible): RCAORS.v(31): (vlog-10008) Too many indices (1) for array type B (dimensionality 0).
+# ** Error: RCAORS.v(31): (vlog-2884) Bit-select into 'B' is out of bounds.
+# ** Error (suppressible): RCAORS.v(37): (vlog-10008) Too many indices (1) for array type B (dimensionality 0).
+# ** Error: RCAORS.v(37): (vlog-2884) Bit-select into 'B' is out of bounds.
+# -- Compiling module RCAORS_tb
+# End time: 20:59:19 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:00:24 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# -- Compiling module RCAORS_tb
+# 
+# Top level modules:
+# 	FULL_ADDER1_tb
+# 	RCAORS_tb
+# End time: 21:00:24 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim RCAORS_tb
+# End time: 21:00:30 on Aug 28,2025, Elapsed time: 0:13:14
+# Errors: 7, Warnings: 0
+# vsim RCAORS_tb 
+# Start time: 21:00:30 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RCAORS_tb(fast)
+# Loading work.RCAORS(fast)
+# Loading work.FULL_ADDER1(fast)
+run -all
+# a=1000 b=0001 cin=0 ctrl=0 B=0001 s=1001 cout=0 Time=                   0
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:02:07 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# -- Compiling module RCAORS_tb
+# 
+# Top level modules:
+# 	FULL_ADDER1_tb
+# 	RCAORS_tb
+# End time: 21:02:07 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim RCAORS_tb
+# End time: 21:02:11 on Aug 28,2025, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 0
+# vsim RCAORS_tb 
+# Start time: 21:02:11 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RCAORS_tb(fast)
+# Loading work.RCAORS(fast)
+# Loading work.FULL_ADDER1(fast)
+run -all
+# a=1000 b=0001 cin=0 ctrl=0  s=1001 cout=0 Time=                   0
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:03:23 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# -- Compiling module RCAORS_tb
+# 
+# Top level modules:
+# 	FULL_ADDER1_tb
+# 	RCAORS_tb
+# End time: 21:03:23 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim RCAORS_tb
+# End time: 21:03:28 on Aug 28,2025, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 0
+# vsim RCAORS_tb 
+# Start time: 21:03:28 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RCAORS_tb(fast)
+# Loading work.RCAORS(fast)
+# Loading work.FULL_ADDER1(fast)
+run -all
+# a=1000 b=0001 cin=1 ctrl=1  s=0111 cout=1 Time=                   0
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:04:00 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# -- Compiling module RCAORS_tb
+# 
+# Top level modules:
+# 	FULL_ADDER1_tb
+# 	RCAORS_tb
+# End time: 21:04:00 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim RCAORS_tb
+# End time: 21:04:04 on Aug 28,2025, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 0
+# vsim RCAORS_tb 
+# Start time: 21:04:04 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RCAORS_tb(fast)
+# Loading work.RCAORS(fast)
+# Loading work.FULL_ADDER1(fast)
+run -all
+# a=1000 b=0001 cin=0 ctrl=1  s=0110 cout=1 Time=                   0
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:09:27 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# -- Compiling module RCAORS_tb
+# 
+# Top level modules:
+# 	FULL_ADDER1_tb
+# 	RCAORS_tb
+# End time: 21:09:27 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim RCAORS_tb
+# End time: 21:09:31 on Aug 28,2025, Elapsed time: 0:05:27
+# Errors: 0, Warnings: 0
+# vsim RCAORS_tb 
+# Start time: 21:09:31 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RCAORS_tb(fast)
+# Loading work.RCAORS(fast)
+# Loading work.FULL_ADDER1(fast)
+add wave *
+run -all
+# a=0100 b=0001 cin=0 ctrl=1  s=0010 cout=1 Time=0
+# a=1001 b=0011 cin=0 ctrl=1  s=0101 cout=1 Time=10
+# a=1101 b=1101 cin=0 ctrl=1  s=1111 cout=0 Time=20
+# a=0101 b=0010 cin=0 ctrl=1  s=0010 cout=1 Time=30
+# a=0001 b=1101 cin=0 ctrl=1  s=0011 cout=0 Time=40
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:11:38 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# -- Compiling module RCAORS_tb
+# 
+# Top level modules:
+# 	FULL_ADDER1_tb
+# 	RCAORS_tb
+# End time: 21:11:38 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim RCAORS_tb
+# End time: 21:11:42 on Aug 28,2025, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 0
+# vsim RCAORS_tb 
+# Start time: 21:11:42 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RCAORS_tb(fast)
+# Loading work.RCAORS(fast)
+# Loading work.FULL_ADDER1(fast)
+add wave *
+run -all
+# a=0100 b=0001 cin=1 ctrl=1  s=0011 cout=1 Time=0
+# a=1001 b=0011 cin=1 ctrl=1  s=0110 cout=1 Time=10
+# a=1101 b=1101 cin=1 ctrl=1  s=0000 cout=1 Time=20
+# a=0101 b=0010 cin=1 ctrl=1  s=0011 cout=1 Time=30
+# a=0001 b=1101 cin=1 ctrl=1  s=0100 cout=0 Time=40
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:14:45 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# -- Compiling module RCAORS_tb
+# 
+# Top level modules:
+# 	FULL_ADDER1_tb
+# 	RCAORS_tb
+# End time: 21:14:46 on Aug 28,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim RCAORS_tb
+# End time: 21:14:51 on Aug 28,2025, Elapsed time: 0:03:09
+# Errors: 0, Warnings: 0
+# vsim RCAORS_tb 
+# Start time: 21:14:51 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RCAORS_tb(fast)
+# Loading work.RCAORS(fast)
+# Loading work.FULL_ADDER1(fast)
+add wave *
+run -all
+# a= 4 b=0001 cin=1 ctrl=1  s=0011 cout=1 Time=0
+# a= 9 b=0011 cin=1 ctrl=1  s=0110 cout=1 Time=10
+# a=13 b=1101 cin=1 ctrl=1  s=0000 cout=1 Time=20
+# a= 5 b=0010 cin=1 ctrl=1  s=0011 cout=1 Time=30
+# a= 1 b=1101 cin=1 ctrl=1  s=0100 cout=0 Time=40
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:15:42 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# -- Compiling module RCAORS_tb
+# 
+# Top level modules:
+# 	FULL_ADDER1_tb
+# 	RCAORS_tb
+# End time: 21:15:42 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim RCAORS_tb
+# End time: 21:15:46 on Aug 28,2025, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 0
+# vsim RCAORS_tb 
+# Start time: 21:15:46 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RCAORS_tb(fast)
+# Loading work.RCAORS(fast)
+# Loading work.FULL_ADDER1(fast)
+add wave *
+run -all
+# a= 4 b= 1 cin=1 ctrl=1  s=0011 cout=1 Time=0
+# a= 9 b= 3 cin=1 ctrl=1  s=0110 cout=1 Time=10
+# a=13 b=13 cin=1 ctrl=1  s=0000 cout=1 Time=20
+# a= 5 b= 2 cin=1 ctrl=1  s=0011 cout=1 Time=30
+# a= 1 b=13 cin=1 ctrl=1  s=0100 cout=0 Time=40
+vlog  RCAORS.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:16:34 on Aug 28,2025
+# vlog -reportprogress 300 RCAORS.v "+acc" 
+# -- Compiling module FULL_ADDER1
+# -- Compiling module FULL_ADDER1_tb
+# -- Compiling module RCAORS
+# -- Compiling module RCAORS_tb
+# 
+# Top level modules:
+# 	FULL_ADDER1_tb
+# 	RCAORS_tb
+# End time: 21:16:34 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim RCAORS_tb
+# End time: 21:16:38 on Aug 28,2025, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# vsim RCAORS_tb 
+# Start time: 21:16:38 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.RCAORS_tb(fast)
+# Loading work.RCAORS(fast)
+# Loading work.FULL_ADDER1(fast)
+add wave *
+run -all
+# a= 4 b= 1 cin=1 ctrl=1  s= 3 cout=1 Time=0
+# a= 9 b= 3 cin=1 ctrl=1  s= 6 cout=1 Time=10
+# a=13 b=13 cin=1 ctrl=1  s= 0 cout=1 Time=20
+# a= 5 b= 2 cin=1 ctrl=1  s= 3 cout=1 Time=30
+# a= 1 b=13 cin=1 ctrl=1  s= 4 cout=0 Time=40
+vsim -debugdb RCAORS_tb
+# End time: 21:19:03 on Aug 28,2025, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 0
+# vsim -debugdb RCAORS_tb 
+# Start time: 21:19:03 on Aug 28,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.RCAORS_tb(fast)
+# Loading work.RCAORS(fast)
+# Loading work.FULL_ADDER1(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+quit -sim
+# End time: 21:23:54 on Aug 28,2025, Elapsed time: 0:04:51
+# Errors: 0, Warnings: 2

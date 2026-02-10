@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/DATE FLOW/EVEN PARITY CHECKER
+T_opt
+!s110 1756895782
+VPAg1JMCafEo;ac4`?LdBD0
+Z1 04 6 4 work EPC_tb fast 0
+=1-84144d0ea3d5-68b81a26-348-bd4
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1756907696
+VdT2kUF]LC]B4`N42hWIWI3
+R1
+=1-84144d0ea3d5-68b848b0-18f-321c
+R2
+R3
+n@_opt1
+R4
+vEPC
+Z5 !s110 1756907693
+!i10b 1
+!s100 E?g>CWAYAo9kR8ZJBoZUh2
+IL40DJ3T=TQNO9g^^[gzS<3
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z7 w1756907687
+Z8 8EPC.v
+Z9 FEPC.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1756907693.000000
+Z12 !s107 EPC.v|
+Z13 !s90 -reportprogress|300|EPC.v|+acc|
+!i113 0
+Z14 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@e@p@c
+vEPC_tb
+R5
+!i10b 1
+!s100 K61h<3D?G6D`WLCad?MiH0
+I0kE9U8jdcSVj^eZW@HVha1
+R6
+R0
+R7
+R8
+R9
+L0 10
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3
+n@e@p@c_tb

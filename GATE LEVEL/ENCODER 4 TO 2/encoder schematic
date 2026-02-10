@@ -1,0 +1,111 @@
+WindowType FullviewSchematic /ENCODER_4TO2_tb/E1
+DesignChecksum 7G0I0=PjZXb3Pz0MGU4>Z2
+RoutedNets {}
+RoutedInst {/ENCODER_4TO2_tb/E1/__11 1 /ENCODER_4TO2_tb/E1/__12 1 /ENCODER_4TO2_tb/E1/__14 1 /ENCODER_4TO2_tb/E1/__15 1 /ENCODER_4TO2_tb/E1/__16 1 /ENCODER_4TO2_tb/E1/__2 1 /ENCODER_4TO2_tb/E1/__3 1 /ENCODER_4TO2_tb/E1/__4 1 /ENCODER_4TO2_tb/E1/__6 1 /ENCODER_4TO2_tb/E1/__7 1 /ENCODER_4TO2_tb/E1/__8 1 /ENCODER_4TO2_tb/E1/__10 1}
+WindowPreferences {showhierarchy 1 showacttime 1 inoutlocation 1 selequivnets 0 hidebuffers 0 hidecells 1 hideinverters 0 selectenv 1 autowave 1 lognets 1 popupenabled 1 mouseoverenabled 1 showdunames 0 showinstnames 1 shownetnames 0 shownetnamestyle corner shownetstate 0 showpinnames 1 showripindices 1 showvalues 1 verticaltext 1 netxFollowsControlLogic 0 netxMaxGates 1024 netxMaxLevels 32 use_code_preview 1 time0_warning 1 depth_warning 1 add_error_warning 1 diverge_warning 1}
+EndOfStateInfo
+# File saved with Nlview version 6.6.36_0 (04/08/25-18:45:38 bk=1.779)
+#
+property -reset
+property autobundle 20
+property boxcolor0 #00ffff
+property boxcolor1 #999999
+property boxinstcolor #ffffff
+property boxpincolor #00ffff
+property buscolor #ffff00
+property closeenough 3
+property enablebufferchaincollapsing 1
+property enablescrollrect 1
+property evaluateattrvalue 1
+property extractsequentiallogic 2
+property gatepinname 1
+property incrementmode 2
+property inferbundlename 1
+property instattrmax 50
+property objecthighlight3 #008000
+property objecthighlight4 #ff00ff
+property objecthighlight5 #ffd700
+property objecthighlight6 #0000ff
+property objecthighlight9 #fa8072
+property outboxcolor1 #a52a2a
+property outboxcolor2 #000000
+property outboxcolor4 #000000
+property outfblevel 10
+property picksubnet 1
+property pinattrmax 50
+property pinorder 1
+property questalayoutimprovement 1
+property recursivecallerrorlen 10
+property searchvisibleobjects 1
+property selectbycolor9 1
+property showcellname 0
+property showmarks 1
+property shownetattr 4
+property showripindex 3
+property timelimit 50
+
+module new v {} -nosplit
+load symbol /ENCODER_4TO2_tb/E1/o2 v OR port y1 output port w4 input port w3 input
+load symbol /ENCODER_4TO2_tb/E1/__14 v INV port dbgTemp9 output port {d[2]} input
+load symbol /ENCODER_4TO2_tb/E1/__7 v INV port dbgTemp4 output port {d[1]} input
+load symbol /ENCODER_4TO2_tb/E1/a1 v AND port w1 output port dbgTemp0 input port dbgTemp1 input port dbgTemp2 input port {d[1]} input
+load symbol /ENCODER_4TO2_tb/E1/__15 v INV port dbgTemp10 output port {d[1]} input
+load symbol /ENCODER_4TO2_tb/E1/a2 v AND port w2 output port dbgTemp3 input port dbgTemp4 input port dbgTemp5 input port {d[3]} input
+load symbol /ENCODER_4TO2_tb/E1/__8 v INV port dbgTemp5 output port {d[0]} input
+load symbol /ENCODER_4TO2_tb/E1/__16 v INV port dbgTemp11 output port {d[0]} input
+load symbol /ENCODER_4TO2_tb/E1/a3 v AND port w3 output port dbgTemp6 input port dbgTemp7 input port dbgTemp8 input port {d[2]} input
+load symbol /ENCODER_4TO2_tb/E1/a4 v AND port w4 output port dbgTemp9 input port dbgTemp10 input port dbgTemp11 input port {d[3]} input
+load symbol /ENCODER_4TO2_tb/E1/__2 v INV port dbgTemp0 output port {d[3]} input
+load symbol /ENCODER_4TO2_tb/E1/__10 v INV port dbgTemp6 output port {d[3]} input
+load symbol /ENCODER_4TO2_tb/E1/__3 v INV port dbgTemp1 output port {d[2]} input
+load symbol /ENCODER_4TO2_tb/E1/__11 v INV port dbgTemp7 output port {d[1]} input
+load symbol /ENCODER_4TO2_tb/E1/__4 v INV port dbgTemp2 output port {d[0]} input
+load symbol /ENCODER_4TO2_tb/E1/__12 v INV port dbgTemp8 output port {d[0]} input
+load symbol /ENCODER_4TO2_tb/E1/o1 v OR port y0 output port w2 input port w1 input
+load symbol /ENCODER_4TO2_tb/E1/__6 v INV port dbgTemp3 output port {d[2]} input
+load symbol work.ENCODER_4TO2(fast) v HIERGEN portBus d input.left 4 {d[0]} {d[1]} {d[2]} {d[3]} port y0 output.right port y1 output.right boxcolor 1
+load inst /ENCODER_4TO2_tb/E1 work.ENCODER_4TO2(fast) v -autohide -attr acc +acc=<full> -attr @name E1 -attr @cell work.ENCODER_4TO2(fast) -x 39 -y 20 -pg 1
+load inst /ENCODER_4TO2_tb/E1/a1 /ENCODER_4TO2_tb/E1/a1 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name a1 -pinAttr dbgTemp0 @name {} -pinAttr dbgTemp1 @name {} -pinAttr dbgTemp2 @name {} -x 301 -y 150 -pg 1
+load inst /ENCODER_4TO2_tb/E1/a2 /ENCODER_4TO2_tb/E1/a2 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name a2 -pinAttr dbgTemp3 @name {} -pinAttr dbgTemp4 @name {} -pinAttr dbgTemp5 @name {} -x 301 -y 60 -pg 1
+load inst /ENCODER_4TO2_tb/E1/a3 /ENCODER_4TO2_tb/E1/a3 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name a3 -pinAttr dbgTemp6 @name {} -pinAttr dbgTemp7 @name {} -pinAttr dbgTemp8 @name {} -x 301 -y 340 -pg 1
+load inst /ENCODER_4TO2_tb/E1/a4 /ENCODER_4TO2_tb/E1/a4 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name a4 -pinAttr dbgTemp9 @name {} -pinAttr dbgTemp10 @name {} -pinAttr dbgTemp11 @name {} -x 301 -y 240 -pg 1
+load inst /ENCODER_4TO2_tb/E1/__10 /ENCODER_4TO2_tb/E1/__10 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp6 @name {} -x 107 -y 320 -pg 1
+load inst /ENCODER_4TO2_tb/E1/__11 /ENCODER_4TO2_tb/E1/__11 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp7 @name {} -x 107 -y 350 -pg 1
+load inst /ENCODER_4TO2_tb/E1/__12 /ENCODER_4TO2_tb/E1/__12 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp8 @name {} -x 107 -y 380 -pg 1
+load inst /ENCODER_4TO2_tb/E1/__14 /ENCODER_4TO2_tb/E1/__14 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp9 @name {} -x 107 -y 200 -pg 1
+load inst /ENCODER_4TO2_tb/E1/__15 /ENCODER_4TO2_tb/E1/__15 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp10 @name {} -x 107 -y 230 -pg 1
+load inst /ENCODER_4TO2_tb/E1/__16 /ENCODER_4TO2_tb/E1/__16 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp11 @name {} -x 107 -y 260 -pg 1
+load inst /ENCODER_4TO2_tb/E1/o1 /ENCODER_4TO2_tb/E1/o1 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name o1 -x 405 -y 70 -pg 1
+load inst /ENCODER_4TO2_tb/E1/o2 /ENCODER_4TO2_tb/E1/o2 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name o2 -x 405 -y 250 -pg 1
+load inst /ENCODER_4TO2_tb/E1/__2 /ENCODER_4TO2_tb/E1/__2 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp0 @name {} -x 107 -y 110 -pg 1
+load inst /ENCODER_4TO2_tb/E1/__3 /ENCODER_4TO2_tb/E1/__3 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp1 @name {} -x 107 -y 140 -pg 1
+load inst /ENCODER_4TO2_tb/E1/__4 /ENCODER_4TO2_tb/E1/__4 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp2 @name {} -x 107 -y 170 -pg 1
+load inst /ENCODER_4TO2_tb/E1/__6 /ENCODER_4TO2_tb/E1/__6 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp3 @name {} -x 107 -y 20 -pg 1
+load inst /ENCODER_4TO2_tb/E1/__7 /ENCODER_4TO2_tb/E1/__7 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp4 @name {} -x 107 -y 50 -pg 1
+load inst /ENCODER_4TO2_tb/E1/__8 /ENCODER_4TO2_tb/E1/__8 v -hier /ENCODER_4TO2_tb/E1 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp5 @name {} -x 107 -y 80 -pg 1
+load net {/ENCODER_4TO2_tb/E1/d[0]} -attr @name {d[0]} -attr @simnet 7 -hierPin /ENCODER_4TO2_tb/E1 {d[0]} -pin /ENCODER_4TO2_tb/E1/__12 {d[0]} -pin /ENCODER_4TO2_tb/E1/__16 {d[0]} -pin /ENCODER_4TO2_tb/E1/__4 {d[0]} -pin /ENCODER_4TO2_tb/E1/__8 {d[0]}
+load net /ENCODER_4TO2_tb/E1/w1 -attr @simnet 13 -attr @name w1 -pin /ENCODER_4TO2_tb/E1/a1 w1 -pin /ENCODER_4TO2_tb/E1/o1 w1
+load net /ENCODER_4TO2_tb/E1/w2 -attr @simnet 14 -attr @name w2 -pin /ENCODER_4TO2_tb/E1/a2 w2 -pin /ENCODER_4TO2_tb/E1/o1 w2
+load net /ENCODER_4TO2_tb/E1/w3 -attr @simnet 15 -attr @name w3 -pin /ENCODER_4TO2_tb/E1/a3 w3 -pin /ENCODER_4TO2_tb/E1/o2 w3
+load net {/ENCODER_4TO2_tb/E1/d[1]} -attr @name {d[1]} -attr @simnet 8 -hierPin /ENCODER_4TO2_tb/E1 {d[1]} -pin /ENCODER_4TO2_tb/E1/__11 {d[1]} -pin /ENCODER_4TO2_tb/E1/__15 {d[1]} -pin /ENCODER_4TO2_tb/E1/__7 {d[1]} -pin /ENCODER_4TO2_tb/E1/a1 {d[1]}
+load net /ENCODER_4TO2_tb/E1/w4 -attr @simnet 16 -attr @name w4 -pin /ENCODER_4TO2_tb/E1/a4 w4 -pin /ENCODER_4TO2_tb/E1/o2 w4
+load net {/ENCODER_4TO2_tb/E1/d[2]} -attr @name {d[2]} -attr @simnet 9 -hierPin /ENCODER_4TO2_tb/E1 {d[2]} -pin /ENCODER_4TO2_tb/E1/__14 {d[2]} -pin /ENCODER_4TO2_tb/E1/__3 {d[2]} -pin /ENCODER_4TO2_tb/E1/__6 {d[2]} -pin /ENCODER_4TO2_tb/E1/a3 {d[2]}
+load net /ENCODER_4TO2_tb/E1/y0 -attr @name y0 -attr @simnet 11 -hierPin /ENCODER_4TO2_tb/E1 y0 -pin /ENCODER_4TO2_tb/E1/o1 y0
+load net /ENCODER_4TO2_tb/E1/y1 -attr @name y1 -attr @simnet 12 -hierPin /ENCODER_4TO2_tb/E1 y1 -pin /ENCODER_4TO2_tb/E1/o2 y1
+load net {/ENCODER_4TO2_tb/E1/d[3]} -attr @name {d[3]} -attr @simnet 10 -hierPin /ENCODER_4TO2_tb/E1 {d[3]} -pin /ENCODER_4TO2_tb/E1/__10 {d[3]} -pin /ENCODER_4TO2_tb/E1/__2 {d[3]} -pin /ENCODER_4TO2_tb/E1/a2 {d[3]} -pin /ENCODER_4TO2_tb/E1/a4 {d[3]}
+load net /ENCODER_4TO2_tb/E1/dbgTemp10 -attr @name {} -attr @attr #EVALUATE -pin /ENCODER_4TO2_tb/E1/__15 dbgTemp10 -pin /ENCODER_4TO2_tb/E1/a4 dbgTemp10
+load net /ENCODER_4TO2_tb/E1/dbgTemp11 -attr @name {} -attr @attr #EVALUATE -pin /ENCODER_4TO2_tb/E1/__16 dbgTemp11 -pin /ENCODER_4TO2_tb/E1/a4 dbgTemp11
+load net /ENCODER_4TO2_tb/E1/dbgTemp0 -attr @name {} -attr @attr #EVALUATE -pin /ENCODER_4TO2_tb/E1/__2 dbgTemp0 -pin /ENCODER_4TO2_tb/E1/a1 dbgTemp0
+load net /ENCODER_4TO2_tb/E1/dbgTemp1 -attr @name {} -attr @attr #EVALUATE -pin /ENCODER_4TO2_tb/E1/__3 dbgTemp1 -pin /ENCODER_4TO2_tb/E1/a1 dbgTemp1
+load net /ENCODER_4TO2_tb/E1/dbgTemp2 -attr @name {} -attr @attr #EVALUATE -pin /ENCODER_4TO2_tb/E1/__4 dbgTemp2 -pin /ENCODER_4TO2_tb/E1/a1 dbgTemp2
+load net /ENCODER_4TO2_tb/E1/dbgTemp3 -attr @name {} -attr @attr #EVALUATE -pin /ENCODER_4TO2_tb/E1/__6 dbgTemp3 -pin /ENCODER_4TO2_tb/E1/a2 dbgTemp3
+load net /ENCODER_4TO2_tb/E1/dbgTemp4 -attr @name {} -attr @attr #EVALUATE -pin /ENCODER_4TO2_tb/E1/__7 dbgTemp4 -pin /ENCODER_4TO2_tb/E1/a2 dbgTemp4
+load net /ENCODER_4TO2_tb/E1/dbgTemp5 -attr @name {} -attr @attr #EVALUATE -pin /ENCODER_4TO2_tb/E1/__8 dbgTemp5 -pin /ENCODER_4TO2_tb/E1/a2 dbgTemp5
+load net /ENCODER_4TO2_tb/E1/dbgTemp6 -attr @name {} -attr @attr #EVALUATE -pin /ENCODER_4TO2_tb/E1/__10 dbgTemp6 -pin /ENCODER_4TO2_tb/E1/a3 dbgTemp6
+load net /ENCODER_4TO2_tb/E1/dbgTemp7 -attr @name {} -attr @attr #EVALUATE -pin /ENCODER_4TO2_tb/E1/__11 dbgTemp7 -pin /ENCODER_4TO2_tb/E1/a3 dbgTemp7
+load net /ENCODER_4TO2_tb/E1/dbgTemp8 -attr @name {} -attr @attr #EVALUATE -pin /ENCODER_4TO2_tb/E1/__12 dbgTemp8 -pin /ENCODER_4TO2_tb/E1/a3 dbgTemp8
+load net /ENCODER_4TO2_tb/E1/dbgTemp9 -attr @name {} -attr @attr #EVALUATE -pin /ENCODER_4TO2_tb/E1/__14 dbgTemp9 -pin /ENCODER_4TO2_tb/E1/a4 dbgTemp9
+greymode off
+show 1
+scrollpos -1 -8
+

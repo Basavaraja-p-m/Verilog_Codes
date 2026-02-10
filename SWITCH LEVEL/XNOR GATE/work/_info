@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_10.7c/examples/VERILOG CODES/XOR GATE
+T_opt
+!s110 1755535426
+V61:aAJ@5KjV8eU`e<l5J>2
+04 12 4 work XNOR_GATE_tb fast 0
+=1-84144d0ea3d5-68a35842-c7-16bc
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vXNOR_GATE
+!s110 1755535303
+!i10b 1
+!s100 >zfc3:SajQ5D9fn9mXeP^0
+IzVHDG:aMXbz7H8B^CCUTl2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/questasim64_10.7c/examples/VERILOG CODES/XNOR GATE
+w1755534839
+8C:\questasim64_10.7c\examples\VERILOG CODES\XNOR GATE\XNOR_GATE.v
+FC:\questasim64_10.7c\examples\VERILOG CODES\XNOR GATE\XNOR_GATE.v
+L0 1
+Z3 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1755535303.000000
+!s107 C:\questasim64_10.7c\examples\VERILOG CODES\XNOR GATE\XNOR_GATE.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\questasim64_10.7c\examples\VERILOG CODES\XNOR GATE\XNOR_GATE.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@x@n@o@r_@g@a@t@e
+vXNOR_GATE_tb
+!s110 1755535377
+!i10b 1
+!s100 93<Iah06k0?k;8A_ANP0O2
+IaO2JHj[1P0HJE41W@8o>W0
+R1
+R2
+w1755535355
+8C:\questasim64_10.7c\examples\VERILOG CODES\XNOR GATE\XNOR_GATE_tb.v
+FC:\questasim64_10.7c\examples\VERILOG CODES\XNOR GATE\XNOR_GATE_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1755535377.000000
+!s107 C:\questasim64_10.7c\examples\VERILOG CODES\XNOR GATE\XNOR_GATE_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\questasim64_10.7c\examples\VERILOG CODES\XNOR GATE\XNOR_GATE_tb.v|
+!i113 0
+R4
+R0
+n@x@n@o@r_@g@a@t@e_tb

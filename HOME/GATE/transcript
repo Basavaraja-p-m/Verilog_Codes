@@ -1,0 +1,145 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:26:56 on Oct 11,2025
+# vlog -reportprogress 300 MUX.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# ** Error: MUX.v(32): (vlog-2110) Illegal reference to net "s".
+# End time: 12:26:56 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog MUX.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:28:23 on Oct 11,2025
+# vlog -reportprogress 300 MUX.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# 
+# Top level modules:
+# 	MUX_tb
+# End time: 12:28:23 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim MUX_tb 
+# Start time: 12:28:23 on Oct 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.MUX_tb(fast)
+# Loading work.MUX(fast)
+# i= 4,s=0,y=0,time=                   0
+# i= 4,s=1,y=0,time=                  10
+# i= 4,s=2,y=1,time=                  20
+# i= 4,s=3,y=0,time=                  30
+# i= 1,s=0,y=1,time=                  40
+# i= 1,s=1,y=0,time=                  50
+# i= 1,s=2,y=0,time=                  60
+# i= 1,s=3,y=0,time=                  70
+# i= 9,s=0,y=1,time=                  80
+# i= 9,s=1,y=0,time=                  90
+# i= 9,s=2,y=0,time=                 100
+# i= 9,s=3,y=1,time=                 110
+# i= 3,s=0,y=1,time=                 120
+# i= 3,s=1,y=1,time=                 130
+# i= 3,s=2,y=0,time=                 140
+# i= 3,s=3,y=0,time=                 150
+# i=13,s=0,y=1,time=                 160
+# i=13,s=1,y=0,time=                 170
+# i=13,s=2,y=1,time=                 180
+# i=13,s=3,y=1,time=                 190
+# i=13,s=0,y=1,time=                 200
+# i=13,s=1,y=0,time=                 210
+# i=13,s=2,y=1,time=                 220
+# i=13,s=3,y=1,time=                 230
+# i= 5,s=0,y=1,time=                 240
+# i= 5,s=1,y=0,time=                 250
+# i= 5,s=2,y=1,time=                 260
+# i= 5,s=3,y=0,time=                 270
+# i= 2,s=0,y=0,time=                 280
+# i= 2,s=1,y=1,time=                 290
+# i= 2,s=2,y=0,time=                 300
+# i= 2,s=3,y=0,time=                 310
+# i= 1,s=0,y=1,time=                 320
+# i= 1,s=1,y=0,time=                 330
+# i= 1,s=2,y=0,time=                 340
+# i= 1,s=3,y=0,time=                 350
+# i=13,s=0,y=1,time=                 360
+# i=13,s=1,y=0,time=                 370
+# i=13,s=2,y=1,time=                 380
+# i=13,s=3,y=1,time=                 390
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:29:34 on Oct 11,2025
+# vlog -reportprogress 300 MUX.v "+acc" 
+# -- Compiling module MUX
+# -- Compiling module MUX_tb
+# 
+# Top level modules:
+# 	MUX_tb
+# End time: 12:29:34 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:29:37 on Oct 11,2025, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 0
+# vsim MUX_tb 
+# Start time: 12:29:37 on Oct 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.MUX_tb(fast)
+# Loading work.MUX(fast)
+# i= 2,s=0,y=0,time=                   0
+# i= 2,s=1,y=1,time=                  10
+# i= 2,s=2,y=0,time=                  20
+# i= 2,s=3,y=0,time=                  30
+# i= 0,s=0,y=0,time=                  40
+# i= 0,s=1,y=0,time=                  50
+# i= 0,s=2,y=0,time=                  60
+# i= 0,s=3,y=0,time=                  70
+# i= 2,s=0,y=0,time=                  80
+# i= 2,s=1,y=1,time=                  90
+# i= 2,s=2,y=0,time=                 100
+# i= 2,s=3,y=0,time=                 110
+# i= 2,s=0,y=0,time=                 120
+# i= 2,s=1,y=1,time=                 130
+# i= 2,s=2,y=0,time=                 140
+# i= 2,s=3,y=0,time=                 150
+# i= 1,s=0,y=1,time=                 160
+# i= 1,s=1,y=0,time=                 170
+# i= 1,s=2,y=0,time=                 180
+# i= 1,s=3,y=0,time=                 190
+# i= 0,s=0,y=0,time=                 200
+# i= 0,s=1,y=0,time=                 210
+# i= 0,s=2,y=0,time=                 220
+# i= 0,s=3,y=0,time=                 230
+# i= 2,s=0,y=0,time=                 240
+# i= 2,s=1,y=1,time=                 250
+# i= 2,s=2,y=0,time=                 260
+# i= 2,s=3,y=0,time=                 270
+# i= 2,s=0,y=0,time=                 280
+# i= 2,s=1,y=1,time=                 290
+# i= 2,s=2,y=0,time=                 300
+# i= 2,s=3,y=0,time=                 310
+# i= 1,s=0,y=1,time=                 320
+# i= 1,s=1,y=0,time=                 330
+# i= 1,s=2,y=0,time=                 340
+# i= 1,s=3,y=0,time=                 350
+# i= 3,s=0,y=1,time=                 360
+# i= 3,s=1,y=1,time=                 370
+# i= 3,s=2,y=0,time=                 380
+# i= 3,s=3,y=0,time=                 390
+quit -sim
+# End time: 13:45:45 on Oct 11,2025, Elapsed time: 1:16:08
+# Errors: 0, Warnings: 0

@@ -1,0 +1,41 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/BEHAVIOROL/PCIE/PISO
+T_opt
+!s110 1762155161
+VUibU;LfP;_K4^3kokTf<l2
+04 4 4 work PISO fast 0
+=1-84144d0ea3d5-69085a99-1b-31a0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vPISO
+!s110 1762155159
+!i10b 1
+!s100 86?miFmIW?4U4FOlFGod?1
+IzVHUEZd>FbYL>]dc37R9P3
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1762155154
+8PISO.v
+FPISO.v
+L0 1
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1762155159.000000
+!s107 PISO.v|
+!s90 PISO.v|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@p@i@s@o

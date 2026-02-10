@@ -1,0 +1,241 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# ROM.v  transcript              
+vlog ROM.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:15:13 on Oct 13,2025
+# vlog -reportprogress 300 ROM.v "+acc" 
+# -- Compiling module rom_4x8
+# -- Compiling module mux4x1
+# -- Compiling module piso_8bit
+# -- Compiling module wom_8bit
+# -- Compiling module memory_system
+# -- Compiling module tb_memory_system
+# 
+# Top level modules:
+# 	tb_memory_system
+# End time: 17:15:13 on Oct 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_memory_system
+# vsim tb_memory_system 
+# Start time: 17:15:49 on Oct 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_memory_system(fast)
+# Loading work.memory_system(fast)
+# Loading work.rom_4x8(fast)
+# Loading work.mux4x1(fast)
+# Loading work.piso_8bit(fast)
+# Loading work.wom_8bit(fast)
+add wave *
+run -all
+# Time:0, WOM:xxxxxxxx
+# Time:5, WOM:xxxxxxx0
+# Time:15, WOM:xxxxxx00
+# Time:25, WOM:xxxxx000
+# Time:35, WOM:xxxx0000
+# Time:45, WOM:xxx00001
+# Time:55, WOM:xx000011
+# Time:65, WOM:x0000111
+# Time:75, WOM:00001111
+# Time:85, WOM:00011110
+# Time:95, WOM:00111100
+# Time:105, WOM:01111000
+# Time:115, WOM:11110000
+# Time:125, WOM:11100000
+# Time:135, WOM:11000000
+# Time:145, WOM:10000000
+# Time:155, WOM:00000001
+# Time:165, WOM:00000010
+# Time:175, WOM:00000101
+# Time:185, WOM:00001010
+# Time:195, WOM:00010101
+# Time:205, WOM:00101010
+# Time:215, WOM:01010101
+# Time:225, WOM:10101010
+# ** Note: $finish    : ROM.v(126)
+#    Time: 232 ns  Iteration: 0  Instance: /tb_memory_system
+# 1
+# Break in Module tb_memory_system at ROM.v line 126
+vlog ROM.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:37:36 on Oct 13,2025
+# vlog -reportprogress 300 ROM.v "+acc" 
+# -- Compiling module rom_4x8
+# -- Compiling module mux4x1
+# -- Compiling module piso_8bit
+# ** Error: ROM.v(45): (vlog-2730) Undefined variable: 'pi'.
+# -- Compiling module wom_8bit
+# ** Error: ROM.v(66): (vlog-2730) Undefined variable: 'si'.
+# End time: 17:37:36 on Oct 13,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog ROM.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:58:51 on Oct 13,2025
+# vlog -reportprogress 300 ROM.v "+acc" 
+# -- Compiling module rom_4x8
+# -- Compiling module mux4x1
+# -- Compiling module piso_8bit
+# -- Compiling module wom_8bit
+# -- Compiling module top
+# ** Error: (vlog-13069) ROM.v(73): near "input": syntax error, unexpected input, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# -- Compiling module tb
+# ** Error: ROM.v(114): (vlog-2730) Undefined variable: 'si'.
+# End time: 17:58:51 on Oct 13,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog ROM.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:00:23 on Oct 13,2025
+# vlog -reportprogress 300 ROM.v "+acc" 
+# -- Compiling module rom_4x8
+# -- Compiling module mux4x1
+# -- Compiling module piso_8bit
+# ** Error: (vlog-13069) ROM.v(49): near "endmodule": syntax error, unexpected endmodule.
+# -- Compiling module top
+# ** Error: (vlog-13069) ROM.v(68): near ")": syntax error, unexpected ')'.
+# -- Compiling module tb
+# ** Error: ROM.v(105): (vlog-2730) Undefined variable: 'si'.
+# End time: 18:00:23 on Oct 13,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog ROM.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:01:04 on Oct 13,2025
+# vlog -reportprogress 300 ROM.v "+acc" 
+# -- Compiling module rom_4x8
+# -- Compiling module mux4x1
+# -- Compiling module piso_8bit
+# -- Compiling module wom_8bit
+# -- Compiling module top
+# ** Error: (vlog-13069) ROM.v(69): near ")": syntax error, unexpected ')'.
+# -- Compiling module tb
+# ** Error: ROM.v(106): (vlog-2730) Undefined variable: 'si'.
+# End time: 18:01:04 on Oct 13,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog ROM.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:01:22 on Oct 13,2025
+# vlog -reportprogress 300 ROM.v "+acc" 
+# -- Compiling module rom_4x8
+# -- Compiling module mux4x1
+# -- Compiling module piso_8bit
+# -- Compiling module wom_8bit
+# -- Compiling module top
+# ** Error: ROM.v(67): In, out, or inout does not appear in port list: mux_sel.
+# ** Error: ROM.v(68): In, out, or inout does not appear in port list: wom_out.
+# ** Error: ROM.v(64): In, out, or inout does not appear in port list: clk.
+# ** Error: ROM.v(65): In, out, or inout does not appear in port list: rst.
+# ** Error: ROM.v(66): In, out, or inout does not appear in port list: load.
+# -- Compiling module tb
+# ** Error: ROM.v(105): (vlog-2730) Undefined variable: 'si'.
+# End time: 18:01:22 on Oct 13,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+
+vlog ROM.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:02:15 on Oct 13,2025
+# vlog -reportprogress 300 ROM.v "+acc" 
+# -- Compiling module rom_4x8
+# -- Compiling module mux4x1
+# -- Compiling module piso_8bit
+# -- Compiling module wom_8bit
+# -- Compiling module top
+# -- Compiling module tb
+# ** Error: ROM.v(107): (vlog-2730) Undefined variable: 'si'.
+# End time: 18:02:16 on Oct 13,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog ROM.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:03:05 on Oct 13,2025
+# vlog -reportprogress 300 ROM.v "+acc" 
+# -- Compiling module rom_4x8
+# -- Compiling module mux4x1
+# -- Compiling module piso_8bit
+# -- Compiling module wom_8bit
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:03:05 on Oct 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb
+# End time: 18:03:16 on Oct 13,2025, Elapsed time: 0:47:27
+# Errors: 22, Warnings: 0
+# vsim tb 
+# Start time: 18:03:16 on Oct 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): ROM.v(112): (vopt-7063) Failed to find 'won_out' in hierarchical name 'won_out'.
+#         Region: tb
+# Optimization failed
+# Error loading design
+# End time: 18:03:17 on Oct 13,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim tb
+# vsim tb 
+# Start time: 18:03:53 on Oct 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): ROM.v(112): (vopt-7063) Failed to find 'won_out' in hierarchical name 'won_out'.
+#         Region: tb
+# Optimization failed
+# Error loading design
+# End time: 18:03:53 on Oct 13,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog ROM.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:03:57 on Oct 13,2025
+# vlog -reportprogress 300 ROM.v "+acc" 
+# -- Compiling module rom_4x8
+# -- Compiling module mux4x1
+# -- Compiling module piso_8bit
+# -- Compiling module wom_8bit
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:03:57 on Oct 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb
+# vsim tb 
+# Start time: 18:03:58 on Oct 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.rom_4x8(fast)
+# Loading work.mux4x1(fast)
+# Loading work.piso_8bit(fast)
+# Loading work.wom_8bit(fast)
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 't1'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb/t1 File: ROM.v Line: 90
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (8) for port 'mux_sel'. The port definition is at: ROM.v(67).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/t1 File: ROM.v Line: 90
+# ** Warning: (vsim-3722) ROM.v(90): [TFMPC] - Missing connection for port 'wom_out'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'sel'. The port definition is at: ROM.v(14).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/t1/M1 File: ROM.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'y'. The port definition is at: ROM.v(16).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/t1/M1 File: ROM.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'pi'. The port definition is at: ROM.v(34).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/t1/P1 File: ROM.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'reg_out'. The port definition is at: ROM.v(56).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/t1/W1 File: ROM.v Line: 79
+quit -sim
+# End time: 18:26:43 on Oct 13,2025, Elapsed time: 0:22:45
+# Errors: 0, Warnings: 7

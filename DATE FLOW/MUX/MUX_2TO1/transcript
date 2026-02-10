@@ -1,0 +1,65 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# MUX_2TO1.v  transcript              
+vlog MUX_2TO1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:22:41 on Aug 30,2025
+# vlog -reportprogress 300 MUX_2TO1.v "+acc" 
+# -- Compiling module MUX_2TO1
+# -- Compiling module MUX_2TO1_tb
+# 
+# Top level modules:
+# 	MUX_2TO1_tb
+# End time: 15:22:42 on Aug 30,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim MUX_2TO1_tb
+# vsim MUX_2TO1_tb 
+# Start time: 15:22:50 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.MUX_2TO1_tb(fast)
+# Loading work.MUX_2TO1(fast)
+add wave *
+run -all
+# i=00 s=1 y=0 Time=                   0
+# i=01 s=1 y=0 Time=                  10
+vlog MUX_2TO1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:23:36 on Aug 30,2025
+# vlog -reportprogress 300 MUX_2TO1.v "+acc" 
+# -- Compiling module MUX_2TO1
+# -- Compiling module MUX_2TO1_tb
+# 
+# Top level modules:
+# 	MUX_2TO1_tb
+# End time: 15:23:36 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim MUX_2TO1_tb
+# End time: 15:23:39 on Aug 30,2025, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim MUX_2TO1_tb 
+# Start time: 15:23:39 on Aug 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.MUX_2TO1_tb(fast)
+# Loading work.MUX_2TO1(fast)
+add wave *
+run -all
+# i=00 s=1 y=0 Time=                   0
+# i=01 s=1 y=0 Time=                  10
+# i=01 s=0 y=1 Time=                  30
+# i=01 s=1 y=0 Time=                  40
+quit -sim
+# End time: 15:24:20 on Aug 30,2025, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0

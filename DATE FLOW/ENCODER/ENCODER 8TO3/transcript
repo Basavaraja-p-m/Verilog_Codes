@@ -1,0 +1,67 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:18:12 on Aug 30,2025
+# vlog -reportprogress 300 ENCODER_8TO3.v "+acc" 
+# -- Compiling module ENCODER_8TO3
+# -- Compiling module ENCODER_8TO3_tb
+# 
+# Top level modules:
+# 	ENCODER_8TO3_tb
+# End time: 22:18:12 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim ENCODER_8TO3_tb 
+# Start time: 22:18:12 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.ENCODER_8TO3_tb(fast)
+# Loading work.ENCODER_8TO3(fast)
+# i=00000001 y=000 Time=                   0
+# i=00000010 y=001 Time=                  10
+# i=00000100 y=010 Time=                  20
+# i=00001000 y=011 Time=                  30
+# i=00010000 y=100 Time=                  40
+# i=00100000 y=101 Time=                  50
+# i=01000000 y=110 Time=                  60
+# i=10000000 y=111 Time=                  70
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:18:49 on Aug 30,2025
+# vlog -reportprogress 300 ENCODER_8TO3.v "+acc" 
+# -- Compiling module ENCODER_8TO3
+# -- Compiling module ENCODER_8TO3_tb
+# 
+# Top level modules:
+# 	ENCODER_8TO3_tb
+# End time: 22:18:49 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:18:50 on Aug 30,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# vsim ENCODER_8TO3_tb 
+# Start time: 22:18:50 on Aug 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ENCODER_8TO3_tb(fast)
+# Loading work.ENCODER_8TO3(fast)
+# i=00000001 y=000 Time=0
+# i=00000010 y=001 Time=10
+# i=00000100 y=010 Time=20
+# i=00001000 y=011 Time=30
+# i=00010000 y=100 Time=40
+# i=00100000 y=101 Time=50
+# i=01000000 y=110 Time=60
+# i=10000000 y=111 Time=70
+quit -sim
+# End time: 22:19:34 on Aug 30,2025, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0

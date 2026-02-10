@@ -1,0 +1,64 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/DATE FLOW/COMPARATOR/4-BIT COMPARATOR
+T_opt
+!s110 1756567721
+VZ6C5NBG0EIMAVjbJb^a>91
+04 12 4 work COMP_4BIT_tb fast 0
+=1-84144d0ea3d5-68b318a9-1c0-1c34
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vCOMP_4BIT
+Z2 !s110 1756567850
+!i10b 1
+!s100 5]nPRTJN?<Leb0dBFfaI;2
+IVB4eF<1GbXm24HO_>@gC=0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756567711
+Z5 8COMP_4BIT.v
+Z6 FCOMP_4BIT.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756567850.000000
+!s107 COMP_4BIT.v|
+Z9 !s90 -reportprogress|300|COMP_4BIT.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@c@o@m@p_4@b@i@t
+vCOMP_4BIT_tb
+R2
+!i10b 1
+!s100 <NO=z`ScV[XZ^1eKbYCB_1
+I2AiGKQ1JTQ8;@jW];giG81
+R3
+R0
+R4
+R5
+R6
+L0 11
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 COMP_4BIT.v|
+R9
+!i113 0
+R10
+R1
+n@c@o@m@p_4@b@i@t_tb

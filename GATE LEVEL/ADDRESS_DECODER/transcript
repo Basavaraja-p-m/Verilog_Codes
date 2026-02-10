@@ -1,0 +1,353 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+pwd
+# C:/questasim64_10.7c/examples/VERILOG CODES/GATE LEVEL/ADDRESS_DECODER
+ls
+# AD.v  transcript              
+vlog AD.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:54:53 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# ** Error: AD.v(9): (vlog-2884) Bit-select into 'slave' is out of bounds.
+# -- Compiling module AD_tb
+# End time: 12:54:54 on Aug 29,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog AD.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:55:38 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# 
+# Top level modules:
+# 	AD_tb
+# End time: 12:55:38 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim AD_tb
+# vsim AD_tb 
+# Start time: 12:55:52 on Aug 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+add wave *
+run -all
+# add=xxxxxxxxxxxxx100 slave=1000 Time=                   0
+vlog AD.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:56:49 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# ** Error: (vlog-13069) AD.v(25): near "end": syntax error, unexpected end.
+# End time: 12:56:49 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog AD.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:58:13 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# 
+# Top level modules:
+# 	AD_tb
+# End time: 12:58:13 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim AD_tb
+# End time: 12:58:16 on Aug 29,2025, Elapsed time: 0:02:24
+# Errors: 2, Warnings: 0
+# vsim AD_tb 
+# Start time: 12:58:16 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+run -all
+# add=xxxxxxxxxxxxx010 slave=0010 Time=                   0
+# add=xxxxxxxxxxxxx011 slave=0100 Time=                  10
+# add=xxxxxxxxxxxxx100 slave=1000 Time=                  20
+vlog AD.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:00:24 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# 
+# Top level modules:
+# 	AD_tb
+# End time: 13:00:24 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim AD_tb
+# End time: 13:00:26 on Aug 29,2025, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 0
+# vsim AD_tb 
+# Start time: 13:00:26 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+run -all
+# add=xxxxxxxxxxxxx001 slave=0001 Time=                   0
+# add=xxxxxxxxxxxxx010 slave=0010 Time=                  10
+# add=xxxxxxxxxxxxx011 slave=0100 Time=                  20
+# add=xxxxxxxxxxxxx100 slave=1000 Time=                  30
+vlog AD.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:05:32 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# 
+# Top level modules:
+# 	AD_tb
+# End time: 13:05:32 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim AD_tb
+# End time: 13:05:38 on Aug 29,2025, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 0
+# vsim AD_tb 
+# Start time: 13:05:38 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+run -all
+# add=0000000000000010 slave=0010 Time=                   0
+# add=0000000000000011 slave=0100 Time=                  10
+# add=0000000000000100 slave=1000 Time=                  20
+vlog AD.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:06:54 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# 
+# Top level modules:
+# 	AD_tb
+# End time: 13:06:54 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim AD_tb
+# End time: 13:06:57 on Aug 29,2025, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 0
+# vsim AD_tb 
+# Start time: 13:06:57 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'add'. The port definition is at: AD.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /AD_tb/a1 File: AD.v Line: 18
+run -all
+# add=0000000000000010 slave=xxxx Time=                   0
+# add=0000000000000011 slave=xxxx Time=                  10
+# add=0000000000000100 slave=xxxx Time=                  20
+vlog AD.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:07:34 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# 
+# Top level modules:
+# 	AD_tb
+# End time: 13:07:34 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim AD_tb
+# End time: 13:07:38 on Aug 29,2025, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 1
+# vsim AD_tb 
+# Start time: 13:07:38 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+run -all
+# add=0000000000000010 slave=0010 Time=                   0
+# add=0000000000000011 slave=0100 Time=                  10
+# add=0000000000000100 slave=1000 Time=                  20
+vlog AD.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:08:13 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# 
+# Top level modules:
+# 	AD_tb
+# End time: 13:08:13 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim AD_tb
+# End time: 13:08:17 on Aug 29,2025, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0
+# vsim AD_tb 
+# Start time: 13:08:17 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+run -all
+# add=0000000000000001 slave=0001 Time=                   0
+# add=0000000000000010 slave=0010 Time=                  10
+# add=0000000000000011 slave=0100 Time=                  20
+# add=0000000000000100 slave=1000 Time=                  30
+vlog AD.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:08:54 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# 
+# Top level modules:
+# 	AD_tb
+# End time: 13:08:54 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim AD_tb
+# End time: 13:08:58 on Aug 29,2025, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+# vsim AD_tb 
+# Start time: 13:08:58 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+add wave *
+run -all
+# add=0000000000000001 slave=0001 Time=0
+# add=0000000000000010 slave=0010 Time=10
+# add=0000000000000011 slave=0100 Time=20
+# add=0000000000000100 slave=1000 Time=30
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/questasim64_10.7c/examples/VERILOG CODES/GATE LEVEL/ADDRESS_DECODER/wave.do}
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:11:16 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# 
+# Top level modules:
+# 	AD_tb
+# End time: 13:11:17 on Aug 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:11:17 on Aug 29,2025, Elapsed time: 0:02:19
+# Errors: 0, Warnings: 0
+# vsim AD_tb 
+# Start time: 13:11:17 on Aug 29,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+# add=0000000000000001 slave=0001 Time=0
+# add=0000000000000010 slave=0010 Time=10
+# add=0000000000000011 slave=0100 Time=20
+# add=0000000000000100 slave=1000 Time=30
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:19:00 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# 
+# Top level modules:
+# 	AD_tb
+# End time: 13:19:00 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:19:01 on Aug 29,2025, Elapsed time: 0:07:44
+# Errors: 0, Warnings: 0
+# vsim AD_tb 
+# Start time: 13:19:01 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+# add=00000000000000010000000000000000 slave=0001 Time=0
+# add=00000000000000100000000000000000 slave=0010 Time=10
+# add=00000000000000110000000000000000 slave=0100 Time=20
+# add=00000000000001000000000000000000 slave=1000 Time=30
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:25:55 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# 
+# Top level modules:
+# 	AD_tb
+# End time: 13:25:55 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:25:56 on Aug 29,2025, Elapsed time: 0:06:55
+# Errors: 0, Warnings: 0
+# vsim AD_tb 
+# Start time: 13:25:56 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+# add=00000000000000010000000000000000 slave=0001 Time=0
+# add=00000000000000100000000000000000 slave=0010 Time=10
+# add=00000000000000110000000000000000 slave=0100 Time=20
+# add=00000000000001000000000000000000 slave=1000 Time=30
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:26:48 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# 
+# Top level modules:
+# 	AD_tb
+# End time: 13:26:48 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:26:49 on Aug 29,2025, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 0
+# vsim AD_tb 
+# Start time: 13:26:49 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+# add=00000000000000010000000000000000 slave=0001 Time=0
+# add=00000000000000100000000000000000 slave=0010 Time=10
+# add=00000000000000010000000000000000 slave=0001 Time=20
+# add=00000000000001000000000000000000 slave=1000 Time=30
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:28:41 on Aug 29,2025
+# vlog -reportprogress 300 AD.v "+acc" 
+# -- Compiling module AD
+# -- Compiling module AD_tb
+# 
+# Top level modules:
+# 	AD_tb
+# End time: 13:28:41 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:28:42 on Aug 29,2025, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 0
+# vsim AD_tb 
+# Start time: 13:28:42 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+# add=00000000000000010000000000000000 slave=0001 Time=0
+# add=00000000000000100000000000000000 slave=0010 Time=10
+# add=00000000000000110000000000000000 slave=0100 Time=20
+# add=00000000000001000000000000000000 slave=1000 Time=30
+vsim -debugdb AD_tb
+# End time: 13:35:55 on Aug 29,2025, Elapsed time: 0:07:13
+# Errors: 0, Warnings: 0
+# vsim -debugdb AD_tb 
+# Start time: 13:35:55 on Aug 29,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.AD_tb(fast)
+# Loading work.AD(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+quit -all
+# unknown switch: -all
+quit -sim
+# End time: 13:39:50 on Aug 29,2025, Elapsed time: 0:03:55
+# Errors: 1, Warnings: 2

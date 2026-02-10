@@ -1,0 +1,81 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1755500810
+V[f=52MEkXOgf?d4UaBPI01
+Z1 04 12 4 work nand_gate_tb fast 0
+=1-84144d0ea3d5-68a2d109-380-4908
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1755502582
+VE_cL72UTV?cM426jhi;_^1
+R1
+=1-84144d0ea3d5-68a2d7f6-1c-1128
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1755502470
+VJ>^3A3YnG]3oonJDk^=OQ2
+R1
+=1-84144d0ea3d5-68a2d786-d3-47e4
+R4
+R2
+n@_opt2
+R3
+R0
+vnand_gate
+!s110 1755500721
+!i10b 1
+!s100 =4^ROfdKfTDcZ;f=ShJD]1
+IW;WfUGI@o_[j43TfOGck71
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dC:/questasim64_10.7c/examples/VERILOG CODES/NAND GATE
+w1755500127
+8C:\questasim64_10.7c\examples\VERILOG CODES\NAND GATE\NAND_GATE.V
+FC:\questasim64_10.7c\examples\VERILOG CODES\NAND GATE\NAND_GATE.V
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1755500721.000000
+!s107 C:\questasim64_10.7c\examples\VERILOG CODES\NAND GATE\NAND_GATE.V|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\questasim64_10.7c\examples\VERILOG CODES\NAND GATE\NAND_GATE.V|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vnand_gate_tb
+!s110 1755500725
+!i10b 1
+!s100 TAoV]781><K<ZG_EL?ajP3
+I5nZYLf?V6j^NY2dVM23S^3
+R5
+R6
+w1755500716
+8C:\questasim64_10.7c\examples\VERILOG CODES\NAND GATE\NAND_GATE_tb.v
+FC:\questasim64_10.7c\examples\VERILOG CODES\NAND GATE\NAND_GATE_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1755500725.000000
+!s107 C:\questasim64_10.7c\examples\VERILOG CODES\NAND GATE\NAND_GATE_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\questasim64_10.7c\examples\VERILOG CODES\NAND GATE\NAND_GATE_tb.v|
+!i113 0
+R8
+R2

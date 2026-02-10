@@ -1,0 +1,52 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# RCA.v  transcript              
+vlog RCA.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:52:15 on Sep 14,2025
+# vlog -reportprogress 300 RCA.v "+acc" 
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# ** Error: (vlog-13069) RCA.v(18): near "wire": syntax error, unexpected wire, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: RCA.v(25): (vlog-2730) Undefined variable: 'a'.
+# ** Error: RCA.v(25): (vlog-2730) Undefined variable: 'b'.
+# ** Error: RCA.v(25): (vlog-2730) Undefined variable: 'cin'.
+# End time: 11:52:15 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog RCA.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:53:18 on Sep 14,2025
+# vlog -reportprogress 300 RCA.v "+acc" 
+# -- Compiling module RCA
+# -- Compiling module RCA_tb
+# 
+# Top level modules:
+# 	RCA_tb
+# End time: 11:53:18 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim RCA_tb
+# vsim RCA_tb 
+# Start time: 11:53:25 on Sep 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.RCA_tb(fast)
+# Loading work.RCA(fast)
+add wave *
+run -all
+# da=0010 db=1100 dcin=0 dsum=1110 dcarry=0 Time=                   0
+quit -sim
+# End time: 13:01:27 on Sep 14,2025, Elapsed time: 1:08:02
+# Errors: 0, Warnings: 0

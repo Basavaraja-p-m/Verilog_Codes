@@ -1,0 +1,139 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlog RCAF.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:30:21 on Oct 11,2025
+# vlog -reportprogress 300 RCAF.v 
+# -- Compiling module RCAF
+# ** Error (suppressible): RCAF.v(9): (vlog-2388) 'sum' already declared in this scope (FA).
+# ** Error (suppressible): RCAF.v(9): (vlog-2388) 'carry' already declared in this scope (FA).
+# ** Error: RCAF.v(11): (vlog-2730) Undefined variable: 'c'.
+# ** Error: RCAF.v(9): Output or inout not allowed in function: carry.
+# ** Error: RCAF.v(9): Output or inout not allowed in function: sum.
+# ** Error: RCAF.v(19): (vlog-2730) Undefined variable: 'res'.
+# ** Error: RCAF.v(21): (vlog-2730) Undefined variable: 'carry'.
+# -- Compiling module RCAF_tb
+# End time: 20:30:21 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog RCAF.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:31:02 on Oct 11,2025
+# vlog -reportprogress 300 RCAF.v 
+# -- Compiling module RCAF
+# ** Error (suppressible): RCAF.v(9): (vlog-2388) 'sum' already declared in this scope (FA).
+# ** Error (suppressible): RCAF.v(10): (vlog-2388) 'carry' already declared in this scope (FA).
+# ** Error: RCAF.v(10): Output or inout not allowed in function: carry.
+# ** Error: RCAF.v(9): Output or inout not allowed in function: sum.
+# ** Error: RCAF.v(20): (vlog-2730) Undefined variable: 'res'.
+# ** Error: RCAF.v(22): (vlog-2730) Undefined variable: 'carry'.
+# -- Compiling module RCAF_tb
+# End time: 20:31:02 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog RCAF.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:33:19 on Oct 11,2025
+# vlog -reportprogress 300 RCAF.v 
+# -- Compiling module RCAF
+# ** Error: RCAF.v(20): (vlog-2730) Undefined variable: 'res'.
+# ** Error: RCAF.v(22): (vlog-2730) Undefined variable: 'carry'.
+# -- Compiling module RCAF_tb
+# End time: 20:33:19 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog RCAF.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:34:42 on Oct 11,2025
+# vlog -reportprogress 300 RCAF.v 
+# -- Compiling module RCAF
+# ** Error: RCAF.v(23): (vlog-2730) Undefined variable: 'carry'.
+# -- Compiling module RCAF_tb
+# End time: 20:34:42 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog RCAF.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:35:25 on Oct 11,2025
+# vlog -reportprogress 300 RCAF.v 
+# -- Compiling module RCAF
+# ** Error: RCAF.v(22): (vlog-2110) Illegal reference to net "sum".
+# ** Error: RCAF.v(26): (vlog-2110) Illegal reference to net "sum".
+# ** Error: RCAF.v(30): (vlog-2110) Illegal reference to net "sum".
+# ** Error: RCAF.v(34): (vlog-2110) Illegal reference to net "sum".
+# -- Compiling module RCAF_tb
+# End time: 20:35:25 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog RCAF.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:38:22 on Oct 11,2025
+# vlog -reportprogress 300 RCAF.v 
+# -- Compiling module RCAF
+# ** Error: RCAF.v(22): (vlog-2110) Illegal reference to net "sum".
+# ** Error: RCAF.v(26): (vlog-2110) Illegal reference to net "sum".
+# ** Error: RCAF.v(30): (vlog-2110) Illegal reference to net "sum".
+# ** Error: RCAF.v(34): (vlog-2110) Illegal reference to net "sum".
+# -- Compiling module RCAF_tb
+# End time: 20:38:22 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog RCAF.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:40:21 on Oct 11,2025
+# vlog -reportprogress 300 RCAF.v 
+# -- Compiling module RCAF
+# ** Error: RCAF.v(22): (vlog-2110) Illegal reference to net "sum".
+# ** Error: RCAF.v(26): (vlog-2110) Illegal reference to net "sum".
+# ** Error: RCAF.v(30): (vlog-2110) Illegal reference to net "sum".
+# ** Error: RCAF.v(34): (vlog-2110) Illegal reference to net "sum".
+# -- Compiling module RCAF_tb
+# End time: 20:40:22 on Oct 11,2025, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog RCAF.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:42:04 on Oct 11,2025
+# vlog -reportprogress 300 RCAF.v 
+# -- Compiling module RCAF
+# ** Error: RCAF.v(22): (vlog-2110) Illegal reference to net "sum".
+# ** Error: RCAF.v(26): (vlog-2110) Illegal reference to net "sum".
+# ** Error: RCAF.v(30): (vlog-2110) Illegal reference to net "sum".
+# ** Error: RCAF.v(34): (vlog-2110) Illegal reference to net "sum".
+# -- Compiling module RCAF_tb
+# End time: 20:42:04 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog RCAF.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:44:40 on Oct 11,2025
+# vlog -reportprogress 300 RCAF.v 
+# -- Compiling module RCAF
+# -- Compiling module RCAF_tb
+# 
+# Top level modules:
+# 	RCAF_tb
+# End time: 20:44:40 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim RCAF_tb
+# vsim RCAF_tb 
+# Start time: 20:44:53 on Oct 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.RCAF_tb(fast)
+run -all
+# a= 4,b= 1,cin=1,sum= 6,cout=z,Time=                   0
+quit -sim
+# End time: 20:46:01 on Oct 11,2025, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 0

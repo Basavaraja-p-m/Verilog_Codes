@@ -1,0 +1,68 @@
+WindowType FullviewSchematic /MUX_2to1_tb/M1
+DesignChecksum CH71ie>Q5eiezQ9LA2XU10
+RoutedNets {}
+RoutedInst {/MUX_2to1_tb/M1/__2 1}
+WindowPreferences {showhierarchy 1 showacttime 1 inoutlocation 1 selequivnets 0 hidebuffers 0 hidecells 1 hideinverters 0 selectenv 1 autowave 1 lognets 1 popupenabled 1 mouseoverenabled 1 showdunames 0 showinstnames 1 shownetnames 0 shownetnamestyle corner shownetstate 0 showpinnames 1 showripindices 1 showvalues 1 verticaltext 1 netxFollowsControlLogic 0 netxMaxGates 1024 netxMaxLevels 32 use_code_preview 1 time0_warning 1 depth_warning 1 add_error_warning 1 diverge_warning 1}
+EndOfStateInfo
+# File saved with Nlview version 6.6.36_0 (04/08/25-18:45:38 bk=1.779)
+#
+property -reset
+property autobundle 20
+property boxcolor0 #00ffff
+property boxcolor1 #999999
+property boxinstcolor #ffffff
+property boxpincolor #00ffff
+property buscolor #ffff00
+property closeenough 3
+property enablebufferchaincollapsing 1
+property enablescrollrect 1
+property evaluateattrvalue 1
+property extractsequentiallogic 2
+property gatepinname 1
+property incrementmode 2
+property inferbundlename 1
+property instattrmax 50
+property objecthighlight3 #008000
+property objecthighlight4 #ff00ff
+property objecthighlight5 #ffd700
+property objecthighlight6 #0000ff
+property objecthighlight9 #fa8072
+property outboxcolor1 #a52a2a
+property outboxcolor2 #000000
+property outboxcolor4 #000000
+property outfblevel 10
+property picksubnet 1
+property pinattrmax 50
+property pinorder 1
+property questalayoutimprovement 1
+property recursivecallerrorlen 10
+property searchvisibleobjects 1
+property selectbycolor9 1
+property showcellname 0
+property showmarks 1
+property shownetattr 4
+property showripindex 3
+property timelimit 50
+
+module new v {} -nosplit
+load symbol /MUX_2to1_tb/M1/a2 v AND port w2 output port s input port i1 input
+load symbol /MUX_2to1_tb/M1/__2 v INV port dbgTemp0 output port s input
+load symbol /MUX_2to1_tb/M1/o1 v OR port y output port w2 input port w1 input
+load symbol /MUX_2to1_tb/M1/a1 v AND port w1 output port dbgTemp0 input port i0 input
+load symbol work.MUX_2to1(fast) v HIERGEN port y output.right port i0 input.left port i1 input.left port s input.left boxcolor 1
+load inst /MUX_2to1_tb/M1 work.MUX_2to1(fast) v -autohide -attr acc +acc=<full> -attr @name M1 -attr @cell work.MUX_2to1(fast) -x 39 -y 20 -pg 1
+load inst /MUX_2to1_tb/M1/o1 /MUX_2to1_tb/M1/o1 v -hier /MUX_2to1_tb/M1 -attr @cell {} -attr acc {} -attr @name o1 -x 403 -y 50 -pg 1
+load inst /MUX_2to1_tb/M1/__2 /MUX_2to1_tb/M1/__2 v -hier /MUX_2to1_tb/M1 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp0 @name {} -x 113 -y 30 -pg 1
+load inst /MUX_2to1_tb/M1/a1 /MUX_2to1_tb/M1/a1 v -hier /MUX_2to1_tb/M1 -attr @cell {} -attr acc {} -attr @name a1 -pinAttr dbgTemp0 @name {} -x 249 -y 40 -pg 1
+load inst /MUX_2to1_tb/M1/a2 /MUX_2to1_tb/M1/a2 v -hier /MUX_2to1_tb/M1 -attr @cell {} -attr acc {} -attr @name a2 -x 249 -y 90 -pg 1
+load net /MUX_2to1_tb/M1/w1 -attr @simnet 9 -attr @name w1 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /MUX_2to1_tb/M1/a1 w1 -pin /MUX_2to1_tb/M1/o1 w1
+load net /MUX_2to1_tb/M1/w2 -attr @simnet 10 -attr @name w2 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /MUX_2to1_tb/M1/a2 w2 -pin /MUX_2to1_tb/M1/o1 w2
+load net /MUX_2to1_tb/M1/dbgTemp0 -attr @name {} -attr @attr X -pin /MUX_2to1_tb/M1/__2 dbgTemp0 -pin /MUX_2to1_tb/M1/a1 dbgTemp0
+load net /MUX_2to1_tb/M1/i0 -attr @name i0 -attr @simnet 6 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /MUX_2to1_tb/M1 i0 -pin /MUX_2to1_tb/M1/a1 i0
+load net /MUX_2to1_tb/M1/i1 -attr @name i1 -attr @simnet 7 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /MUX_2to1_tb/M1 i1 -pin /MUX_2to1_tb/M1/a2 i1
+load net /MUX_2to1_tb/M1/s -attr @name s -attr @simnet 8 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /MUX_2to1_tb/M1 s -pin /MUX_2to1_tb/M1/__2 s -pin /MUX_2to1_tb/M1/a2 s
+load net /MUX_2to1_tb/M1/y -attr @name y -attr @simnet 5 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /MUX_2to1_tb/M1 y -pin /MUX_2to1_tb/M1/o1 y
+greymode off
+show 1
+scrollpos 71 0
+

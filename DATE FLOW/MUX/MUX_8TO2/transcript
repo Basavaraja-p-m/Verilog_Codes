@@ -1,0 +1,79 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# MUX_8TO2.v  transcript              
+vlog MUX_8TO2.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:07:36 on Aug 30,2025
+# vlog -reportprogress 300 MUX_8TO2.v "+acc" 
+# -- Compiling module MUX_8TO2
+# -- Compiling module MUX_8TO2_tb
+# 
+# Top level modules:
+# 	MUX_8TO2_tb
+# End time: 15:07:36 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim MUX_8TO2_tb
+# vsim MUX_8TO2_tb 
+# Start time: 15:08:01 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.MUX_8TO2_tb(fast)
+# Loading work.MUX_8TO2(fast)
+add wave *
+run -all
+# i=11111001 s=0110 y=1 Time=                   0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:10:41 on Aug 30,2025
+# vlog -reportprogress 300 MUX_8TO2.v "+acc" 
+# -- Compiling module MUX_8TO2
+# -- Compiling module MUX_8TO2_tb
+# ** Error: (vlog-13069) MUX_8TO2.v(24): near "#": syntax error, unexpected '#'.
+# End time: 15:10:41 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog MUX_8TO2.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:11:33 on Aug 30,2025
+# vlog -reportprogress 300 MUX_8TO2.v "+acc" 
+# -- Compiling module MUX_8TO2
+# -- Compiling module MUX_8TO2_tb
+# 
+# Top level modules:
+# 	MUX_8TO2_tb
+# End time: 15:11:33 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:11:34 on Aug 30,2025, Elapsed time: 0:03:33
+# Errors: 4, Warnings: 0
+# vsim MUX_8TO2_tb 
+# Start time: 15:11:34 on Aug 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.MUX_8TO2_tb(fast)
+# Loading work.MUX_8TO2(fast)
+# i=00100100 s=001 y=0 Time=                   0
+# i=00001001 s=011 y=1 Time=                  10
+# i=00001101 s=101 y=0 Time=                  20
+# i=01100101 s=010 y=1 Time=                  30
+# i=00000001 s=101 y=0 Time=                  40
+# i=01110110 s=101 y=1 Time=                  50
+# i=11101101 s=100 y=0 Time=                  60
+# i=11111001 s=110 y=1 Time=                  70
+quit -sim
+# End time: 15:14:00 on Aug 30,2025, Elapsed time: 0:02:26
+# Errors: 0, Warnings: 0

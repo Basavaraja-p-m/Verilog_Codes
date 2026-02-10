@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/HOME/BEHAVIOURAL/RAM
+T_opt
+!s110 1760271781
+Vg06NEoA4Pm3ARab:g=<F80
+04 6 4 work RAM_tb fast 0
+=1-84144d0ea3d5-68eb9da5-24-2b98
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vRAM
+Z2 !s110 1760271775
+!i10b 1
+!s100 OE]FhTZcM6RZ4d?6c1E5S3
+IC``Jk54<i=;Z1hb=L70[P0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1760271739
+Z5 8RAM.v
+Z6 FRAM.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1760271775.000000
+Z9 !s107 RAM.v|
+Z10 !s90 -reportprogress|300|RAM.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@r@a@m
+vRAM_tb
+R2
+!i10b 1
+!s100 ECMVzoG[gDF4PIFhKC4643
+Ib^P0E[>S@mnDSM3N:7P4H0
+R3
+R0
+R4
+R5
+R6
+L0 31
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@r@a@m_tb

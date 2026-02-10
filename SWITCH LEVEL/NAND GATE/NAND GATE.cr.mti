@@ -1,0 +1,15 @@
+{C:/questasim64_10.7c/examples/VERILOG CODES/NAND GATE/NAND_GATE.V} {1 {vlog -work work -vopt -stats=none {C:\questasim64_10.7c\examples\VERILOG CODES\NAND GATE\NAND_GATE.V}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module nand_gate
+
+Top level modules:
+	nand_gate
+
+} {} {}} {C:/questasim64_10.7c/examples/VERILOG CODES/NAND GATE/NAND_GATE_tb.v} {1 {vlog -work work -vopt -stats=none {C:\questasim64_10.7c\examples\VERILOG CODES\NAND GATE\NAND_GATE_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module nand_gate_tb
+
+Top level modules:
+	nand_gate_tb
+
+} {} {}}

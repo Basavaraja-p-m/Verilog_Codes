@@ -1,0 +1,284 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlog SISO.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:53:24 on Oct 12,2025
+# vlog -reportprogress 300 SISO.v "+acc" 
+# -- Compiling module SISO
+# ** Error: (vlog-13069) SISO.v(12): near "else": syntax error, unexpected else.
+# ** Error: (vlog-13069) SISO.v(24): near "end": syntax error, unexpected end.
+# ** Error (suppressible): SISO.v(28): (vlog-2388) 'clk' already declared in this scope (SISO).
+# ** Error (suppressible): SISO.v(28): (vlog-2388) 'rst' already declared in this scope (SISO).
+# ** Error (suppressible): SISO.v(29): (vlog-2388) 'sin' already declared in this scope (SISO).
+# ** Error (suppressible): SISO.v(30): (vlog-2388) 'sout' already declared in this scope (SISO).
+# End time: 12:53:24 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog SISO.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:54:06 on Oct 12,2025
+# vlog -reportprogress 300 SISO.v "+acc" 
+# -- Compiling module SISO
+# ** Error: SISO.v(11): (vlog-2110) Illegal reference to net "sout".
+# ** Error: SISO.v(21): (vlog-2110) Illegal reference to net "sout".
+# -- Compiling module SISO_tb
+# End time: 12:54:06 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog SISO.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:54:23 on Oct 12,2025
+# vlog -reportprogress 300 SISO.v "+acc" 
+# -- Compiling module SISO
+# -- Compiling module SISO_tb
+# 
+# Top level modules:
+# 	SISO_tb
+# End time: 12:54:23 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim SISO_tb
+# vsim SISO_tb 
+# Start time: 12:54:31 on Oct 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.SISO_tb(fast)
+# Loading work.SISO(fast)
+add wave 
+# wrong number of args for "add wave".
+# Usage: add wave [-allowconstants] [-clampanalog {0|1}] [-color <standard_color_name>] [-depth <level>] [-divider <divider_name>...] [-expand <signal_name>] [-filter <f> | -nofilter <f>] [-format <type> | -<format>] [-group <group_name> [<sig_name1>...]] [-height <pixels>] [[-in] [-out] [-inout] | [-ports]] [-internal] [-label <name>] [-max <real_num>] [-min <real_num>] [-mvcall] [-mvcovm] [-mvcreccomplete] [-noupdate] [-numdynitem <int>] [-optcells] [-position <location>] [-queueends] [-radix <type> | -<radix_type>] [-radixenumnumeric | -radixenumsymbolic] [-recursive] [-startdynitem <int>] [-time] [-window <wname>] [<object_name>...] [{<object_name> {sig1 sig2 ...}}] 
+add wave *
+run 250ns
+# clk=0,rst=0,sin=1,sout=0,TIme=                   0
+# clk=1,rst=0,sin=1,sout=0,TIme=                   5
+# clk=0,rst=0,sin=0,sout=0,TIme=                  10
+# clk=1,rst=0,sin=0,sout=0,TIme=                  15
+# clk=0,rst=1,sin=1,sout=0,TIme=                  20
+# clk=1,rst=1,sin=1,sout=0,TIme=                  25
+# clk=0,rst=1,sin=0,sout=0,TIme=                  30
+# clk=1,rst=1,sin=0,sout=0,TIme=                  35
+# clk=0,rst=1,sin=0,sout=0,TIme=                  40
+# clk=1,rst=1,sin=0,sout=0,TIme=                  45
+# clk=0,rst=1,sin=0,sout=0,TIme=                  50
+# clk=1,rst=1,sin=0,sout=0,TIme=                  55
+# clk=0,rst=1,sin=0,sout=0,TIme=                  60
+# clk=1,rst=1,sin=0,sout=1,TIme=                  65
+# clk=0,rst=1,sin=0,sout=1,TIme=                  70
+# clk=1,rst=1,sin=0,sout=0,TIme=                  75
+# clk=0,rst=1,sin=0,sout=0,TIme=                  80
+# clk=1,rst=1,sin=0,sout=0,TIme=                  85
+# clk=0,rst=1,sin=0,sout=0,TIme=                  90
+# clk=1,rst=1,sin=0,sout=0,TIme=                  95
+# clk=0,rst=1,sin=0,sout=0,TIme=                 100
+# clk=1,rst=1,sin=0,sout=0,TIme=                 105
+# clk=0,rst=1,sin=0,sout=0,TIme=                 110
+# clk=1,rst=1,sin=0,sout=0,TIme=                 115
+# clk=0,rst=1,sin=0,sout=0,TIme=                 120
+# clk=1,rst=1,sin=0,sout=0,TIme=                 125
+# clk=0,rst=1,sin=0,sout=0,TIme=                 130
+# clk=1,rst=1,sin=0,sout=0,TIme=                 135
+# clk=0,rst=1,sin=0,sout=0,TIme=                 140
+# clk=1,rst=1,sin=0,sout=0,TIme=                 145
+# clk=0,rst=1,sin=0,sout=0,TIme=                 150
+# clk=1,rst=1,sin=0,sout=0,TIme=                 155
+# clk=0,rst=1,sin=0,sout=0,TIme=                 160
+# clk=1,rst=1,sin=0,sout=0,TIme=                 165
+# clk=0,rst=1,sin=0,sout=0,TIme=                 170
+# clk=1,rst=1,sin=0,sout=0,TIme=                 175
+# clk=0,rst=1,sin=0,sout=0,TIme=                 180
+# clk=1,rst=1,sin=0,sout=0,TIme=                 185
+# clk=0,rst=1,sin=0,sout=0,TIme=                 190
+# clk=1,rst=1,sin=0,sout=0,TIme=                 195
+# clk=0,rst=1,sin=0,sout=0,TIme=                 200
+# clk=1,rst=1,sin=0,sout=0,TIme=                 205
+# clk=0,rst=1,sin=0,sout=0,TIme=                 210
+# clk=1,rst=1,sin=0,sout=0,TIme=                 215
+# clk=0,rst=1,sin=0,sout=0,TIme=                 220
+# clk=1,rst=1,sin=0,sout=0,TIme=                 225
+# clk=0,rst=1,sin=0,sout=0,TIme=                 230
+# clk=1,rst=1,sin=0,sout=0,TIme=                 235
+# clk=0,rst=1,sin=0,sout=0,TIme=                 240
+# clk=1,rst=1,sin=0,sout=0,TIme=                 245
+vlog SISO.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:57:04 on Oct 12,2025
+# vlog -reportprogress 300 SISO.v "+acc" 
+# -- Compiling module SISO
+# -- Compiling module SISO_tb
+# 
+# Top level modules:
+# 	SISO_tb
+# End time: 12:57:04 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim SISO_tb
+# End time: 12:57:08 on Oct 12,2025, Elapsed time: 0:02:37
+# Errors: 1, Warnings: 0
+# vsim SISO_tb 
+# Start time: 12:57:08 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.SISO_tb(fast)
+# Loading work.SISO(fast)
+add wave *
+run 250ns
+# clk=0,rst=0,sin=1,sout=0,TIme=                   0
+# clk=1,rst=0,sin=1,sout=0,TIme=                   5
+# clk=0,rst=0,sin=1,sout=0,TIme=                  10
+# clk=1,rst=0,sin=0,sout=0,TIme=                  15
+# clk=0,rst=1,sin=0,sout=0,TIme=                  20
+# clk=1,rst=1,sin=0,sout=0,TIme=                  25
+# clk=0,rst=1,sin=0,sout=0,TIme=                  30
+# clk=1,rst=1,sin=1,sout=0,TIme=                  35
+# clk=0,rst=1,sin=1,sout=0,TIme=                  40
+# clk=1,rst=1,sin=1,sout=0,TIme=                  45
+# clk=0,rst=1,sin=1,sout=0,TIme=                  50
+# clk=1,rst=1,sin=0,sout=0,TIme=                  55
+# clk=0,rst=1,sin=0,sout=0,TIme=                  60
+# clk=1,rst=1,sin=0,sout=0,TIme=                  65
+# clk=0,rst=1,sin=0,sout=0,TIme=                  70
+# clk=1,rst=1,sin=0,sout=1,TIme=                  75
+# clk=0,rst=1,sin=0,sout=1,TIme=                  80
+# clk=1,rst=1,sin=0,sout=1,TIme=                  85
+# clk=0,rst=1,sin=0,sout=1,TIme=                  90
+# clk=1,rst=1,sin=0,sout=0,TIme=                  95
+# clk=0,rst=1,sin=0,sout=0,TIme=                 100
+# clk=1,rst=1,sin=0,sout=0,TIme=                 105
+# clk=0,rst=1,sin=0,sout=0,TIme=                 110
+# clk=1,rst=1,sin=0,sout=0,TIme=                 115
+# clk=0,rst=1,sin=0,sout=0,TIme=                 120
+# clk=1,rst=1,sin=0,sout=0,TIme=                 125
+# clk=0,rst=1,sin=0,sout=0,TIme=                 130
+# clk=1,rst=1,sin=0,sout=0,TIme=                 135
+# clk=0,rst=1,sin=0,sout=0,TIme=                 140
+# clk=1,rst=1,sin=0,sout=0,TIme=                 145
+# clk=0,rst=1,sin=0,sout=0,TIme=                 150
+# clk=1,rst=1,sin=0,sout=0,TIme=                 155
+# clk=0,rst=1,sin=0,sout=0,TIme=                 160
+# clk=1,rst=1,sin=0,sout=0,TIme=                 165
+# clk=0,rst=1,sin=0,sout=0,TIme=                 170
+# clk=1,rst=1,sin=0,sout=0,TIme=                 175
+# clk=0,rst=1,sin=0,sout=0,TIme=                 180
+# clk=1,rst=1,sin=0,sout=0,TIme=                 185
+# clk=0,rst=1,sin=0,sout=0,TIme=                 190
+# clk=1,rst=1,sin=0,sout=0,TIme=                 195
+# clk=0,rst=1,sin=0,sout=0,TIme=                 200
+# clk=1,rst=1,sin=0,sout=0,TIme=                 205
+# clk=0,rst=1,sin=0,sout=0,TIme=                 210
+# clk=1,rst=1,sin=0,sout=0,TIme=                 215
+# clk=0,rst=1,sin=0,sout=0,TIme=                 220
+# clk=1,rst=1,sin=0,sout=0,TIme=                 225
+# clk=0,rst=1,sin=0,sout=0,TIme=                 230
+# clk=1,rst=1,sin=0,sout=0,TIme=                 235
+# clk=0,rst=1,sin=0,sout=0,TIme=                 240
+# clk=1,rst=1,sin=0,sout=0,TIme=                 245
+vlog SISO.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:04:35 on Oct 12,2025
+# vlog -reportprogress 300 SISO.v "+acc" 
+# -- Compiling module SISO
+# -- Compiling module SISO_tb
+# 
+# Top level modules:
+# 	SISO_tb
+# End time: 13:04:35 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim SISO_tb
+# End time: 13:04:39 on Oct 12,2025, Elapsed time: 0:07:31
+# Errors: 0, Warnings: 0
+# vsim SISO_tb 
+# Start time: 13:04:39 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.SISO_tb(fast)
+# Loading work.SISO(fast)
+add wave *
+run 250ns
+# clk=0,rst=0,sin=1,sout=0,TIme=                   0
+# clk=1,rst=1,sin=1,sout=0,TIme=                  10
+# clk=1,rst=1,sin=0,sout=0,TIme=                  15
+# clk=0,rst=1,sin=0,sout=0,TIme=                  20
+# clk=1,rst=1,sin=0,sout=0,TIme=                  30
+# clk=1,rst=1,sin=1,sout=0,TIme=                  35
+# clk=0,rst=1,sin=1,sout=0,TIme=                  40
+# clk=1,rst=1,sin=1,sout=0,TIme=                  50
+# clk=1,rst=1,sin=0,sout=0,TIme=                  55
+# clk=0,rst=1,sin=0,sout=0,TIme=                  60
+# clk=1,rst=1,sin=0,sout=0,TIme=                  70
+# clk=0,rst=1,sin=0,sout=0,TIme=                  80
+# clk=1,rst=1,sin=0,sout=1,TIme=                  90
+# clk=0,rst=1,sin=0,sout=1,TIme=                 100
+# clk=1,rst=1,sin=0,sout=0,TIme=                 110
+# clk=0,rst=1,sin=0,sout=0,TIme=                 120
+# clk=1,rst=1,sin=0,sout=1,TIme=                 130
+# clk=0,rst=1,sin=0,sout=1,TIme=                 140
+# clk=1,rst=1,sin=0,sout=0,TIme=                 150
+# clk=0,rst=1,sin=0,sout=0,TIme=                 160
+# clk=1,rst=1,sin=0,sout=0,TIme=                 170
+# clk=0,rst=1,sin=0,sout=0,TIme=                 180
+# clk=1,rst=1,sin=0,sout=0,TIme=                 190
+# clk=0,rst=1,sin=0,sout=0,TIme=                 200
+# clk=1,rst=1,sin=0,sout=0,TIme=                 210
+# clk=0,rst=1,sin=0,sout=0,TIme=                 220
+# clk=1,rst=1,sin=0,sout=0,TIme=                 230
+# clk=0,rst=1,sin=0,sout=0,TIme=                 240
+vlog SISO.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:06:23 on Oct 12,2025
+# vlog -reportprogress 300 SISO.v "+acc" 
+# -- Compiling module SISO
+# -- Compiling module SISO_tb
+# 
+# Top level modules:
+# 	SISO_tb
+# End time: 13:06:23 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim SISO_tb
+# End time: 13:06:26 on Oct 12,2025, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 0
+# vsim SISO_tb 
+# Start time: 13:06:26 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.SISO_tb(fast)
+# Loading work.SISO(fast)
+add wave *
+run 250ns
+# clk=0,rst=0,sin=1,sout=0,TIme=                   0
+# clk=0,rst=1,sin=1,sout=0,TIme=                   5
+# clk=1,rst=1,sin=1,sout=0,TIme=                  10
+# clk=1,rst=1,sin=0,sout=0,TIme=                  15
+# clk=0,rst=1,sin=0,sout=0,TIme=                  20
+# clk=1,rst=1,sin=0,sout=0,TIme=                  30
+# clk=1,rst=1,sin=1,sout=0,TIme=                  35
+# clk=0,rst=1,sin=1,sout=0,TIme=                  40
+# clk=1,rst=1,sin=1,sout=0,TIme=                  50
+# clk=1,rst=1,sin=0,sout=0,TIme=                  55
+# clk=0,rst=1,sin=0,sout=0,TIme=                  60
+# clk=1,rst=1,sin=0,sout=0,TIme=                  70
+# clk=0,rst=1,sin=0,sout=0,TIme=                  80
+# clk=1,rst=1,sin=0,sout=1,TIme=                  90
+# clk=0,rst=1,sin=0,sout=1,TIme=                 100
+# clk=1,rst=1,sin=0,sout=0,TIme=                 110
+# clk=0,rst=1,sin=0,sout=0,TIme=                 120
+# clk=1,rst=1,sin=0,sout=1,TIme=                 130
+# clk=0,rst=1,sin=0,sout=1,TIme=                 140
+# clk=1,rst=1,sin=0,sout=0,TIme=                 150
+# clk=0,rst=1,sin=0,sout=0,TIme=                 160
+# clk=1,rst=1,sin=0,sout=0,TIme=                 170
+# clk=0,rst=1,sin=0,sout=0,TIme=                 180
+# clk=1,rst=1,sin=0,sout=0,TIme=                 190
+# clk=0,rst=1,sin=0,sout=0,TIme=                 200
+# clk=1,rst=1,sin=0,sout=0,TIme=                 210
+# clk=0,rst=1,sin=0,sout=0,TIme=                 220
+# clk=1,rst=1,sin=0,sout=0,TIme=                 230
+# clk=0,rst=1,sin=0,sout=0,TIme=                 240
+quit -sim
+# End time: 13:08:16 on Oct 12,2025, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 0

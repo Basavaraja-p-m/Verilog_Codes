@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/DATE FLOW/DEMUX/DEMUX_1TO8
+T_opt
+!s110 1756551500
+V=Z@z9TlTJSLf?a;n7]MgC1
+04 13 4 work DEMUX_1TO8_tb fast 0
+=1-84144d0ea3d5-68b2d94c-2a6-12c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vDEMUX_1TO8
+Z2 !s110 1756551496
+!i10b 1
+!s100 B`=IT0zZelc`oIVNNgJ=<3
+I<=g8Qz=03^EI11BD:C2ZP0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756551489
+Z5 8DEMUX_1TO8.v
+Z6 FDEMUX_1TO8.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756551496.000000
+Z9 !s107 DEMUX_1TO8.v|
+Z10 !s90 -reportprogress|300|DEMUX_1TO8.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@d@e@m@u@x_1@t@o8
+vDEMUX_1TO8_tb
+R2
+!i10b 1
+!s100 M2D4`OZ@NV_;n^VAAohTk0
+I4NX5c8oaNJ@PX0H4Q7jaE1
+R3
+R0
+R4
+R5
+R6
+L0 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@d@e@m@u@x_1@t@o8_tb

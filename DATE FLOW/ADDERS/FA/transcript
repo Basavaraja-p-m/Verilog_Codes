@@ -1,0 +1,59 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# FA.v  transcript              
+vlog FA.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:32:49 on Aug 30,2025
+# vlog -reportprogress 300 FA.v "+acc" 
+# -- Compiling module FA
+# ** Error: FA.v(7): Component name 'cin' does not refer to a scope.
+# ** Error: FA.v(7): 'cin' is not a function name.
+# -- Compiling module FA_tb
+# End time: 12:32:49 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog FA.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:33:27 on Aug 30,2025
+# vlog -reportprogress 300 FA.v "+acc" 
+# -- Compiling module FA
+# -- Compiling module FA_tb
+# 
+# Top level modules:
+# 	FA_tb
+# End time: 12:33:27 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim FA_tb
+# vsim FA_tb 
+# Start time: 12:33:43 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.FA_tb(fast)
+# Loading work.FA(fast)
+add wave *
+run -all
+# a=0 b=0 cin=0 sum=0 carry=0 Time=                   0
+# a=0 b=0 cin=1 sum=1 carry=0 Time=                  10
+# a=0 b=1 cin=0 sum=1 carry=0 Time=                  20
+# a=0 b=1 cin=1 sum=0 carry=1 Time=                  30
+# a=1 b=0 cin=0 sum=1 carry=0 Time=                  40
+# a=1 b=0 cin=1 sum=0 carry=1 Time=                  50
+# a=1 b=1 cin=0 sum=0 carry=1 Time=                  60
+# a=1 b=1 cin=1 sum=1 carry=1 Time=                  70
+quit -all
+# unknown switch: -all
+quit -sim
+# End time: 12:34:54 on Aug 30,2025, Elapsed time: 0:01:11
+# Errors: 1, Warnings: 0

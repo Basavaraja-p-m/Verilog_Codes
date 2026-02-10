@@ -1,0 +1,64 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/GATE LEVEL/FULL SUBTRECTER
+T_opt
+!s110 1756016202
+V8ec06G@b7C5J1jdN=W=nR3
+04 11 4 work FULL_SUB_tb fast 0
+=1-84144d0ea3d5-68aaae49-3d5-1084
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vFULL_SUB
+Z2 !s110 1756016418
+!i10b 1
+!s100 XIl6VmE?cOcf`i>TFYbKL2
+IA6h5S;SSJTc[Roa^8=V0=2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756016185
+Z5 8FULL_SUB.v
+Z6 FFULL_SUB.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756016418.000000
+!s107 FULL_SUB.v|
+Z9 !s90 -reportprogress|300|FULL_SUB.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@f@u@l@l_@s@u@b
+vFULL_SUB_tb
+R2
+!i10b 1
+!s100 98D4JoDf2H1>=MGT2M8V63
+I4^W1RXak9l1Edbil9:4zW3
+R3
+R0
+R4
+R5
+R6
+L0 16
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 FULL_SUB.v|
+R9
+!i113 0
+R10
+R1
+n@f@u@l@l_@s@u@b_tb

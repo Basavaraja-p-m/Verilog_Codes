@@ -1,0 +1,74 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/GATE LEVEL/ENCODER 4 TO 2
+T_opt
+!s110 1756302670
+Ve=mJ8MBK7cTD:i[>8S1de2
+Z1 04 15 4 work ENCODER_4TO2_tb fast 0
+=1-84144d0ea3d5-68af0d4e-2e2-438
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1756117063
+V7G0I0=PjZXb3Pz0MGU4>Z2
+R1
+=1-84144d0ea3d5-68ac3847-1a2-2afc
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+R0
+vENCODER_4TO2
+Z4 !s110 1756309547
+!i10b 1
+!s100 e^M8J_a^dCHDV=fGSDUz=0
+I^B7V14333d=e4a25[MRBJ0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z6 w1756302660
+Z7 8ENCODER_4TO2.v
+Z8 FENCODER_4TO2.v
+L0 1
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1756309546.000000
+!s107 ENCODER_4TO2.v|
+Z11 !s90 -reportprogress|300|ENCODER_4TO2.v|+acc|
+!i113 0
+Z12 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@e@n@c@o@d@e@r_4@t@o2
+vENCODER_4TO2_tb
+R4
+!i10b 1
+!s100 <_G[7[73gfnFgMHVTfzG;1
+IejlV9VOa4PgLk_g1IQR3n0
+R5
+R0
+R6
+R7
+R8
+L0 12
+R9
+r1
+!s85 0
+31
+R10
+Z13 !s107 ENCODER_4TO2.v|
+R11
+!i113 0
+R12
+R2
+n@e@n@c@o@d@e@r_4@t@o2_tb

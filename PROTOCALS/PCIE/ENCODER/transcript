@@ -1,0 +1,1891 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:49:55 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 10:49:56 on Nov 04,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 10:49:56 on Nov 04,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1101000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1101000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0011010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0011010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001101000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001101000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100110100 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100110100 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010011010 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010011010 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001101 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001101 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100110 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100110 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010011 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010011 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0001001001 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0001001001 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000100100 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000100100 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000010010 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000010010 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000001001 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000001001 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000100 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000100 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000010 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000010 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000001 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000001 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=295
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=300
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=305
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=310
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=315
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=320
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=325
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=330
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=335
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=340
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=345
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=350
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=355
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=360
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=365
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=370
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=375
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=380
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=385
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=390
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=395
+# ** Note: $stop    : top.v(77)
+#    Time: 400 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:51:46 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 10:51:46 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:51:47 on Nov 04,2025, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 10:51:47 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1011001001 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1011001001 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0101100100 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0101100100 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010110010 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010110010 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0001011001 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0001011001 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000101100 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000101100 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000010110 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000010110 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000001011 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000001011 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000101 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000101 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000010 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000010 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000001 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000001 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=295
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=300
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=305
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=310
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=315
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=320
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=325
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=330
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=335
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=340
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=345
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=350
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=355
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=360
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=365
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=370
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=375
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=380
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=385
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=390
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=395
+# ** Note: $stop    : top.v(77)
+#    Time: 400 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:54:02 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 10:54:03 on Nov 04,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 10:54:05 on Nov 04,2025, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 10:54:05 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1011001001 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1011001001 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0101100100 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0101100100 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010110010 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010110010 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0001011001 time=175
+# ** Note: $stop    : top.v(77)
+#    Time: 180 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:54:27 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 10:54:27 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:54:37 on Nov 04,2025, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 10:54:37 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1011001001 time=145
+# ** Note: $stop    : top.v(77)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:14:41 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# ** Error: (vlog-13069) ** while parsing file included at top.v(2)
+# ** at PISO.v(20): near "else": syntax error, unexpected else.
+# ** Error: (vlog-13069) ** while parsing file included at top.v(2)
+# ** at PISO.v(27): near "else": syntax error, unexpected else.
+# ** Error (suppressible): ** while parsing file included at top.v(3)
+# ** at sipo.v(7): (vlog-2388) 'count' already declared in this scope (PISO).
+# ** Error: ** while parsing file included at top.v(3)
+# ** at sipo.v(10): (vlog-2730) Undefined variable: 'pout'.
+# ** Error: (vlog-13069) ** while parsing file included at top.v(3)
+# ** at sipo.v(12): near "else": syntax error, unexpected else.
+# ** Error: (vlog-13069) ** while parsing file included at top.v(3)
+# ** at sipo.v(16): near "else": syntax error, unexpected else.
+# -- Compiling module top
+# -- Compiling module tb
+# End time: 11:14:41 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:17:12 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:17:12 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:17:13 on Nov 04,2025, Elapsed time: 0:22:36
+# Errors: 8, Warnings: 0
+# vsim tb 
+# Start time: 11:17:13 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=145
+# ** Note: $stop    : top.v(77)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:17:48 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:17:48 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:17:50 on Nov 04,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:17:50 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=295
+# ** Note: $stop    : top.v(77)
+#    Time: 300 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:22:34 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:22:34 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:22:35 on Nov 04,2025, Elapsed time: 0:04:45
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:22:35 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=295
+# ** Note: $stop    : top.v(77)
+#    Time: 300 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:23:09 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:23:09 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:23:10 on Nov 04,2025, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:23:10 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=295
+# ** Note: $stop    : top.v(77)
+#    Time: 300 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:26:17 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# ** Error: ** while parsing file included at top.v(2)
+# ** at PISO.v(23): (vlog-2730) Undefined variable: 'count'.
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# End time: 11:26:17 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:27:38 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# ** Error: ** while parsing file included at top.v(2)
+# ** at PISO.v(23): (vlog-2730) Undefined variable: 'count'.
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# End time: 11:27:38 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:28:14 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:28:14 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:28:15 on Nov 04,2025, Elapsed time: 0:05:05
+# Errors: 8, Warnings: 0
+# vsim tb 
+# Start time: 11:28:15 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1011001001 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1011001001 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0101100100 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0101100100 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010110010 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010110010 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0001011001 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0001011001 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000101100 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000101100 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000010110 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000010110 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000001011 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000001011 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000101 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000101 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000010 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000010 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000001 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000001 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=295
+# ** Note: $stop    : top.v(77)
+#    Time: 300 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:29:46 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:29:46 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:29:47 on Nov 04,2025, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:29:47 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=295
+# ** Note: $stop    : top.v(77)
+#    Time: 300 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:33:06 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:33:06 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:33:07 on Nov 04,2025, Elapsed time: 0:03:20
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:33:07 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=295
+# ** Note: $stop    : top.v(77)
+#    Time: 300 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:37:06 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:37:06 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:37:07 on Nov 04,2025, Elapsed time: 0:04:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:37:07 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=295
+# ** Note: $stop    : top.v(77)
+#    Time: 300 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:38:42 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:38:42 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:38:43 on Nov 04,2025, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:38:43 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=295
+# ** Note: $stop    : top.v(77)
+#    Time: 300 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:39:27 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:39:27 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:39:28 on Nov 04,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:39:28 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=295
+# ** Note: $stop    : top.v(77)
+#    Time: 300 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:43:46 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:43:46 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:43:47 on Nov 04,2025, Elapsed time: 0:04:19
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:43:47 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1101000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1101000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0011010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0011010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001101000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001101000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=295
+# ** Note: $stop    : top.v(77)
+#    Time: 300 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:49:19 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:49:19 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:49:20 on Nov 04,2025, Elapsed time: 0:05:33
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:49:20 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1101000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1101000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0011010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0011010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001101000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001101000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=295
+# ** Note: $stop    : top.v(77)
+#    Time: 300 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:52:01 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# ** Error: ** while parsing file included at top.v(3)
+# ** at sipo.v(15): (vlog-2730) Undefined variable: 'count'.
+# -- Compiling module top
+# -- Compiling module tb
+# End time: 11:52:02 on Nov 04,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:52:20 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# ** Error: ** while parsing file included at top.v(3)
+# ** at sipo.v(15): (vlog-2730) Undefined variable: 'count'.
+# -- Compiling module top
+# -- Compiling module tb
+# End time: 11:52:20 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:52:37 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:52:37 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:52:38 on Nov 04,2025, Elapsed time: 0:03:18
+# Errors: 8, Warnings: 0
+# vsim tb 
+# Start time: 11:52:38 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1011001001 time=145
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1011001001 time=150
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0101100100 time=155
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0101100100 time=160
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010110010 time=165
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010110010 time=170
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0001011001 time=175
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0001011001 time=180
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000101100 time=185
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000101100 time=190
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000010110 time=195
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000010110 time=200
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000001011 time=205
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000001011 time=210
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000101 time=215
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000101 time=220
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000010 time=225
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000010 time=230
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000001 time=235
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000001 time=240
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=245
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=250
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=255
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=260
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=265
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=270
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=275
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=280
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=285
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=290
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=295
+# ** Note: $stop    : top.v(77)
+#    Time: 300 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:55:04 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:55:04 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:55:06 on Nov 04,2025, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:55:06 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=0
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=5
+# clk=0 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=10
+# clk=1 rst=0 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=15
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=00 encoded_out=0110001011 y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1011001001 time=145
+# ** Note: $stop    : top.v(77)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:57:38 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:57:39 on Nov 04,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 11:57:40 on Nov 04,2025, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:57:40 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=0
+# clk=1 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=5
+# clk=0 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=10
+# clk=1 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=15
+# clk=0 rst=1 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=20
+# clk=1 rst=1 rd=x k=x mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=x k=x mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=x k=x mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=x k=x mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=125
+# clk=0 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=130
+# clk=1 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=135
+# clk=0 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=140
+# clk=1 rst=1 rd=x k=x mode=1 data_in=2d encoded_out=1011001001 y=1011001001 time=145
+# ** Note: $stop    : top.v(77)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 77
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:59:44 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:59:44 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:59:46 on Nov 04,2025, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:59:46 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=0
+# clk=1 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=5
+# clk=0 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=10
+# clk=1 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=15
+# clk=0 rst=1 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2d encoded_out=1011001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1100100100 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=0110010010 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2d encoded_out=1011001001 y=1011001001 time=145
+# ** Note: $stop    : top.v(79)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 79
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:06:59 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:06:59 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:07:01 on Nov 04,2025, Elapsed time: 0:07:15
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:07:01 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=0
+# clk=1 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=5
+# clk=0 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=10
+# clk=1 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=15
+# clk=0 rst=1 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2b encoded_out=1101001001 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2b encoded_out=1101001001 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=2b encoded_out=1101001001 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=2b encoded_out=1101001001 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=0010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=0010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=1001000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=1001000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=0100100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=0100100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=0010010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=0010010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=1001001000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=1001001000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=0100100100 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=0100100100 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=1010010010 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=1010010010 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=2b encoded_out=1101001001 y=1101001001 time=145
+# ** Note: $stop    : top.v(79)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 79
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:07:41 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:07:41 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:07:43 on Nov 04,2025, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:07:43 on Nov 04,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=0
+# clk=1 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=5
+# clk=0 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=10
+# clk=1 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=15
+# clk=0 rst=1 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=4c encoded_out=0011010101 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=4c encoded_out=0011010101 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=4c encoded_out=0011010101 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=4c encoded_out=0011010101 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0101000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0101000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1010100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1010100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0101010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0101010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1010101000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1010101000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1101010100 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1101010100 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0110101010 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0110101010 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0011010101 time=145
+# ** Note: $stop    : top.v(79)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 79
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:13:20 on Nov 04,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module encoder_8b10b
+# -- Compiling module PISO
+# -- Compiling module sipo
+# -- Compiling module top
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:13:20 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:13:21 on Nov 04,2025, Elapsed time: 0:05:38
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:13:21 on Nov 04,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.encoder_8b10b(fast)
+# Loading work.PISO(fast)
+# Loading work.sipo(fast)
+# clk=0 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=0
+# clk=1 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=5
+# clk=0 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=10
+# clk=1 rst=0 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=15
+# clk=0 rst=1 rd=x k=x mode=0 data_in=00 encoded_out=xxxxxxxxxx y=0000000000 time=20
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=4c encoded_out=0011010101 y=0000000000 time=25
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=4c encoded_out=0011010101 y=0000000000 time=30
+# clk=1 rst=1 rd=0 k=0 mode=0 data_in=4c encoded_out=0011010101 y=0000000000 time=35
+# clk=0 rst=1 rd=0 k=0 mode=0 data_in=4c encoded_out=0011010101 y=0000000000 time=40
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0000000000 time=45
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0000000000 time=50
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1000000000 time=55
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1000000000 time=60
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0100000000 time=65
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0100000000 time=70
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1010000000 time=75
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1010000000 time=80
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0101000000 time=85
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0101000000 time=90
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1010100000 time=95
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1010100000 time=100
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0101010000 time=105
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0101010000 time=110
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1010101000 time=115
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1010101000 time=120
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1101010100 time=125
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=1101010100 time=130
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0110101010 time=135
+# clk=0 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0110101010 time=140
+# clk=1 rst=1 rd=0 k=0 mode=1 data_in=4c encoded_out=0011010101 y=0011010101 time=145
+# ** Note: $stop    : top.v(79)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at top.v line 79
+quit -sim
+# End time: 12:14:20 on Nov 04,2025, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 0

@@ -1,0 +1,72 @@
+WindowType FullviewSchematic /FULL_ADDER1_tb/FA1
+DesignChecksum {z]SB;8IUIR2kcl8nz_RA@0}
+RoutedNets {}
+RoutedInst {}
+WindowPreferences {showhierarchy 1 showacttime 1 inoutlocation 1 selequivnets 0 hidebuffers 0 hidecells 1 hideinverters 0 selectenv 1 autowave 1 lognets 1 popupenabled 1 mouseoverenabled 1 showdunames 0 showinstnames 1 shownetnames 0 shownetnamestyle corner shownetstate 0 showpinnames 1 showripindices 1 showvalues 1 verticaltext 1 netxFollowsControlLogic 0 netxMaxGates 1024 netxMaxLevels 32 use_code_preview 1 time0_warning 1 depth_warning 1 add_error_warning 1 diverge_warning 1}
+EndOfStateInfo
+# File saved with Nlview version 6.6.36_0 (04/08/25-18:45:38 bk=1.779)
+#
+property -reset
+property autobundle 20
+property boxcolor0 #00ffff
+property boxcolor1 #999999
+property boxinstcolor #ffffff
+property boxpincolor #00ffff
+property buscolor #ffff00
+property closeenough 3
+property enablebufferchaincollapsing 1
+property enablescrollrect 1
+property evaluateattrvalue 1
+property extractsequentiallogic 2
+property gatepinname 1
+property incrementmode 2
+property inferbundlename 1
+property instattrmax 50
+property objecthighlight3 #008000
+property objecthighlight4 #ff00ff
+property objecthighlight5 #ffd700
+property objecthighlight6 #0000ff
+property objecthighlight9 #fa8072
+property outboxcolor1 #a52a2a
+property outboxcolor2 #000000
+property outboxcolor4 #000000
+property outfblevel 10
+property picksubnet 1
+property pinattrmax 50
+property pinorder 1
+property questalayoutimprovement 1
+property recursivecallerrorlen 10
+property searchvisibleobjects 1
+property selectbycolor9 1
+property showcellname 0
+property showmarks 1
+property shownetattr 4
+property showripindex 3
+property timelimit 50
+
+module new v {} -nosplit
+load symbol /FULL_ADDER1_tb/FA1/o1 v OR port carry output port w2 input port w3 input
+load symbol /FULL_ADDER1_tb/FA1/x1 v XOR port w1 output port b input port a input
+load symbol /FULL_ADDER1_tb/FA1/a1 v AND port w2 output port b input port a input
+load symbol /FULL_ADDER1_tb/FA1/x2 v XOR port sum output port cin input port w1 input
+load symbol /FULL_ADDER1_tb/FA1/a2 v AND port w3 output port cin input port w1 input
+load symbol work.FULL_ADDER1(fast) v HIERGEN port carry output.right port sum output.right port a input.left port cin input.left port b input.left boxcolor 1
+load inst /FULL_ADDER1_tb/FA1 work.FULL_ADDER1(fast) v -autohide -attr acc +acc=<full> -attr @name FA1 -attr @cell work.FULL_ADDER1(fast) -x 43 -y 20 -pg 1
+load inst /FULL_ADDER1_tb/FA1/a1 /FULL_ADDER1_tb/FA1/a1 v -hier /FULL_ADDER1_tb/FA1 -attr @cell {} -attr acc {} -attr @name a1 -x 307 -y 140 -pg 1
+load inst /FULL_ADDER1_tb/FA1/a2 /FULL_ADDER1_tb/FA1/a2 v -hier /FULL_ADDER1_tb/FA1 -attr @cell {} -attr acc {} -attr @name a2 -x 307 -y 90 -pg 1
+load inst /FULL_ADDER1_tb/FA1/x1 /FULL_ADDER1_tb/FA1/x1 v -hier /FULL_ADDER1_tb/FA1 -attr @cell {} -attr acc {} -attr @name x1 -x 113 -y 120 -pg 1
+load inst /FULL_ADDER1_tb/FA1/x2 /FULL_ADDER1_tb/FA1/x2 v -hier /FULL_ADDER1_tb/FA1 -attr @cell {} -attr acc {} -attr @name x2 -x 461 -y 40 -pg 1
+load inst /FULL_ADDER1_tb/FA1/o1 /FULL_ADDER1_tb/FA1/o1 v -hier /FULL_ADDER1_tb/FA1 -attr @cell {} -attr acc {} -attr @name o1 -x 461 -y 100 -pg 1
+load net /FULL_ADDER1_tb/FA1/sum -attr @name sum -attr @simnet 28 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /FULL_ADDER1_tb/FA1 sum -pin /FULL_ADDER1_tb/FA1/x2 sum
+load net /FULL_ADDER1_tb/FA1/a -attr @name a -attr @simnet 29 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /FULL_ADDER1_tb/FA1 a -pin /FULL_ADDER1_tb/FA1/a1 a -pin /FULL_ADDER1_tb/FA1/x1 a
+load net /FULL_ADDER1_tb/FA1/b -attr @name b -attr @simnet 31 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /FULL_ADDER1_tb/FA1 b -pin /FULL_ADDER1_tb/FA1/a1 b -pin /FULL_ADDER1_tb/FA1/x1 b
+load net /FULL_ADDER1_tb/FA1/carry -attr @name carry -attr @simnet 27 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /FULL_ADDER1_tb/FA1 carry -pin /FULL_ADDER1_tb/FA1/o1 carry
+load net /FULL_ADDER1_tb/FA1/w1 -attr @simnet 32 -attr @name w1 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /FULL_ADDER1_tb/FA1/a2 w1 -pin /FULL_ADDER1_tb/FA1/x1 w1 -pin /FULL_ADDER1_tb/FA1/x2 w1
+load net /FULL_ADDER1_tb/FA1/w2 -attr @simnet 33 -attr @name w2 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /FULL_ADDER1_tb/FA1/a1 w2 -pin /FULL_ADDER1_tb/FA1/o1 w2
+load net /FULL_ADDER1_tb/FA1/w3 -attr @simnet 34 -attr @name w3 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /FULL_ADDER1_tb/FA1/a2 w3 -pin /FULL_ADDER1_tb/FA1/o1 w3
+load net /FULL_ADDER1_tb/FA1/cin -attr @name cin -attr @simnet 30 -attr @attrvalue 1'hx -attr @attr 1'hx -hierPin /FULL_ADDER1_tb/FA1 cin -pin /FULL_ADDER1_tb/FA1/a2 cin -pin /FULL_ADDER1_tb/FA1/x2 cin
+greymode off
+show 1
+zoom 1.13137
+scrollpos -232 -56
+

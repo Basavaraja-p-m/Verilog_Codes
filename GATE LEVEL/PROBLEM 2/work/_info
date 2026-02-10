@@ -1,0 +1,171 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples/VERILOG CODES/GATE LEVEL/PROBLEM 2
+T_opt
+!s110 1756309338
+V0[iPdWSK7>lh6fP5cAMD?1
+Z1 04 12 4 work PROBLEM_2_tb fast 0
+=1-84144d0ea3d5-68af275a-1ab-3048
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1756356028
+VnSL@D>AhICSX>Ml==TDcj0
+R1
+=1-84144d0ea3d5-68afddbc-250-f3c
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R3
+n@_opt1
+R4
+T_opt2
+!s110 1756355784
+Vm]>hC=^FYz]fA2A>0Gb0T2
+R1
+=1-84144d0ea3d5-68afdcc7-2c9-3dd0
+R2
+R3
+n@_opt2
+R4
+R0
+vDECODER_4TO2
+Z5 !s110 1756355881
+!i10b 1
+!s100 aViV80Mac]19FAfnQJ^I;3
+I^cD4i^`fnn4Sd^hDb6MMN1
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z7 w1756311413
+Z8 8DECODER_4TO2.v
+Z9 FDECODER_4TO2.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1756355881.000000
+Z12 !s107 DECODER_4TO2.v|ENCODER_4TO2.v|PROBLEM_2.v|
+Z13 !s90 -reportprogress|300|PROBLEM_2.v|+acc|
+!i113 0
+Z14 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@d@e@c@o@d@e@r_4@t@o2
+vDECODER_4TO2_tb
+R5
+!i10b 1
+!s100 ;GQREoJzcah6VdABQ:`^H1
+IS:^gL`cTRTIZnUET3@@:m3
+R6
+R0
+R7
+R8
+R9
+L0 13
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3
+n@d@e@c@o@d@e@r_4@t@o2_tb
+vENCODER_4TO2
+R5
+!i10b 1
+!s100 N4BjS^kScJ[FCmFc_?bS60
+IzM2[eJmUPZj;1Q9iDlfhg2
+R6
+R0
+Z15 w1756355775
+Z16 8ENCODER_4TO2.v
+Z17 FENCODER_4TO2.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3
+n@e@n@c@o@d@e@r_4@t@o2
+vENCODER_4TO2_tb
+R5
+!i10b 1
+!s100 mZ_PF1M0gJcnI0B4UW2G[2
+I:iVENN55i65m=j37??4WB3
+R6
+R0
+R15
+R16
+R17
+L0 12
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3
+n@e@n@c@o@d@e@r_4@t@o2_tb
+vPROBLEM_2
+R5
+!i10b 1
+!s100 bi^n^]Bo71XJ:7Q9L@ZIk2
+IFNk0AgA<g5A6e`BfWFJQe3
+R6
+R0
+Z18 w1756314907
+Z19 8PROBLEM_2.v
+Z20 FPROBLEM_2.v
+L0 3
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3
+n@p@r@o@b@l@e@m_2
+vPROBLEM_2_tb
+R5
+!i10b 1
+!s100 60GZlYOJjzXB:U>nWd56i2
+IzcPY;ENTIdNHjS6JlVOF23
+R6
+R0
+R18
+R19
+R20
+L0 18
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3
+n@p@r@o@b@l@e@m_2_tb

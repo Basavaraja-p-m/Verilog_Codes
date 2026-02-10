@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_10.7c/examples/VERILOG CODES/AND GATE
+T_opt
+!s110 1755528409
+VC^FRcTMVVK_RnGRQ1F5zj3
+04 11 4 work NOR_GATE_tb fast 0
+=1-84144d0ea3d5-68a33cd9-157-3450
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vNOR_GATE
+!s110 1755527788
+!i10b 1
+!s100 Si3eZaEM9PhPLeJf;`CVE0
+IY8GU3>@6=kiCH5_7iX>hz0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/questasim64_10.7c/examples/VERILOG CODES/NOR GATE
+w1755527766
+8C:\questasim64_10.7c\examples\VERILOG CODES\NOR GATE\NOR_GATE.v
+FC:\questasim64_10.7c\examples\VERILOG CODES\NOR GATE\NOR_GATE.v
+L0 1
+Z3 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1755527788.000000
+!s107 C:\questasim64_10.7c\examples\VERILOG CODES\NOR GATE\NOR_GATE.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\questasim64_10.7c\examples\VERILOG CODES\NOR GATE\NOR_GATE.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@n@o@r_@g@a@t@e
+vNOR_GATE_tb
+!s110 1755528384
+!i10b 1
+!s100 >Jb@kU=7m>>[7<>a>6Ae:2
+IbSk`<DTCgkSeLW`QT^X`T2
+R1
+R2
+w1755528372
+8C:\questasim64_10.7c\examples\VERILOG CODES\NOR GATE\NOR_GATE_tb.v
+FC:\questasim64_10.7c\examples\VERILOG CODES\NOR GATE\NOR_GATE_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1755528384.000000
+!s107 C:\questasim64_10.7c\examples\VERILOG CODES\NOR GATE\NOR_GATE_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\questasim64_10.7c\examples\VERILOG CODES\NOR GATE\NOR_GATE_tb.v|
+!i113 0
+R4
+R0
+n@n@o@r_@g@a@t@e_tb
